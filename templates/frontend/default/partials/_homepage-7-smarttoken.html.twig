@@ -1,0 +1,14 @@
+<div id="smart-token" class="screen py-5 text-center">
+    <h2 class="text-center my-5 mx-auto primary-color d-inline-block">{{'smart_token_title' | trans }}</h2>
+    <div class="row">
+    {% for i in range(1,4) %}
+      <div class="col-12 col-md-3 mb-5" id="sq-{{i}} text-center">
+        <p class="text-center"><img src="{{asset('build/static/home/smart-token-'~i~'.svg')}}" alt="item {{i}}" class="img-fluid" /></p>
+        <h3 class="primary-color font-weight-bold">{{ ('smart_token_title_'~i) | trans | raw}}</h3>
+        <p>{{ ('smart_token_p_'~i) | trans | raw }}</p>
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+
+</div>

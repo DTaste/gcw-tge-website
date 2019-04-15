@@ -1,0 +1,17 @@
+<div id="sq" class="screen py-5 text-center">
+    <h2 class="text-center my-5 mx-auto primary-color d-inline-block">{{'sq_title' | trans }}</h2>
+    <div class="row">
+    {% for i in range(1,4) %}
+      <div class="col-12 col-md-3 mb-5" id="sq-{{i}} text-center">
+        <p class="text-center"><img src="{{asset('build/static/home/sq-'~i~'.svg')}}" alt="item {{i}}" class="img-fluid" /></p>
+        <h3>{{ ('sq_title_'~i) | trans | raw}}</h3>
+        <ul>
+          {% for j in range(1,3) %}
+            <li>{{ ('sq_p_'~i~'_'~j) | trans }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+
+</div>

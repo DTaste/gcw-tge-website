@@ -1,0 +1,32 @@
+<div id="roadmap" class="screen py-5 text-center">
+    <h2 class="text-center my-5 mx-auto primary-color d-inline-block">{{'roadmap_title' | trans }}</h2>
+
+    <div id="roadmap-sheme">
+      {% for i in range(1,3) %}
+        <div id="roadmap-label-{{i}}" class="roadmap-label">{{ ('roadmap_label_'~i) | trans }}</div>
+      {% endfor %}
+
+      {% for year in range(2013,2023) %}
+          <div id="roadmap-date-{{year}}" class="roadmap-date">Jan {{year}}</div>
+      {% endfor %}
+      <div id="roadmap-date-2027" class="roadmap-date">Jan 2027</div>
+
+      {% for i in range(1,12) %}
+        <div id="roadmap-step-{{i}}" class="roadmap-step">{{ ('roadmap_step_'~i) | trans }}</div>
+      {% endfor %}
+      <div id="roadmap-here">{{'roadmap_here' | trans}}</div>
+
+
+      {% for raw in range(1,3) %}
+        <div class="road-h" id="road-h-{{raw}}"></div>
+      {% endfor %}
+      {% for col in range(1,3) %}
+        <div class="road-v" id="road-v-{{col}}"></div>
+      {% endfor %}
+      
+      {% for dot in range(1,9) %}
+          <div class="road-dot" id="road-dot-{{dot}}"></div>
+      {% endfor %}
+    </div>
+
+</div>

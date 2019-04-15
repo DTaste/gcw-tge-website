@@ -1,0 +1,30 @@
+<div class="container">
+<div id="events" class="mb-5 pb-5 row  text-center">
+  <div class="col-12">
+    <h2 class="text-center my-5 primary-color d-inline-block">{{'meet_us' | trans }}</h2>
+    <div class="row">
+
+      {% for e in events %}
+        <div class="col-6 col-md-3">
+          <div class="event-item h-100">
+            <div class="event-item-header"{% if e.getMainImage() %}
+              style="background:url('{{ asset( e.getMainImage().getUrl() | imagine_filter('thumb') ) }}') no-repeat center center"
+            {% endif %}')">
+              <p class="date rounded-circle primary-color white-bg">{{ (e.getDate()|date('M d') | replace ({' ': '<br /><b>'}))| raw}}</b></p>
+              <p class="price rounded-circle primary-bg white-color">{% if e.price %}{{e.price}}{% else %}{{ 'free'| trans }}{%endif%}</p>
+            </div>
+            <div class="px-3 py-2">
+              <h4 class="primary-color text-left">{{e.title}}</h4>
+              <p class="full-date text-left m-0">{{e.getDate()|date('D jS F, H:i')}}</p>
+              <p class="place text-left m-0">{{e.place}}</p>
+            </div>
+          </div>
+        </div>
+
+      {% endfor %}
+
+    </div>
+
+  </div>
+</div>
+</div>

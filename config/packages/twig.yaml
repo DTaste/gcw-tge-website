@@ -1,0 +1,14 @@
+twig:
+
+    default_path: '%kernel.project_dir%/templates'
+    debug: '%kernel.debug%'
+    strict_variables: '%kernel.debug%'
+    globals:
+      project_name: '%app.project_name%'
+      event_directory: '%app.event_path%'
+      url_linkedin: '#'
+      url_twitter: '#'
+      url_youtube: '#'
+      url_facebook: '#'
+      url_telegram: '#'
+      url_email: contact@gocoworker.com

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="123.453" height="139" viewBox="0 0 123.453 139">
+    <defs>
+        <style>
+            .cls-1,.cls-6{fill:#702963}.cls-2{fill:#fff}.cls-10,.cls-3,.cls-5{fill:none}.cls-3,.cls-5{stroke:#701663;stroke-width:3px}.cls-4,.cls-7,.cls-8{fill:#701663}.cls-5{stroke-linecap:round}.cls-6{font-size:33px;font-family:Montserrat-SemiBold,Montserrat;font-weight:600}.cls-7{opacity:.1}.cls-8{opacity:.66}.cls-9{stroke:none}
+        </style>
+    </defs>
+    <g id="Enveloppe" transform="translate(-71.209 -14.031)">
+        <g id="Ventilateur_2" data-name="Ventilateur 2" transform="rotate(-90 134.73 18.3)">
+            <g id="Groupe_13177" data-name="Groupe 13177" transform="rotate(90 10.295 16.031)">
+                <path id="Rectangle_13016" d="M0 0h7.694a1.791 1.791 0 0 1 1.791 1.791 1.791 1.791 0 0 1-1.791 1.791H0V0z" class="cls-1" data-name="Rectangle 13016" transform="rotate(-45 13.541 -9.792)"/>
+                <path id="Rectangle_13017" d="M1.791 0h7.694v3.582H1.791A1.791 1.791 0 0 1 0 1.791 1.791 1.791 0 0 1 1.791 0z" class="cls-1" data-name="Rectangle 13017" transform="rotate(14.054 -18.305 5.839)"/>
+                <path id="Rectangle_13018" d="M1.791 0h7.694v3.582H1.791A1.791 1.791 0 0 1 0 1.791 1.791 1.791 0 0 1 1.791 0z" class="cls-1" data-name="Rectangle 13018" transform="scale(-1) rotate(75.1 7.362 -18.082)"/>
+                <circle id="Ellipse_2777" cx="2.643" cy="2.643" r="2.643" class="cls-2" data-name="Ellipse 2777" transform="translate(8.214 6.63)"/>
+                <circle id="Ellipse_2778" cx="1.418" cy="1.418" r="1.418" class="cls-1" data-name="Ellipse 2778" transform="translate(9.439 7.855)"/>
+            </g>
+            <g id="Ellipse_2779" class="cls-3" data-name="Ellipse 2779" transform="rotate(90 16.812 16.812)">
+                <circle cx="16.812" cy="16.812" r="16.812" class="cls-9"/>
+                <circle cx="16.812" cy="16.812" r="15.312" class="cls-10"/>
+            </g>
+            <path id="Rectangle_13019" d="M0 0h3.362v31.383H0z" class="cls-4" data-name="Rectangle 13019" transform="rotate(90 24.658 39.228)"/>
+        </g>
+        <path id="Support" d="M680.378 11101.825h120.453" class="cls-5" transform="translate(-607.668 -11011.438)"/>
+        <text id="_" class="cls-6" data-name="@" transform="translate(133.209 46.031)">
+            <tspan x="-17.061" y="0">@</tspan>
+        </text>
+        <g id="Enveloppe_v4" data-name="Enveloppe v4" transform="translate(-15.049 -51.778)">
+            <path id="devant_gauche" d="M131.982 96.315l-1.623-1.309-16.3-13.164-2.617-2.12-13.795-11.148v55.507l32.713-26.458z" class="cls-7" data-name="devant gauche" transform="translate(1.616 14.548)"/>
+            <path id="devant_centre" d="M133.033 79.674l-34.466 27.871h93.715l-34.466-27.871z" class="cls-7" data-name="devant centre" transform="translate(3.104 32.497)"/>
+            <path id="devant_droite" d="M139.946 81.947L123.8 95.006l-1.623 1.309 1.623 1.309 32.713 26.458V68.574l-13.95 11.28z" class="cls-7" data-name="devant droite" transform="translate(41.282 14.548)"/>
+            <path id="derrière_gauche" d="M109.967 68.024h-11.41l11.41 9.212z" class="cls-8" data-name="derrière gauche" transform="translate(3.088 13.659)"/>
+            <path id="derrière_droite" d="M129.967 77.367l11.567-9.343h-11.567z" class="cls-8" data-name="derrière droite" transform="translate(53.878 13.659)"/>
+            <path id="lettre" d="M149.165 101.476l20.308-14.463V61.224h-65.556V86.9l20.465 14.578z" class="cls-7" transform="translate(11.755 8.078)"/>
+            <path id="contour" d="M183.846 66.734h-70.79v12.331H96.647v63.593h103.765V79.065h-16.566zm-68.173 2.617h65.556v23.794l-20.308 16.409h-24.783l-20.465-16.54zm-2.617 12.332v9.212l-11.41-9.212zm-13.792 1.439l13.792 11.148 2.617 2.12 16.3 13.164 1.623 1.309-1.623 1.309-32.709 26.457zm2.408 56.92l34.466-27.871h24.783l34.466 27.871zm96.123-1.413l-32.713-26.458-1.622-1.309 1.622-1.309 16.147-13.059 2.617-2.094 13.949-11.279zm-2.381-56.946l-11.567 9.343v-9.344z" class="cls-4"/>
+        </g>
+    </g>
+</svg>

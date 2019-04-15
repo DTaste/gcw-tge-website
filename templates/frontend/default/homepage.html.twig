@@ -1,0 +1,32 @@
+{% extends 'frontend/base.html.twig' %}
+
+
+{% block body %}
+<div class="container-fluid">
+{% include('frontend/default/partials/_homepage-1-gcw.html.twig') %}
+{% include('frontend/default/partials/_homepage-2-about.html.twig') %}
+{% include('frontend/default/partials/_homepage-3-sq.html.twig') %}
+{% include('frontend/default/partials/_homepage-4-ecosystem.html.twig') %}
+{% include('frontend/default/partials/_homepage-5-story.html.twig') %}
+{% include('frontend/default/partials/_homepage-6-archi.html.twig') %}
+{% include('frontend/default/partials/_homepage-7-smarttoken.html.twig') %}
+{% include('frontend/default/partials/_homepage-8-roadmap.html.twig') %}
+
+
+
+
+  {{ include ('frontend/default/partials/_homepage-11-event.html.twig', {'events' : events }) }}
+
+
+</div>
+{% endblock %}
+
+
+{% block stylesheets %}
+    {{ parent() }}
+  {{ encore_entry_link_tags('homepage') }}
+{% endblock %}
+{% block javascripts %}
+  {{ parent() }}
+{{ encore_entry_script_tags('homepage') }}
+{% endblock %}

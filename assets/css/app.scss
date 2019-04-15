@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,600,600i');
+
+@import 'variables';
+
+html, body {
+
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+header {
+  nav {
+
+    a.nav-link{
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 1.19;
+      text-align: left;
+      color: $primary;
+    }
+    .justify-content-end a.nav-link{
+      border-radius: 18px;
+      font-size: 9px;
+      font-weight: 600;
+      line-height: 1.22;
+      margin: 0 5px
+    }
+  }
+}
+footer{
+  background:url('/build/static/home/ecosystem/fond-ecosystem.svg') center center;
+
+  padding:0 0 55px 0;
+
+  p#social-links a{
+    padding: 0 7px ;
+  }
+}
+
+#presale-timer{
+  position: fixed;
+  z-index: 100;
+  left:0;
+  bottom:0;
+  height: 55px;
+  width:100%;
+  background: $primary;
+  color:#fff;
+
+  h6{
+    font-size: 9px;
+    font-weight: 600;
+  }
+  p, .timer{
+    margin:0;
+    padding:0;
+    width:47px;
+
+  }
+  .time-label{
+    font-size: 6px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.33;
+    display:block;
+  }
+  .time-value{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+    display:block;
+  }
+  #annoucement{
+    font-size: 14px;
+    line-height: 1.29;
+  }
+  a#annoucement-btn{
+    border-radius: 18px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 2px #ffffff;
+    font-size: 9px;
+    padding:5px;
+    font-weight: 500;
+    color:#FFF;
+    &:hover{
+      font-style: italic;
+    }
+  }
+}

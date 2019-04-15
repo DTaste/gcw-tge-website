@@ -1,0 +1,109 @@
+<div id="archi" class="screen py-5 row">
+
+  <div class="col-12 col-md-5 text-center">
+    <h2 class="text-center d-inline-block primary-color">{{'archi_title' | trans }}</h2>
+    <p class="text-center my-5 secondary-color">{{'archi_p' | trans | raw }}</p>
+
+    <div class="m-5 p-3 gray-light-bg">
+      <h3>{{'archi_fabric_title' | trans }}</h3>
+      <p>{{'archi_fabric_p' | trans | raw }}</p>
+    </div>
+  </div>
+
+  <div class="col-11 offset-1 offset-md-0 col-md-7">
+      <div id="archi-scheme">
+        <div id="archi-scheme-header" class="row">
+            <div class="col-9">
+            <div class="row">
+                <div class="d-inline-block archi-col-1 col-4 p-3">
+                  <p>{{ ('bancor_network' | trans | replace({' ': '<br />' }) | raw ) }}</p>
+                  <img src="{{ asset('/build/static/home/archi/ARCHITECTURE-05.svg') }}"  height="55"/>
+                </div>
+                <div class="d-inline-block archi-col-2 col-4 p-3">
+                  <p>{{ ('gcw_tokens' | trans | replace({' ': '<br />' }) | raw ) }}</p>
+                  <img src="{{ asset('/build/static/home/archi/TOKEN_ARCHITECTURE.png') }}"  height="55"/>
+                </div>
+                <div class="d-inline-block  archi-col-3 col-4 p-3">
+                  <p>{{ ('smart_contracts' | trans | replace({' ': '<br />' }) | raw ) }}</p>
+                  <img src="{{ asset('/build/static/home/archi/ARCHITECTURE-04.svg') }}"  height="55"/>
+                </div>
+              </div>
+            </div>
+            <div class="col-2">
+              <p class="my-auto py-3">{{'eth_infra' | trans }}</p>
+            </div>
+        </div>
+        <div id="archi-scheme-body" class="row">
+          <div class="col-9">
+            <div class="row h-100">
+                <div class="d-inline-block archi-col-1 col-4 h-100">
+                  <div class="white-bg h-100 p-1">
+                    <p class="my-5">{{ ('talents_programs' | trans | replace({' ': '<br />' }) | raw ) }}<br /><br /><br />
+                    <img src="{{ asset('/build/static/home/ecosystem/gocobooster.svg') }}" height="55" />
+                    </p>
+                    <p class="my-5">{{ ('distributed_corp' | trans | replace({' ': '<br />' }) | raw ) }}<br /><br /><br />
+                    <img src="{{ asset('/build/static/home/ecosystem/gocoworker.svg') }}"  height="55"/>
+                    </p>
+                  </div>
+                </div>
+                <div class="d-inline-block archi-col-2 col-4 h-100">
+                  <div class="white-bg h-100 p-1">
+                    <p class="my-5">{{ ('communal_work' | trans | replace({' ': '<br />' }) | raw )}}<br /><br /><br />
+                    <img src="{{ asset('/build/static/home/archi/ARCHITECTURE-10.svg') }}"  height="55"/>
+                    </p>
+                    <p class="my-5">{{ ('talents_activities' | trans | replace({' ': '<br />' }) | raw )}}<br /><br /><br />
+                    <img src="{{ asset('/build/static/home/archi/ARCHITECTURE-09.svg') }}"  height="55"/>
+                    </p>
+                  </div>
+                </div>
+                <div class="d-inline-block  archi-col-3 col-4 h-100">
+                  <div class="white-bg h-100 p-1">
+                    <p class="my-5">{{ ('talents_campus' | trans | replace({' ': '<br />' }) | raw ) }}<br /><br /><br />
+                    <img src="{{ asset('/build/static/home/ecosystem/gococampus.svg') }}" height="55" />
+                    </p>
+
+                    <p class="my-5">{{ ('communal_companies' | trans | replace({' ': '<br />' }) | raw ) }}<br /><br /><br />
+                    <img src="{{ asset('/build/static/home/ecosystem/gocompany.svg') }}" height="55" />
+                    </p>
+                  </div>
+                </div>
+            </div>
+          </div>
+          <div class="col-2 my-auto">
+            <div class="my-auto py-5">{{'collab_layer' | trans }}</div>
+            <div class="my-auto py-5">{{'ecosystem_goverance' | trans }}</div>
+          </div>
+        </div>
+        <div id="archi-scheme-footer" class="row my-auto">
+          <div class="col-9">
+              <div class="row my-auto">
+                <div class="d-inline-block archi-col-1 col-4 my-auto  p-3">
+                  <div class="mx-3">
+                    <p class="my-auto">{{ ('chaincodes_framework' | trans | replace({' ': '<br />' }) | raw ) }}</p>
+                    <img src="{{ asset('/build/static/home/archi/ARCHITECTURE-03.svg') }}"  height="55"/>
+                  </div>
+                </div>
+                <div class="d-inline-block archi-col-2 col-4 my-auto  p-3">
+                  <div class="mx-3">
+                    <p class="my-auto">{{ ('gcw_tokens' | trans | replace({' ': '<br />' }) | raw ) }}</p>
+                    <img src="{{ asset('/build/static/home/archi/TOKEN_ARCHITECTURE.png') }}"  height="55"/>
+                  </div>
+                </div>
+                <div class="d-inline-block  archi-col-3 col-4 my-auto  p-3">
+                  <div class="mx-3">
+                    <p class="my-auto">{{ ('channels_network' | trans | replace({' ': '<br />' }) | raw ) }}</p>
+                    <img src="{{ asset('/build/static/home/archi/ARCHITECTURE-02.svg') }}"  height="55"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-2 my-auto">
+              <p class="my-auto py-3">{{'hyperledger_infra' | trans }}</p>
+
+            </div>
+        </div>
+      </div>
+
+  </div>
+
+</div>

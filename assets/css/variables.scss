@@ -1,0 +1,34 @@
+$primary: #701663; // grap
+$secondary: #636466; // slate gray
+$third: #707070;
+$gray-light: #EFE6EF;
+$custom-file-text: (
+  en: "Browse",
+  es: "Elegir",
+  fr: "Parcourir"
+);
+
+.custom-file-label::after{content:"Parcourir"!important;}
+
+.primary-bg{ background-color:$primary; }
+.primary-color{color:$primary;}
+.secondary-bg{ background-color:$secondary; }
+.secondary-color{color:$secondary;}
+.third-bg{ background-color:$third; }
+.third-color{color:$third;}
+
+.gray-light-bg{ background-color:$gray-light; }
+.gray-light-color{color:$gray-light;}
+
+
+.white-bg{ background-color:#ffffff; }
+.white-color{color:#ffffff!important;}
+
+
+.btn-primary{
+  @extend .primary-bg;
+}
+.btn-outline-primary{
+  border-color:$primary;
+  @extend .primary-color;
+}

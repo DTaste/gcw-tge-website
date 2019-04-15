@@ -1,0 +1,134 @@
+{% set locale = app.request.getLocale() %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>{% if page_title is defined %}{{page_title}} | {%endif%}{{project_name}}</title>
+  <meta name="description" content="{% if page_desc is defined %}{{page_desc|striptags}}{% else %}{% trans %}meta_home_description{% endtrans %}{% endif %}">
+  <meta name="keywords" content="{% if page_keywords is defined %}{{page_keywords}} #freelance{% else %}{% trans %}meta_home_keywords{% endtrans %}{% endif %}">
+
+  <meta name="HandheldFriendly" content="true">
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <meta property="og:title" content="{% if page_title is defined %} {{page_title}} | {{project_name}}{% else %}{% trans %}meta_home_title{% endtrans %}{% endif %}">
+  <meta property="og:description" content="{% if page_desc is defined %} {{page_desc|striptags}}{% else %}{% trans %}meta_home_description{% endtrans %}{% endif %}">
+  {% set urlPath = app.request.attributes.get('_route','') %}
+  {% set urlParams = app.request.attributes.get('_route_params','') %}
+
+  <meta property="og:url" content="{{app.request.uri}}">
+
+  <meta property="og:type" content="website">
+  {% if fb_page_id is defined %}
+    <meta property="fb:pages" content="{{fb_page_id}}">
+  {% endif %}
+
+
+  {% block stylesheets %}
+  <link rel="stylesheet" href="{{ asset('build/app.css') }}">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+  {% endblock %}
+    </head>
+    <body>
+      <header class="">
+
+        <nav class="navbar navbar-light white-bg">
+          <a class="navbar-brand" href="{{path('homepage_localized')}}"><img src="{{asset('build/static/layout/logo.jpg')}}" alt="Logo Gocoworker" width="88" height="68"/></a>
+          <ul class="nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">{{ 'header_token_sale' | trans }}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">{{ 'header_whitepaper' | trans }}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">{{ 'header_faq' | trans }}</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">{{ 'header_blog' | trans }}</a>
+              </li>
+          </ul>
+          <ul class="nav justify-content-center mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">en</a>
+            </li>
+          </ul>
+          <ul class="nav justify-content-end ml-auto">
+              <li class="nav-item">
+                <a class="nav-link primary-bg white-color" href="#">{{ 'header_contribute' | trans }}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link primary-bg white-color" href="#">{{ 'header_referral' | trans }}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link primary-color" href="#">{{ 'header_product' | trans }}</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link primary-color" href="#">{{ 'header_join' | trans }}</a>
+              </li>
+        </ul>
+      </nav>
+      </header>
+        {% block body %}{% endblock %}
+
+        <footer class="container-fluid">
+          <div class="row align-items-end pt-5">
+            <div class="col-4">
+              <p class="primary-color p-3 my-0 ml-2">© {{ "now"|date("Y") }} <span class="font-weight-bold">Gocoworker</span></p>
+            </div>
+            <div class="col-4 text-center">
+              <p class="primary-color"><a href="mailto:{{url_email}}">
+                <a href="mailto:{{url_email}}"><img src="{{asset('build/static/layout/enveloppe.svg') }}" alt="mailto" /></a> <br />
+              <a href="mailto:{{url_email}}">{{url_email}}</a></p>
+            </div>
+            <div class="col-4 text-right">
+              <p class="p-3 mr-2 my-0" id="social-links">
+                <a href="{{url_linkedin}}"><img src="{{asset('build/static/layout/linkedin.svg') }}" alt="linkedin" /></a>
+                <a href="{{url_twitter}}"><img src="{{asset('build/static/layout/twitter.svg') }}" alt="twitter" /></a>
+                <a href="{{url_youtube}}"><img src="{{asset('build/static/layout/youtube.svg') }}" alt="youtube" /></a>
+                <a href="{{url_facebook}}"><img src="{{asset('build/static/layout/facebook.svg') }}" alt="facebook" /></a>
+                <a href="{{url_telegram}}"><img src="{{asset('build/static/layout/telegram.svg') }}" alt="telegram" /></a>
+              </p>
+            </div>
+          </div>
+        </footer>
+
+        <div id="presale-timer" class="container-fluid p-0 d-none">
+          <div class="container p-0">
+            <div class="row">
+                <div class="col-12 col-md-3 my-auto">
+                  <h6 class="m-0 py-1 text-center">{{'presale_begins_in' | trans }}</h6>
+                  <div class="d-inline-block timer">
+                    <p><span class="time-value" id="days">00</span><span class="time-label">{{'days' | trans}}</span></p>
+                  </div>
+                  <div class="d-inline-block timer">
+                    <p><span class="time-value" id="hours">00</span><span class="time-label">{{'hours' | trans}}</span></p>
+                  </div>
+                  <div class="d-inline-block timer">
+                    <p><span class="time-value" id="minuts">00</span><span class="time-label">{{'minuts' | trans}}</span></p>
+                  </div>
+                  <div class="d-inline-block timer">
+                    <p><span class="time-value" id="seconds">00</span><span class="time-label">{{'seconds' | trans}}</span></p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 offset-md-3 my-auto text-right">
+                  <p id="annoucement" class="d-inline">{{ 'presale_announcement' | trans}} <a id="annoucement-btn" class="d-inline-block ml-4" href="#">{{'learn_more'| trans}}</a></p>
+                </div>
+            </div>
+          </div>
+        </div>
+        {% block javascripts %}
+        {{ encore_entry_script_tags('app') }}
+
+           <!-- Renders app.js & a webpack runtime.js file
+               <script src="/build/runtime.js"></script>
+               <script src="/build/app.js"></script> -->
+
+
+
+        {% endblock %}
+    </body>
+</html>

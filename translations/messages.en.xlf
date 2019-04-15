@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file source-language="en" datatype="plaintext" original="file.ext">
+<body>
+<trans-unit id="1">
+<source>header_token_sale</source>
+<target>Token sale</target>
+</trans-unit>
+<trans-unit id="2">
+<source>header_whitepaper</source>
+<target>Whitepaper</target>
+</trans-unit>
+<trans-unit id="3">
+<source>header_faq</source>
+<target>FAQ</target>
+</trans-unit>
+<trans-unit id="4">
+<source>header_blog</source>
+<target>Blog</target>
+</trans-unit>
+<trans-unit id="5">
+<source>header_contribute</source>
+<target>CONTRIBUTE</target>
+</trans-unit>
+<trans-unit id="6">
+<source>header_referral</source>
+<target>REFERRAL</target>
+</trans-unit>
+<trans-unit id="7">
+<source>header_product</source>
+<target>PRODUCT</target>
+</trans-unit>
+<trans-unit id="8">
+<source>header_join</source>
+<target>JOIN US</target>
+</trans-unit>
+<trans-unit id="9">
+<source>main_h1</source>
+<target>Take Control of your Working Life!</target>
+</trans-unit>
+<trans-unit id="10">
+<source>main_h2</source>
+<target>Distributed Autonomous Corporation for Talents</target>
+</trans-unit>
+<trans-unit id="11">
+<source>main_periods</source>
+<target>Current Period</target>
+</trans-unit>
+<trans-unit id="12">
+<source>main_gcw_distributed</source>
+<target>GCW Distributed</target>
+</trans-unit>
+<trans-unit id="13">
+<source>main_to_distribute</source>
+<target>GCW to Distribute</target>
+</trans-unit>
+<trans-unit id="14">
+<source>main_price</source>
+<target>Current Price (ETH)</target>
+</trans-unit>
+<trans-unit id="15">
+<source>main_updated</source>
+<target>Updated %s ago</target>
+</trans-unit>
+<trans-unit id="16">
+<source>main_collected</source>
+<target>ETH Collected</target>
+</trans-unit>
+<trans-unit id="17">
+<source>main_btn_contribute</source>
+<target>CONTRIBUTE</target>
+</trans-unit>
+<trans-unit id="18">
+<source>main_btn_play</source>
+<target>Free Together</target>
+</trans-unit>
+<trans-unit id="19">
+<source>about_title</source>
+<target>About Gocoworker</target>
+</trans-unit>
+<trans-unit id="20">
+<source>about_p_1</source>
+<target>Gocoworker is a distributed organizationenabling the sustainable creation of itsdream job being accompanied and secure.</target>
+</trans-unit>
+<trans-unit id="21">
+<source>about_p_2</source>
+<target>Gocoworker democratizes communal entrepreneurship by becoming master of his working life.</target>
+</trans-unit>
+<trans-unit id="22">
+<source>sq_title</source>
+<target>Status Quo</target>
+</trans-unit>
+<trans-unit id="23">
+<source>sq_title_1</source>
+<target><![CDATA[Corporate Model <br />Obsolescence]]></target>
+</trans-unit>
+<trans-unit id="24">
+<source>sq_p_1_1</source>
+<target>Debt-systemic global crisis.</target>
+</trans-unit>
+<trans-unit id="25">
+<source>sq_p_1_2</source>
+<target>High unemployment rate.</target>
+</trans-unit>
+<trans-unit id="26">
+<source>sq_p_1_3</source>
+<target>Advent of a quaternary sector.</target>
+</trans-unit>
+<trans-unit id="27">
+<source>sq_title_2</source>
+<target><![CDATA[Services Company<br />Weaknesses]]></target>
+</trans-unit>
+<trans-unit id="28">
+<source>sq_p_2_1</source>
+<target>Low experienced workforce.</target>
+</trans-unit>
+<trans-unit id="29">
+<source>sq_p_2_2</source>
+<target>High turnover. Structural costs.</target>
+</trans-unit>
+<trans-unit id="30">
+<source>sq_p_2_3</source>
+<target>Meat seller reputation.</target>
+</trans-unit>
+<trans-unit id="31">
+<source>sq_title_3</source>
+<target><![CDATA[Entrepreneurship<br />Barriers]]></target>
+</trans-unit>
+<trans-unit id="32">
+<source>sq_p_3_1</source>
+<target>Administrative burden.</target>
+</trans-unit>
+<trans-unit id="33">
+<source>sq_p_3_2</source>
+<target>Required skills. Isolation.</target>
+</trans-unit>
+<trans-unit id="34">
+<source>sq_p_3_3</source>
+<target>Rise of a freelance Nation.</target>
+</trans-unit>
+<trans-unit id="35">
+<source>sq_title_4</source>
+<target><![CDATA[Seizure of Power<br />by "The Millenials"]]></target>
+</trans-unit>
+<trans-unit id="36">
+<source>sq_p_4_1</source>
+<target>Culture of digital and nomadism.</target>
+</trans-unit>
+<trans-unit id="37">
+<source>sq_p_4_2</source>
+<target>Individual fulfillment research.</target>
+</trans-unit>
+<trans-unit id="38">
+<source>sq_p_4_3</source>
+<target>Up to 75% by 2025.</target>
+</trans-unit>
+<trans-unit id="39">
+<source>days</source>
+<target>Days</target>
+</trans-unit>
+<trans-unit id="40">
+<source>hours</source>
+<target>Hours</target>
+</trans-unit>
+<trans-unit id="41">
+<source>minuts</source>
+<target>Minuts</target>
+</trans-unit>
+<trans-unit id="42">
+<source>seconds</source>
+<target>Seconds</target>
+</trans-unit>
+<trans-unit id="43">
+<source>presale_begins_in</source>
+<target>PRESALE BEGINS IN</target>
+</trans-unit>
+<trans-unit id="44">
+<source>presale_announcement</source>
+<target>Announcing the Presale on January 17th</target>
+</trans-unit>
+<trans-unit id="45">
+<source>learn_more</source>
+<target>LEARN MORE</target>
+</trans-unit>
+<trans-unit id="46">
+<source>ecosystem_title</source>
+<target>Ecosystem</target>
+</trans-unit>
+<trans-unit id="47">
+<source>ecosystem_p</source>
+<target><![CDATA[Distributed network allowing Talentsto become what they are and free together. <br/>Collective intelligence between peers.]]></target>
+</trans-unit>
+<trans-unit id="48">
+<source>eco_t_1</source>
+<target>Gocoworker</target>
+</trans-unit>
+<trans-unit id="49">
+<source>eco_p_1</source>
+<target><![CDATA[Distributed corporation for Talents.<br />Communal work. Expertise on demand. <br />Private and business communities.]]></target>
+</trans-unit>
+<trans-unit id="50">
+<source>eco_t_2</source>
+<target>Gocompany</target>
+</trans-unit>
+<trans-unit id="51">
+<source>eco_p_2</source>
+<target><![CDATA[Communal company for Talents. <br />Test and development of its project.<br />No investment. Social protection.]]></target>
+</trans-unit>
+<trans-unit id="52">
+<source>eco_t_3</source>
+<target>Gocobooster</target>
+</trans-unit>
+<trans-unit id="53">
+<source>eco_p_3</source>
+<target><![CDATA[Acceleration programs for Talents. <br />Setting up of a treasury and a forecast. <br />Proven secure methodology.]]></target>
+</trans-unit>
+<trans-unit id="54">
+<source>eco_t_4</source>
+<target>Gococampus</target>
+</trans-unit>
+<trans-unit id="55">
+<source>eco_p_4</source>
+<target><![CDATA[All the needs of Talents in one place.<br /> Coworking & Colving space.<br /> Communal entrepreneuship.]]></target>
+</trans-unit>
+<trans-unit id="56">
+<source>story_title</source>
+<target>Success Story</target>
+</trans-unit>
+<trans-unit id="57">
+<source>story_p</source>
+<target><![CDATA[Pioneering communal work.<br />Well established ecosystem.<br />Proven value proposition.]]></target>
+</trans-unit>
+<trans-unit id="58">
+<source>story_aecis_title</source>
+<target>Communal Company for Talents</target>
+</trans-unit>
+<trans-unit id="59">
+<source>story_aecis_desc</source>
+<target>€ 1+ million of turnover</target>
+</trans-unit>
+<trans-unit id="60">
+<source>story_fucc_title</source>
+<target>French Union of Communal Company</target>
+</trans-unit>
+<trans-unit id="61">
+<source>story_fucc_desc</source>
+<target>10+ years of experience</target>
+</trans-unit>
+<trans-unit id="62">
+<source>story_cognitum_title</source>
+<target>Free Acceleration Program</target>
+</trans-unit>
+<trans-unit id="63">
+<source>story_cognitum_desc</source>
+<target>1,000+ talents hosted</target>
+</trans-unit>
+<trans-unit id="64">
+<source>story_ce_title</source>
+<target>Free Talent Marketplace</target>
+</trans-unit>
+<trans-unit id="65">
+<source>story_ce_desc</source>
+<target>500+ clients</target>
+</trans-unit>
+<trans-unit id="66">
+<source>archi_title</source>
+<target>Architecture</target>
+</trans-unit>
+<trans-unit id="67">
+<source>archi_p</source>
+<target><![CDATA[Permissioned enterprise blockchain.<br />Powered by Ethereum and Hyperledger.<br />Privacy and liquidity by design.]]></target>
+</trans-unit>
+<trans-unit id="68">
+<source>archi_fabric_title</source>
+<target>Governance by Fabric</target>
+</trans-unit>
+<trans-unit id="69">
+<source>archi_fabric_p</source>
+<target><![CDATA[Open-source business framework for distributed ledger solutions.<br />Hosted by Linux Foundation.]]></target>
+</trans-unit>
+<trans-unit id="70">
+<source>bancor_network</source>
+<target>BANCOR Network</target>
+</trans-unit>
+<trans-unit id="71">
+<source>talents_programs</source>
+<target>Talents Programs</target>
+</trans-unit>
+<trans-unit id="72">
+<source>distributed_corp</source>
+<target>Distributed Corporation</target>
+</trans-unit>
+<trans-unit id="73">
+<source>chaincodes_framework</source>
+<target>Chaincodes Framework</target>
+</trans-unit>
+<trans-unit id="74">
+<source>gcw_tokens</source>
+<target>GCW Tokens</target>
+</trans-unit>
+<trans-unit id="75">
+<source>communal_work</source>
+<target>Communal Work</target>
+</trans-unit>
+<trans-unit id="76">
+<source>talents_activities</source>
+<target>Talents Activities</target>
+</trans-unit>
+<trans-unit id="77">
+<source>smart_contracts</source>
+<target>Smart Contracts</target>
+</trans-unit>
+<trans-unit id="78">
+<source>talents_campus</source>
+<target>Talents Campus</target>
+</trans-unit>
+<trans-unit id="79">
+<source>communal_companies</source>
+<target>Communal Companies</target>
+</trans-unit>
+<trans-unit id="80">
+<source>channels_network</source>
+<target>Channels Network</target>
+</trans-unit>
+<trans-unit id="81">
+<source>eth_infra</source>
+<target>Ethereum Infrastructure</target>
+</trans-unit>
+<trans-unit id="82">
+<source>collab_layer</source>
+<target>Collaborative Layer</target>
+</trans-unit>
+<trans-unit id="83">
+<source>ecosystem_goverance</source>
+<target>Ecosystem Governance</target>
+</trans-unit>
+<trans-unit id="84">
+<source>hyperledger_infra</source>
+<target>Hyperledger Infrastruture</target>
+</trans-unit>
+<trans-unit id="85">
+<source>meet_us</source>
+<target>Meet Us</target>
+</trans-unit>
+<trans-unit id="86">
+<source>press_partner</source>
+<target><![CDATA[Press & Partnerships]]></target>
+</trans-unit>
+<trans-unit id="87">
+<source>due_diligence</source>
+<target>Due Diligence</target>
+</trans-unit>
+<trans-unit id="88">
+<source>stay_updated</source>
+<target>Stay up to date with this ecosystem</target>
+</trans-unit>
+<trans-unit id="89">
+<source>newsletter_email</source>
+<target>Your email</target>
+</trans-unit>
+<trans-unit id="90">
+<source>newsletter_submit</source>
+<target>SUBSCRIBE</target>
+</trans-unit>
+<trans-unit id="91">
+<source>smart_token_title</source>
+<target>Smart Token</target>
+</trans-unit>
+<trans-unit id="92">
+<source>smart_token_title_1</source>
+<target>Liquid Token</target>
+</trans-unit>
+<trans-unit id="93">
+<source>smart_token_p_1</source>
+<target><![CDATA[Large on-chain reserve.<br />Automatically calculated price.<br />No counterparty.]]></target>
+</trans-unit>
+<trans-unit id="94">
+<source>smart_token_title_2</source>
+<target>Utility Token</target>
+</trans-unit>
+<trans-unit id="95">
+<source>smart_token_p_2</source>
+<target><![CDATA[Professionnal services settlement.<br />Daily life of the organization.<br />Network effect.]]></target>
+</trans-unit>
+<trans-unit id="96">
+<source>smart_token_title_3</source>
+<target><![CDATA[Social Capital]]></target>
+</trans-unit>
+<trans-unit id="97">
+<source>smart_token_p_3</source>
+<target><![CDATA[Rewards pool.Reputation algorithm.Knowledge bank.]]></target>
+</trans-unit>
+<trans-unit id="98">
+<source>smart_token_title_4</source>
+<target>Unstoppable</target>
+</trans-unit>
+<trans-unit id="99">
+<source>smart_token_p_4</source>
+<target><![CDATA[Censorship resistance.<br />Trustless and privacy.<br />Peers consensus.]]></target>
+</trans-unit>
+<trans-unit id="100">
+<source>roadmap_title</source>
+<target>Roadmap</target>
+</trans-unit>
+<trans-unit id="101">
+<source>roadmap_label_1</source>
+<target>Success Story</target>
+</trans-unit>
+<trans-unit id="102">
+<source>roadmap_label_2</source>
+<target>Ecosystem Scalling</target>
+</trans-unit>
+<trans-unit id="103">
+<source>roadmap_label_3</source>
+<target>Paradigm Shift</target>
+</trans-unit>
+<trans-unit id="104">
+<source>roadmap_step_1</source>
+<target>Gocompany France</target>
+</trans-unit>
+<trans-unit id="105">
+<source>roadmap_step_2</source>
+<target>French Union of Communal Company</target>
+</trans-unit>
+<trans-unit id="106">
+<source>roadmap_step_3</source>
+<target>Gocobooster France</target>
+</trans-unit>
+<trans-unit id="107">
+<source>roadmap_step_4</source>
+<target>Free Talent Marketplace</target>
+</trans-unit>
+<trans-unit id="108">
+<source>roadmap_step_5</source>
+<target>Gocoworker</target>
+</trans-unit>
+<trans-unit id="109">
+<source>roadmap_step_6</source>
+<target>Private Funding</target>
+</trans-unit>
+<trans-unit id="110">
+<source>roadmap_here</source>
+<target>We are here</target>
+</trans-unit>
+<trans-unit id="111">
+<source>roadmap_step_7</source>
+<target>Presale Start</target>
+</trans-unit>
+<trans-unit id="112">
+<source>roadmap_step_8</source>
+<target>Token Sale Start</target>
+</trans-unit>
+<trans-unit id="113">
+<source>roadmap_step_9</source>
+<target>Fabric Release</target>
+</trans-unit>
+<trans-unit id="114">
+<source>roadmap_step_10</source>
+<target>Gococampus Spain</target>
+</trans-unit>
+<trans-unit id="115">
+<source>roadmap_step_11</source>
+<target>Operation in 10+ Nations</target>
+</trans-unit>
+<trans-unit id="116">
+<source>roadmap_step_12</source>
+<target>Operation in 20+ Nations</target>
+</trans-unit>
+</body>
+</file>
+</xliff>

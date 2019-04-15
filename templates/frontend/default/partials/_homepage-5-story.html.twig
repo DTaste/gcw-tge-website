@@ -1,0 +1,28 @@
+<div id="story" class="screen py-5 row">
+  <div class="col-12 col-md-4 offset-md-4 text-center">
+    <h2 class="text-center d-inline-block primary-color">{{'story_title' | trans }}</h2>
+    <p class="text-center my-5 secondary-color">{{'story_p' | trans | raw}}</p>
+  </div>
+
+  <div id="story-list" class="col-12">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        {% for key, value in ['aecis','fucc','cognitum','ce'] %}
+          <div class="col-12 col-md-6 text-center my-2" id="ecosystem-{{value}}">
+
+              <div class="story-item p-4 mx-auto w-100">
+
+                  <img src="{{asset('build/static/home/story/'~value~'.png')}}" alt="{{value}}" srcset="{{asset('build/static/home/story/'~value~'@2x.png')}} 2x, {{asset('build/static/home/story/'~value~'@3x.png')}} 3x" class="img-fluid" />
+
+                    <h4 class="primary-color my-3">{{('story_'~(value)~'_title') | trans }}</h4>
+                    <p class="secondary-color my-3">{{('story_'~(value)~'_desc') | trans | raw }}</p>
+
+              </div>
+
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+</div>
