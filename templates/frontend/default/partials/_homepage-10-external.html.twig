@@ -1,0 +1,22 @@
+<div id="external" class="screen py-5 text-center container">
+
+
+    <div id="press">
+        <h2 class="text-center my-5 mx-auto primary-color d-inline-block">{{'press_partner' | trans }}</h2>
+        <p>
+        {% for img in ['ethlend','everex','lendoit','forbes','huffpost','inc']%}
+            <img src="{{ asset('build/static/home/external-logo/'~img~'.png')}}" alt="{{img}}" class="img-fluid m-4" />
+        {% endfor %}
+        </p>
+    </div>
+
+    <div id="due-diligence">
+      <h2 class="text-center my-5 mx-auto primary-color d-inline-block">{{'due_diligence' | trans }}</h2>
+      <p>
+      {% for img in ['ethlend','everex','lendoit','forbes']%}
+          <img src="{{ asset('build/static/home/external-logo/'~img~'.png')}}" alt="{{img}}" class="img-fluid m-4" />
+      {% endfor %}
+      </p>
+    </div>
+
+</div>

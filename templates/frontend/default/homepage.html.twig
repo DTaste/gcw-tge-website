@@ -12,11 +12,9 @@
 {% include('frontend/default/partials/_homepage-7-smarttoken.html.twig') %}
 {% include('frontend/default/partials/_homepage-8-roadmap.html.twig') %}
 
-
-
-
-  {{ include ('frontend/default/partials/_homepage-11-event.html.twig', {'events' : events }) }}
-
+{{ include ('frontend/default/partials/_homepage-11-event.html.twig', {'events' : events }) }}
+{% include('frontend/default/partials/_homepage-10-external.html.twig') %}
+{% include('frontend/default/partials/_homepage-12-newsletter.html.twig') %}
 
 </div>
 {% endblock %}
