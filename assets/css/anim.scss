@@ -1,4 +1,4 @@
-
+$duration: 2s;
 
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
@@ -8,16 +8,50 @@
 @-webkit-keyframes spin-reverse { 100% { -webkit-transform: rotate(-360deg); } }
 @keyframes spin-reverse { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
 
+@keyframes fadeIO {
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-o-keyframes fadeIO{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-moz-keyframes fadeIO{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
+@-webkit-keyframes fadeIO{
+  0%   { opacity:1; }
+  50%  { opacity:0; }
+  100% { opacity:1; }
+}
 
-$time: 4s;
+.fadeIO.loop {
+   -webkit-animation: fadeIO $duration infinite;
+   -moz-animation: fadeIO $duration infinite;
+   -o-animation: fadeIO $duration infinite;
+    animation: fadeIO $duration infinite;
+}
+
+.fadeIO.on, .fadeIO.on2  {
+   -webkit-animation: fadeIO $duration ease-in-out;
+   -moz-animation: fadeIO $duration ease-in-out;
+   -o-animation: fadeIO $duration ease-in-out;
+    animation: fadeIO $duration ease-in-out;
+}
+
+
 .rotate{
-  -webkit-animation:spin $time linear infinite;
-  -moz-animation:spin $time linear infinite;
-  animation:spin $time linear infinite;
+  -webkit-animation:spin $duration linear infinite;
+  -moz-animation:spin $duration linear infinite;
+  animation:spin $duration linear infinite;
 }
 
 .rotate-reverse{
-  -webkit-animation:spin-reverse $time linear infinite;
-  -moz-animation:spin-reverse $time linear infinite;
-  animation:spin-reverse $time linear infinite;
+  -webkit-animation:spin-reverse $duration linear infinite;
+  -moz-animation:spin-reverse $duration linear infinite;
+  animation:spin-reverse $duration linear infinite;
 }

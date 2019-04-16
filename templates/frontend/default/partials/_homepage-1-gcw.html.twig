@@ -1,42 +1,52 @@
 <div id="gcw" class="screen py-5">
   <div class="p-5">
     <h1 class="text-center">{{'main_h1' | trans }}</h1>
-    <h3 class="text-center">{{'main_h2' | trans}}</h3>
+    <h3 class="text-center mt-4 mb-4">{{'main_h2' | trans}}</h3>
   </div>
+
   <div class="row p-5">
-    <div class="col-12 col-md-6 px-5 mb-5 m-md-0" id="gcw-video">
-      <a id="btn-play" href="#">{{'main_btn_play' | trans}}</a>
-    </div>
-    <div class="col-12 col-md-6 px-5" id="gcw-periods">
-      <div id="period-count" class="text-center primary-color digit">150/250</div>
-      <div class="text-center primary-color mb-2">{{'main_periods' | trans}}</div>
-      <div id="gcw-distributed" class="text-center primary-color digit">6,258,000</div>
-      <div class="text-center primary-color">{{'main_gcw_distributed' | trans}}</div>
+    <div class="col-12 text-center">
 
-      <div id="" class="py-4">
-        <div id="progress-bar">
-          <div id="progress-value" style="width:75%"></div>
-        </div>
-        <div id="gcw-min" class="d-inline-block w-50 m-0 p-0">0</div>
-        <div id="gcw-max" class="d-inline-block text-right float-right w-50 m-0 p-0">10,500,000</div>
+      <div class="d-inline-block align-top mx-3 mb-5 my-md-3" id="gcw-video">
+        <a id="btn-play" href="#">{{'main_btn_play' | trans}}</a>
+        {% for i in ['gocoworker','gocompany','gocobooster','gococampus'] %}
+          <div class="gcw-ico gcw-ico-{{i}} fadeIO" id="gcw-ico-g-{{i}}"><img src="{{asset('build/static/home/ecosystem/'~i~'.svg')}}" alt="{{i}}" class="img-fluid"/></div>
+          <div class="gcw-ico gcw-ico-{{i}} fadeIO" id="gcw-ico-o-{{i}}"><img src="{{asset('build/static/home/ecosystem/'~i~'.svg')}}" alt="{{i}}" class="img-fluid"/></div>
+        {% endfor %}
       </div>
 
-      <div class="row text-center">
-        <div class="col-4">
-          <div  id="gcw-remaning" class="digit">42,000</div>
-          <div>{{'main_to_distribute' | trans }}</div>
-        </div>
-        <div class="col-4">
-          <div id="gcw-price" class="digit">0,04</div>
-          <div>{{'main_price' | trans }}</div>
-          <div id="gcw-last-update">{{'main_updated' | trans }}</div>
-        </div>
-        <div class="col-4">
-          <div id="eth-collected" class="digit">625,800.50</div>
-          <div>{{'main_collected' | trans }}</div>
-        </div>
+      <div class="d-inline-block align-top mx-3 mb-5 my-md-3" id="gcw-periods">
+
+          <div id="period-count" class="text-center primary-color digit">150/250</div>
+          <div class="text-center primary-color mb-2">{{'main_periods' | trans}}</div>
+          <div id="gcw-distributed" class="text-center primary-color digit">6,258,000</div>
+          <div class="text-center primary-color">{{'main_gcw_distributed' | trans}}</div>
+
+          <div id="" class="py-4">
+            <div id="progress-bar">
+              <div id="progress-value" style="width:75%"></div>
+            </div>
+            <div id="gcw-min" class="d-inline-block w-50 m-0 p-0">0</div>
+            <div id="gcw-max" class="d-inline-block text-right float-right w-50 m-0 p-0">10,500,000</div>
+          </div>
+
+          <div class="row text-center">
+            <div class="col-4">
+              <div  id="gcw-remaning" class="digit">42,000</div>
+              <div>{{'main_to_distribute' | trans }}</div>
+            </div>
+            <div class="col-4">
+              <div id="gcw-price" class="digit">0,04</div>
+              <div>{{'main_price' | trans }}</div>
+              <div id="gcw-last-update">{{'main_updated' | trans }}</div>
+            </div>
+            <div class="col-4">
+              <div id="eth-collected" class="digit">625,800.50</div>
+              <div>{{'main_collected' | trans }}</div>
+            </div>
+          </div>
+
       </div>
 
-    </div>
   </div>
 </div>

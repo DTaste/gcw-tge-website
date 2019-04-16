@@ -23,14 +23,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/app.scss';
 
 
-import swal from 'sweetalert2';
-
-import AOS from 'aos';
-import 'aos/dist/aos.css';
-
-
-
-
 
 
 $('document').ready(function(){
@@ -45,13 +37,40 @@ $('document').ready(function(){
 
 function initView(){
   preSaleCountDown();
+  animGo();
 
 }
 function addEventsListeners(){
-  //addEventOnInputFile();
-
 
 }
+
+function animGo(){
+  var fadeItems = function(){
+    if($('.fadeIO.off').length>0){
+      $('.fadeIO.off').removeClass('off');
+    }
+    $('.fadeIO.on').addClass('off').removeClass('on');
+    var items = $('.fadeIO:not(.loop):not(.off):not(.on2)');
+    var rand = randomIndex(items);
+    var rand2 = rand;
+    while(rand2==rand){
+      rand2 = randomIndex(items);
+    }
+    $(items[rand]).addClass('on');
+
+    setTimeout(function(){
+      $('.fadeIO.on2').addClass('off').removeClass('on2');
+      $(items[rand2]).addClass('on2');
+    },1000);
+  }
+  fadeItems();
+  setInterval(fadeItems,2000);
+}
+
+function randomIndex(myArray){
+  return Math.floor(Math.random() * myArray.length);
+}
+
 
 function preSaleCountDown(){
   var countDownDate = new Date("Jan 17, 2020 12:00:00").getTime();

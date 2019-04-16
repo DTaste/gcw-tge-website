@@ -35,10 +35,11 @@ h2{
   }
 
   #gcw-video{
-    background: url('/build/static/home/go.svg') no-repeat center;
-    background-size:contain;
-    min-height: 293px;
-    position:relative;
+    position: relative;
+    background: url('/build/static/home/go.svg') no-repeat left;
+    background-size:auto;
+    height: 293px;
+    width: 604px;
 
     a#btn-play{
       background: url('/build/static/home/btn-play.svg') no-repeat center ;
@@ -46,8 +47,8 @@ h2{
       position:absolute;
       top:50%;
       left:50%;
-      width:133px;
-      height: 152px;
+      max-width:133px;
+      max-height: 152px;
       color:#fff;
       font-size: 18px;
       font-weight: bold;
@@ -55,7 +56,61 @@ h2{
       padding:55px 10px;
       margin:-76px 0 0 -66.5px;
       text-decoration: none;
+      z-index: 2;
     }
+
+    .gcw-ico{
+      position:absolute;
+      width:32px;
+      height: 32px;
+      text-align: center;
+      z-index: 1;
+      margin:-16px 0 0 -16px;
+
+      &.gcw-ico-gocobooster{
+        width:20px;
+        height: 24px;
+        margin:-12px 0 0 -10px;
+      }
+      /* gocoworker','gocompany','gocobooster','gococampus*/
+      &#gcw-ico-g-gocoworker{
+        top: 20%;
+        left: 6%;
+      }
+      &#gcw-ico-g-gocompany{
+        top: 52%;
+        left: 19.5%;
+      }
+      &#gcw-ico-g-gococampus{
+        top: 69%;
+        left: 28%;
+
+      }
+      &#gcw-ico-g-gocobooster{
+        top: 6%;
+        left: 40%;
+      }
+
+      &#gcw-ico-o-gocoworker{
+        top: 10%;
+        left: 92%;
+      }
+      &#gcw-ico-o-gocompany{
+        top: 54%;
+        left: 77%;
+      }
+      &#gcw-ico-o-gococampus{
+        top: 10%;
+        left: 62%;
+
+      }
+      &#gcw-ico-o-gocobooster{
+        top: 55.5%;
+        left: 66.5%;
+      }
+
+    }
+
   }
 
 
