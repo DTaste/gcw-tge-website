@@ -60,11 +60,14 @@ h2{
 
 
   #gcw-periods{
+    max-width: 600px;
+
     .digit{
       font-size: 21px;
       font-weight: bold;
       line-height: 1.19;
       color:$primary;
+
     }
     #progress-bar{
       width:100%;
@@ -298,22 +301,25 @@ h2{
       position:absolute;
       z-index:15;
       color:$primary;
+      font-size: 14px;
       font-weight: bold;
-      font-size: 10px;
-      width:90px;
-      height: 35px;
-      margin:25px 0 0 -45px;
 
+      width:92px;
+      height: 34px;
+      margin:25px 0 0 -46px;
 
     }
     .roadmap-date{
       position:absolute;
       z-index:15;
-      width:100px;
-      height: 35px;
-      margin: -17.5px 0 0 -50px;
-      padding:5px 10px;
+      width:92px;
+      height: 34px;
+      line-height: 34px;
+      margin: -17px 0 0 -46px;
+      padding:0px 10px;
       background: #636466;
+      font-size: 13px;
+      font-weight: bold;
       color:#fff;
       border-radius: 5px;
     }
@@ -369,14 +375,6 @@ h2{
     #roadmap-step-4, #roadmap-step-5, #roadmap-step-12{
       left:85%;
     }
-    #roadmap-here{
-      position: absolute;
-      top:50%;
-      left:50%;
-      width: 80px;
-      height: 50px;
-      margin : -25px 0 0 -40px;
-    }
 
     .road-h{
       background: $primary;
@@ -421,8 +419,28 @@ h2{
     #road-v-3{
       top:50%;
       left:5%;
-      height: 45%;
+      height: 45.5%;
     }
+    .road-helix{
+      position: absolute;
+      width: 30px;
+      height: 30px;
+      margin:-1.5px 0 0 -13.5px;
+      background:url('/build/static/home/roadmap/helix.svg') center left no-repeat;
+    }
+    #road-helix-1{
+      top:25%;
+      left:5%;
+    }
+    #road-helix-2{
+      top:60%;
+      left:95%;
+    }
+    #road-helix-3{
+      top:95%;
+      left:5%;
+    }
+
 
 
     .road-dot{
@@ -454,13 +472,53 @@ h2{
     #road-dot-3,  #road-dot-4, #road-dot-9{
       left:75%;
     }
-    #road-dot-5{
-      width: 20px;
-      height: 20px;
-      margin:-10px 0 0 -10px;
-    }
     #road-dot-6, #road-dot-7, #road-dot-8, #road-dot-9{
       background: #fff;
+    }
+
+
+    #roadmap-here{
+      position: absolute;
+      top:50%;
+      left:50%;
+      width: 80px;
+      height: 120px;
+      margin : -60px 0 0 -40px;
+
+      #roadmap-here-pin{
+        position: absolute;
+        width: 29px;
+        height: 44px;
+        margin:0 0 0 -14.5px;
+        background:url('/build/static/home/roadmap/pin.svg') center center no-repeat;;
+        top:0%;
+        left:50%;
+      }
+      #roadmap-here-dot{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        margin:-10px 0 0 -10px;
+        border-radius: 50%;
+        border:2px solid $primary;
+        background:$primary;
+        top:50%;
+        left:50%;
+      }
+      #roadmap-here-txt{
+        position: absolute;
+        width: 80px;
+        height: 50px;
+        margin:-5px 0 0 -40px;
+        border-radius: 50%;
+        top:70%;
+        left:50%;
+        font-size: 19px;
+        line-height: 0.95;
+        font-weight: bold;
+        color:$primary;
+      }
+
     }
 
   }

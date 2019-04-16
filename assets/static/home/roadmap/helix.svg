@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
+    <defs>
+        <style>
+            .cls-1{fill:#702963}.cls-2{fill:#fff}.cls-3,.cls-5{fill:none}.cls-3{stroke:#701663;stroke-width:3px}.cls-4{stroke:none}
+        </style>
+    </defs>
+    <g id="Groupe_15957" data-name="Groupe 15957" transform="translate(-1210 -505)">
+        <g id="Groupe_13177" data-name="Groupe 13177" transform="translate(1010.864 -699.435)">
+            <path id="Rectangle_13016" d="M0 0h6.865a1.6 1.6 0 0 1 1.6 1.6 1.6 1.6 0 0 1-1.6 1.6H0V0z" class="cls-1" data-name="Rectangle 13016" transform="rotate(-45 1575.95 350.18)"/>
+            <path id="Rectangle_13017" d="M1.6 0h6.863v3.2H1.6A1.6 1.6 0 0 1 0 1.6 1.6 1.6 0 0 1 1.6 0z" class="cls-1" data-name="Rectangle 13017" transform="rotate(14.054 -4826.25 1439.211)"/>
+            <path id="Rectangle_13018" d="M1.6 0h6.863v3.2H1.6A1.6 1.6 0 0 1 0 1.6 1.6 1.6 0 0 1 1.6 0z" class="cls-1" data-name="Rectangle 13018" transform="scale(-1) rotate(75.1 692.333 -754.75)"/>
+            <circle id="Ellipse_2777" cx="2.358" cy="2.358" r="2.358" class="cls-2" data-name="Ellipse 2777" transform="translate(211.582 1216.861)"/>
+            <circle id="Ellipse_2778" cx="1.265" cy="1.265" r="1.265" class="cls-1" data-name="Ellipse 2778" transform="translate(212.675 1217.954)"/>
+        </g>
+        <g id="Ellipse_2779" class="cls-3" data-name="Ellipse 2779" transform="translate(1210 505)">
+            <circle cx="15" cy="15" r="15" class="cls-4"/>
+            <circle cx="15" cy="15" r="13.5" class="cls-5"/>
+        </g>
+    </g>
+</svg>

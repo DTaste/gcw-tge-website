@@ -80,7 +80,7 @@
 </trans-unit>
 <trans-unit id="20">
 <source>about_p_1</source>
-<target>Gocoworker is a distributed organizationenabling the sustainable creation of itsdream job being accompanied and secure.</target>
+<target>Gocoworker is a distributed organization enabling the sustainable creation of its dream job being accompanied and secure.</target>
 </trans-unit>
 <trans-unit id="21">
 <source>about_p_2</source>
@@ -388,7 +388,7 @@
 </trans-unit>
 <trans-unit id="97">
 <source>smart_token_p_3</source>
-<target><![CDATA[Rewards pool.Reputation algorithm.Knowledge bank.]]></target>
+<target><![CDATA[Rewards pool.<br />Reputation algorithm.<br />Knowledge bank.]]></target>
 </trans-unit>
 <trans-unit id="98">
 <source>smart_token_title_4</source>

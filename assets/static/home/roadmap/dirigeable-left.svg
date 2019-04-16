@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="241.602" height="39.767" viewBox="0 0 241.602 39.767">
+    <defs>
+        <style>
+            .cls-1,.cls-3,.cls-5{fill:#702963}.cls-1{opacity:.1}.cls-2,.cls-6{fill:#701663}.cls-4{fill:#af71a6}.cls-5{opacity:.66}.cls-6{font-size:13px;font-family:Montserrat-Bold,Montserrat;font-weight:700}
+        </style>
+    </defs>
+    <g id="Dirigeable_Ecosystem_scaling" data-name="Dirigeable Ecosystem scaling" transform="translate(-764.823 -6295)">
+        <g id="Dirigeable" transform="translate(729.965 6287)">
+            <path id="Tracé_39602" d="M671.771 645.622v36.826l127.816.083 12.759-18.409-12.759-18.422z" class="cls-1" data-name="Tracé 39602" transform="translate(-535.886 -637.622)"/>
+            <path id="Rectangle_13014" d="M0 0h3v37H0z" class="cls-2" data-name="Rectangle 13014" transform="translate(133.035 8)"/>
+            <path id="Rectangle_13015" d="M0 0h31v1H0z" class="cls-2" data-name="Rectangle 13015" transform="translate(103.035 26)"/>
+            <g id="Groupe_13158" data-name="Groupe 13158" transform="translate(34.858 8.332)">
+                <path id="Tracé_39603" d="M530.239 660.8c.454 6.374 7.486 12.863 17.581 15.546l7.4 5.925a4.315 4.315 0 0 0 2.777 1.007H570.7a2.074 2.074 0 0 0 2.077-2.072v-4c7.366-1.336 13.562-4.024 17.524-7.5 2.672-2.339 4.333-5.032 4.656-7.9.005-.058.046-.432.052-.49-.115-.009-.115-.009-.218-.012l-4.49-.037-59.379-.454c-.532-.013-.161.018-.683-.013z" class="cls-3" data-name="Tracé 39603" transform="translate(-530.239 -643.844)"/>
+                <g id="Groupe_11051" data-name="Groupe 11051">
+                    <path id="Tracé_39604" d="M530.239 655.7l.684.01 59.379.454 4.49.037.208.005c.011-.209.026-.418.021-.627-.088-9.469-14.668-17.007-32.563-16.835-17.581.169-31.812 7.717-32.219 16.956zm60.063-4.239a22.257 22.257 0 0 0-.002.001z" class="cls-4" data-name="Tracé 39604" transform="translate(-530.239 -638.743)"/>
+                </g>
+            </g>
+            <g id="Groupe_13160" data-name="Groupe 13160" transform="translate(96.999 17.017)">
+                <path id="Tracé_47197" d="M615.927 648.979v8.19h-6.02v-3.409c0-2.641 2.693-4.781 6.02-4.781z" class="cls-3" data-name="Tracé 47197" transform="translate(-609.907 -648.979)"/>
+                <path id="Tracé_47198" d="M615.927 661.46v8.19c-3.324 0-6.02-2.14-6.02-4.78v-3.41z" class="cls-4" data-name="Tracé 47198" transform="translate(-609.907 -653.27)"/>
+            </g>
+        </g>
+        <text id="Ecosystem_Scaling" class="cls-6" data-name="Ecosystem Scaling" transform="translate(872.662 6318)">
+            <tspan x="0" y="0">Ecosystem Scaling</tspan>
+        </text>
+    </g>
+</svg>
