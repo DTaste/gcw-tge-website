@@ -21,7 +21,7 @@ use \Symfony\Component\HttpFoundation\File\Exception\FileNotFoundException;
 class EventController extends CustomController
 {
   /**
-  * @Route("/index", name="event_index", methods={"GET"})
+  * @Route("/", name="event_index", methods={"GET"})
   */
   public function index(EventRepository $eventRepository): Response
   {
