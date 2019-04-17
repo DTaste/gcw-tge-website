@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="7.63" height="128.81" viewBox="0 0 7.63 128.81">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2{fill:#636466;opacity:.5}.cls-3{fill:#702963}
+        </style>
+    </defs>
+    <g id="pied_éolienne" data-name="pied éolienne" transform="translate(-2.452 -6)">
+        <path id="Tracé_50645" d="M160.246 168.161V294.71h1.745V168h-3.24v.955z" class="cls-1" data-name="Tracé 50645" transform="translate(-154 -162)"/>
+        <path id="Tracé_50646" d="M158.75 168.955l-.2 125.755h1.695V168.161z" class="cls-1" data-name="Tracé 50646" transform="translate(-154 -162)"/>
+        <path id="Tracé_50647" d="M158.75 168.955l-.2 125.755h1.695V168.161z" class="cls-2" data-name="Tracé 50647" transform="translate(-154 -162)"/>
+        <path id="Tracé_50650" d="M156.452 295.76v1.05h7.63V168.78l-1.874-.78h-.216v126.71h-1.745v.372h-2.074l.2-125.926.379-.2V168h-.152l-1.947 1.27z" class="cls-3" data-name="Tracé 50650" transform="translate(-154 -162)"/>
+        <path id="Tracé_50651" d="M158.75 168.955l-.379.2-.2 125.926h2.074v-.372h-1.695z" class="cls-3" data-name="Tracé 50651" transform="translate(-154 -162)"/>
+    </g>
+</svg>

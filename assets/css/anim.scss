@@ -41,15 +41,28 @@ $fade-duration: 3000ms;
 @-webkit-keyframes spin-reverse { 100% { -webkit-transform: rotate(-360deg); } }
 @keyframes spin-reverse { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
 
-$rotate-duration: 2s;
-.rotate{
-  -webkit-animation:spin $rotate-duration linear infinite;
-  -moz-animation:spin $rotate-duration linear infinite;
-  animation:spin $rotate-duration linear infinite;
+@for $i from 1 through 10{
+  .rotate-#{$i}s {
+    -webkit-animation:spin #{$i}s linear infinite;
+    -moz-animation:spin #{$i}s linear infinite;
+    animation:spin #{$i}s linear infinite;
+  }
+
+  .rotate-reverse-#{$i}s{
+    -webkit-animation:spin-reverse #{$i}s  linear infinite;
+    -moz-animation:spin-reverse #{$i}s  linear infinite;
+    animation:spin-reverse #{$i}s linear infinite;
+  }
 }
 
-.rotate-reverse{
-  -webkit-animation:spin-reverse $rotate-duration linear infinite;
-  -moz-animation:spin-reverse $rotate-duration linear infinite;
-  animation:spin-reverse $rotate-duration linear infinite;
+.rotate {
+  -webkit-animation:spin 2s linear infinite;
+  -moz-animation:spin 2s linear infinite;
+  animation:spin 2s linear infinite;
+}
+
+.rotate-reverse {
+  -webkit-animation:spin-reverse 2s linear infinite;
+  -moz-animation:spin-reverse 2s linear infinite;
+  animation:spin-reverse 2s linear infinite;
 }

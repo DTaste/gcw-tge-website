@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="147" height="147" viewBox="0 0 147 147">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-1,.cls-2,.cls-3{stroke:#702963;stroke-miterlimit:10}.cls-1,.cls-2{stroke-width:3px}.cls-2,.cls-3{fill:#fff}.cls-3{stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Groupe_14551" data-name="Groupe 14551" transform="translate(-1289 -1124.354)">
+        <circle id="Ellipse_3041" cx="72" cy="72" r="72" class="cls-1" data-name="Ellipse 3041" transform="translate(1290.5 1125.854)"/>
+        <path id="Ligne_1381" d="M144.25 0L0 1.222" class="cls-1" data-name="Ligne 1381" transform="translate(1290.375 1197.244)"/>
+        <path id="Ligne_1382" d="M0 0l1.22 143.995" class="cls-1" data-name="Ligne 1382" transform="translate(1361.89 1125.857)"/>
+        <path id="Ligne_1383" d="M101.133 0L0 102.86" class="cls-2" data-name="Ligne 1383" transform="translate(1311.934 1146.425)"/>
+        <path id="Ligne_1384" d="M102.86 101.133L0 0" class="cls-2" data-name="Ligne 1384" transform="translate(1311.07 1147.288)"/>
+        <circle id="Ellipse_3042" cx="4" cy="4" r="4" class="cls-3" data-name="Ellipse 3042" transform="translate(1358.5 1193.854)"/>
+    </g>
+</svg>

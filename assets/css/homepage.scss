@@ -97,8 +97,8 @@ h2{
       }
 
       &#gcw-ico-o-gocoworker{
-        top: 10%;
-        left: 92%;
+        top: 9%;
+        left: 93%;
       }
       &#gcw-ico-o-gocompany{
         top: 54%;
@@ -171,12 +171,151 @@ h2{
 
 
 #about{
+    position: relative;
 
-  .col-md-4{
-    background: rgba(255,255,255,0.9);
-  }
+    #about-mid{
+      background: rgba(255,255,255,0.9);
+      z-index:5;
+      border: 1px solid #0FF;
+      max-width: 442px;
+      margin:auto;
+    }
+    #about-left{
+      position: absolute;
+      top:0;
+      left:0;
+      width:472px;
+      height: 476px;
+      background:url('/build/static/home/about/left.svg') no-repeat top left;
+      z-index:1;
 
-  background:url('/build/static/home/about-left.svg') no-repeat top left,  url('/build/static/home/about-right.svg') no-repeat bottom right;
+      #helix-head{
+        background:url('/build/static/home/about/helix-head.svg') no-repeat center center;
+        border: 1px solid #F00;
+        background-size:104.5px 94.3px;
+        position: absolute;
+        top:128.8px;
+        left:118px;
+        width:110px;
+        height: 110px;
+        margin:-53px 0 0 -53px;
+        z-index: 3;
+      }
+      #helix-foot{
+        background:url('/build/static/home/about/helix-foot.svg') no-repeat center center;
+        position: absolute;
+        top:145px;
+        left:116px;
+        width:7.6px;
+        height: 128.8px;
+        z-index: 2;
+      }
+
+
+    }
+    #about-right{
+      position: absolute;
+      bottom:0;
+      right:0;
+      width:413px;
+      height: 606px;
+      background: url('/build/static/home/about/right.svg') no-repeat bottom right;
+      z-index:1;
+
+      #wheel{
+        position: absolute;
+        top:362.5px;
+        left:187px;
+        background:url('/build/static/home/about/wheel.svg') no-repeat center center;
+        width:147px;
+        height: 147px;
+      }
+      #wheel-foots{
+        position: absolute;
+        top:506.5px;
+        left:229px;
+        width: 65px;
+        height: 29px;
+        background:url('/build/static/home/about/wheel-foots.svg') no-repeat center center;
+      }
+      $time-move : 1100ms;
+      .wheel-cab{
+        position: absolute;
+        background:url('/build/static/home/about/wheel-cab.svg') no-repeat center center;
+        width:20.6px;
+        height: 18px;
+        -webkit-transition: all $time-move ease-in-out;
+        -moz-transition: all $time-move ease-in-out;
+        -ms-transition: all $time-move ease-in-out;
+        -o-transition: all $time-move ease-in-out;
+        transition: all $time-move ease-in-out;
+      }
+      /*.wheel-cab-pos1{//1
+        top:375px;
+        left:200px;
+      }
+      .wheel-cab-pos2{//1.2
+        top:365px;
+        left:225px;
+      }
+      .wheel-cab-pos3{//2
+        top:355px;
+        left:250px;
+      }
+      .wheel-cab-pos4{//2.2
+        top:365px;
+        left:275px;
+      }
+      .wheel-cab-pos5{//3
+        top:375px;
+        left:300px;
+      }
+      .wheel-cab-pos6{//3
+        top:400px;
+        left:310px;
+      }
+      .wheel-cab-pos7{//4
+        top:425px;
+        left:320px;
+      }
+      */
+      .wheel-cab-pos1{
+        top:375px;
+        left:200px;
+      }
+      .wheel-cab-pos2{
+        top:355px;
+        left:250px;
+      }
+      .wheel-cab-pos3{
+        top:375px;
+        left:300px;
+      }
+      .wheel-cab-pos4{
+        top:425px;
+        left:320px;
+      }
+      .wheel-cab-pos5{
+        top:475px;
+        left:300px;
+      }
+      .wheel-cab-pos6{
+        top:495px;
+        left:250px;
+      }
+      .wheel-cab-pos7{
+        top:475px;
+        left:200px;
+      }
+      .wheel-cab-pos8{
+        top:425px;
+        left:180px;
+      }
+
+
+
+
+    }
   h2{
     font-size: 38.7px;
     font-weight: 600;
