@@ -61,10 +61,10 @@ function animGo(){
     setTimeout(function(){
       $('.fadeIO.on2').addClass('off').removeClass('on2');
       $(items[rand2]).addClass('on2');
-    },1000);
+    },1500);
   }
   fadeItems();
-  setInterval(fadeItems,2000);
+  setInterval(fadeItems,3000);
 }
 
 function randomIndex(myArray){

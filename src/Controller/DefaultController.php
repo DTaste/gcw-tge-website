@@ -6,6 +6,7 @@ use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\HttpFoundation\Request;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\IsGranted;
 use App\Repository\EventRepository;
+use App\Form\NewsletterType;
 
 
 class DefaultController extends CustomController
@@ -13,8 +14,9 @@ class DefaultController extends CustomController
   /**
   * @Route("/{_locale}/", name="homepage", requirements={"_locale"="%app.locales%"})
   * @Route("/{_locale}/home", name="homepage_localized", requirements={"_locale"="%app.locales%"})
+  * @Route("/{_locale}/home/{period}/", name="homepage_period", requirements={"_locale"="%app.locales%", "period"="presale|sale"})
   */
-  public function indexAction(Request $request, EventRepository $er)
+  public function indexAction(Request $request, EventRepository $er, $period = null)
   {
 
 
@@ -46,11 +48,13 @@ class DefaultController extends CustomController
 
     }
 
-    //$newsletterForm = $this->createForm(NewsletterType::class,null, ['email'=>($this->getUser()?$this->getUser()->getEmail():'')]);
+    $newsletterForm = $this->createForm(NewsletterType::class,null, ['email'=>($this->getUser() ? $this->getUser()->getEmail():'')]);
   //  $published = ($this->getUser() && $this->getUser()->hasRole('ROLE_ADMIN') ? null : true);
     return $this->renderTemplate('frontend/default/homepage.html.twig', [
         'events' => $events,
-      //'newsletterForm' => $newsletterForm->createView(),
+        'period' => $period,
+        'newsletterFormTop' => $newsletterForm->createView(),
+        'newsletterForm' => $newsletterForm->createView(),
     ]);
   }
 

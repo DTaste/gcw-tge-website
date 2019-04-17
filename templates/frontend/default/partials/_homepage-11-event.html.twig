@@ -14,9 +14,11 @@
               <p class="price rounded-circle primary-bg white-color">{% if e.price %}{{e.price}}{% else %}{{ 'free'| trans }}{%endif%}</p>
             </div>
             <div class="px-3 py-2">
-              <h4 class="primary-color text-left">{{e.title}}</h4>
-              <p class="full-date text-left m-0">{{e.getDate()|date('D jS F, H:i')}}</p>
-              <p class="place text-left m-0">{{e.place}}</p>
+              <h4 class="primary-color text-left mt-auto">{{e.title}}</h4>
+              <div>
+                <p class="full-date text-left m-0 gray-light-color"><i class="fas fa-calendar-alt"></i> {{e.getDate()|date('D jS F, H:i')}}</p>
+                <p class="place text-left m-0 gray-light-color"><i class="fas fa-map-marker-alt"></i> {{e.place}}</p>
+              </div>
             </div>
           </div>
         </div>

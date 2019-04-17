@@ -2,6 +2,7 @@ $primary: #701663; // grap
 $secondary: #636466; // slate gray
 $third: #707070;
 $gray-light: #EFE6EF;
+$teal: #00a099;
 $custom-file-text: (
   en: "Browse",
   es: "Elegir",
@@ -16,6 +17,8 @@ $custom-file-text: (
 .secondary-color{color:$secondary;}
 .third-bg{ background-color:$third; }
 .third-color{color:$third;}
+.teal-bg{ background-color:$teal; }
+.teal-color{color:$teal;}
 
 .gray-light-bg{ background-color:$gray-light; }
 .gray-light-color{color:$gray-light;}

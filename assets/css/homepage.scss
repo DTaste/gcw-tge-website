@@ -1,7 +1,11 @@
 @import 'variables';
 .screen{
-  min-height:85vh; //TODO
+  min-height:100vh; //TODO
 }
+.screen:first-child{
+  min-height:90vh; //TODO
+}
+
 h2{
   font-size: 38.7px;
   font-weight: 600;
@@ -36,8 +40,8 @@ h2{
 
   #gcw-video{
     position: relative;
-    background: url('/build/static/home/go.svg') no-repeat left;
-    background-size:auto;
+    background: url('/build/static/home/GO_V5.svg') no-repeat bottom right  ;
+
     height: 293px;
     width: 604px;
 
@@ -57,6 +61,7 @@ h2{
       margin:-76px 0 0 -66.5px;
       text-decoration: none;
       z-index: 2;
+      text-align: left;
     }
 
     .gcw-ico{
@@ -113,29 +118,55 @@ h2{
 
   }
 
+  #gcw-periods-presale,   #gcw-periods-sale{
+    max-width: 500px;
+    .third-color{
 
-  #gcw-periods{
-    max-width: 600px;
-
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 1.23;
+      margin:3px auto 0 auto;
+    }
     .digit{
-      font-size: 21px;
+      font-size: 25px;
+
       font-weight: bold;
       line-height: 1.19;
       color:$primary;
-
     }
     #progress-bar{
       width:100%;
-      height: 12px;
+      height: 13px;
       border-radius:5px;
       background: #EDEDED;
+      margin: 0 0 8px 0;
       #progress-value{
         background: $primary;
         border-radius:5px;
-        height: 12px;
+        height: 13px;
       }
     }
+    .btn{
+      border-radius: 18px;
+      font-size: 13px;
+      font-weight: 600;
+    }
   }
+  #gcw-periods-sale{
+    .digit{
+      font-size: 21px;
+    }
+    .third-color{
+      font-size: 13px;
+      font-weight: 600;
+    }
+    #gcw-last-update{
+      font-size: 9px;
+      font-weight: 300;
+      font-style: italic;
+    }
+  }
+
 }
 
 
@@ -337,11 +368,17 @@ h2{
       font-size:15px;
       font-weight: bold;
     }
-    .full-date{
-      font-size:12px;
-    }
-    .place{
-      font-size:12px;
+    .full-date, .place{
+      font-size:9px;
+      line-height: 1.22;
+      font-weight: 300;
+      color:$secondary;
+
+      .fas{
+        font-size:12px;
+        margin: 0px 10px 3px 0;
+        vertical-align: middle;
+      }
     }
   }
 }
@@ -474,13 +511,13 @@ h2{
     #road-v-3{
       top:50%;
       left:5%;
-      height: 45.5%;
+      height: 45%;
     }
     .road-helix{
       position: absolute;
       width: 30px;
       height: 30px;
-      margin:-1.5px 0 0 -13.5px;
+      margin:-2px 0 0 -13px;
       background:url('/build/static/home/roadmap/helix.svg') center left no-repeat;
     }
     #road-helix-1{

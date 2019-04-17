@@ -3,7 +3,7 @@
 
 {% block body %}
 <div class="container-fluid">
-{% include('frontend/default/partials/_homepage-1-gcw.html.twig') %}
+{{ include ('frontend/default/partials/_homepage-1-gcw.html.twig', {'period' : period, 'form' : newsletterFormTop }) }}
 {% include('frontend/default/partials/_homepage-2-about.html.twig') %}
 {% include('frontend/default/partials/_homepage-3-sq.html.twig') %}
 {% include('frontend/default/partials/_homepage-4-ecosystem.html.twig') %}
