@@ -14,7 +14,7 @@ $(document).ready(function() {
 
 function initView(){
   animGo();
-  animWheelCabs();
+  //animWheelCabs();
 }
 
 function animGo(){
@@ -48,15 +48,17 @@ function randomIndex(myArray){
 function animWheelCabs(){
   var move = function(){
 
-    for(var cab = 1; cab<9; cab++){
+    var cabCount = 8;
+    var posCount = 16;
+    for(var cab = 1; cab<=cabCount; cab++){
       var found = false;
-      for(var pos = 1; pos<9 && !found; pos++){
-        console.log('cab',cab, pos);
+      for(var pos = 1; pos<=posCount && !found; pos++){
+        //console.log('cab',cab, pos);
         if($('#wheel-cab-'+cab).hasClass('wheel-cab-pos'+pos))
         {
           var found = true;
           $('#wheel-cab-'+cab).removeClass('wheel-cab-pos'+pos);
-          if(pos==8){
+          if(pos==posCount){
             $('#wheel-cab-'+cab).addClass('wheel-cab-pos1');
           }else{
 
