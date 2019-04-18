@@ -21,6 +21,7 @@ Encore
      */
     .addEntry('app', './assets/js/app.js')
     .addEntry('homepage', './assets/js/homepage.js')
+    .addEntry('token', './assets/js/token.js')
 
 
 

@@ -10,6 +10,7 @@
 
 .env
 .env.local
+.env.dev
 
 .rsyncignore
 _deploy.sh
