@@ -195,38 +195,16 @@ class CustomController extends Controller{
   private function subsribeMailjetNewsletter( $mailingList, $action, $email, $name = false){
 
     // 1. create mailjet object
-    $mj = new \Mailjet\Client($this->getParameter('mailer_user'), $this->getParameter('mailer_password'));
+    $mj = new \Mailjet\Client($this->getParameter('MAILJET_USER'), $this->getParameter('MAILJET_PWD'));
 
     // 2. create contact ? could be useless
-
-    //$email  = 'ortega.sebastien+4@gmail.com';
     $user = ['Email' => $email, 'IsExcludedFromCampaigns' => ($action=='unsub' || $action=='remove')];
 
     if($name){
       $user['Name'] = $name;
       //can also add more key/value pair in $user['Properties']
     }
-    /*
-    // working !
-    var_dump($user);
-    $response = $mj->post(Resources::$Contact,['body' => $user]);
-    echo '<br />';
-    var_dump($response->getData());
-    echo '<br /><hr /><br />';
-    */
 
-    // 3.1 add contact in mailing list
-
-    /*
-    // doesn't works
-    $url = 'https://api.mailjet.com/v3/REST/contactslist/'.$mailingList.'/managemanycontacts';
-    $contact = $user;
-    $contact['Action'] = $action;
-    $response = $mj->post($url, ['body'=>$contact]);
-    //$response->success() && var_dump($response);
-    //echo '<br /><hr /><br />';
-    */
-    //works now
     // 3.2 or add contactS in mailing list
     $body = [
       'ContactsLists' => [
@@ -240,15 +218,13 @@ class CustomController extends Controller{
 
 
     $response = $mj->post(Resources::$ContactManagemanycontacts, ['body' => $body]);
-    //$response->success() && var_dump($response->getData());
 
-    //var_dump($response->getData());
     return $response->getData();
 
   }
 
   protected function subsribeNewsletterUser($email, $name = false, $action ='addforce'){
-    $mailing_list = $this->getParameter('mailer_list_id');
+    $mailing_list = $this->getParameter('MAILJET_NEWSLETTER_ID');
     return $this->subsribeMailjetNewsletter( $mailing_list, $action, $email, $name);
   }
   protected function unsubsribeNewsletterUser($email, $name = false){
@@ -266,9 +242,8 @@ class CustomController extends Controller{
   {
 
 
-    $caches = array('banner','header2','logo', 'content','facebook_share');
+    $caches = array('thumb','facebook_share');
     foreach ($caches as $c){
-      //echo $this->getParameter('app.public_dir').'media/cache/'.$c.'/'.$img->getUrl();
       @unlink($this->getParameter('app.public_dir').'media/cache/'.$c.'/'.$img->getUrl());
     }
     @unlink($this->getParameter('app.public_dir').$img->getUrl());

@@ -48,12 +48,13 @@ class DefaultController extends CustomController
 
     }
 
-    $newsletterForm = $this->createForm(NewsletterType::class,null, ['email'=>($this->getUser() ? $this->getUser()->getEmail():'')]);
+    $newsletterFormTop = $this->createForm(NewsletterType::class,null, ['attr'=>['id'=> 'newsletterFormTop']]);
+    $newsletterForm = $this->createForm(NewsletterType::class,null, ['attr'=>['id'=> 'newsletterForm']]);
   //  $published = ($this->getUser() && $this->getUser()->hasRole('ROLE_ADMIN') ? null : true);
     return $this->renderTemplate('frontend/default/homepage.html.twig', [
         'events' => $events,
         'period' => $period,
-        'newsletterFormTop' => $newsletterForm->createView(),
+        'newsletterFormTop' => $newsletterFormTop->createView(),
         'newsletterForm' => $newsletterForm->createView(),
     ]);
   }
@@ -63,23 +64,14 @@ class DefaultController extends CustomController
   */
   public function subscribeNewsletter(Request $request){
 
-    $form = $this->createForm(NewsletterType::class,null, ['email'=>($this->getUser()?$this->getUser()->getEmail():'')]);
+    $form = $this->createForm(NewsletterType::class);
     $form->handleRequest($request);
 
     if ($form->isSubmitted() && $form->isValid()) {
       $data = $form->getData();
-      $user = $this->getUser();
-      if($user && mb_strtolower($user->getEmail())==mb_strtolower($data['email']))
-      {
-        $result = $this->subsribeNewsletterUser($data['email'], $user->getFirstname());
-        $user->setNewsletterUser(true);
-        $em = $this->getDoctrine()->getManager();
-        $em->persist($user);
-        $em->flush();
-      }
-      else{
-        $result = $this->subsribeNewsletterUser($data['email']);
-      }
+
+      $result = $this->subsribeNewsletterUser($data['email']);
+
       $this->message('newsletter_subscription_successfull');
       //return $this->json($result);
     }

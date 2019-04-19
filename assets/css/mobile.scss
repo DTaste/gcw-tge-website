@@ -1,5 +1,28 @@
 @import 'variables';
 
-@media (max-width: 768px)  {
+@media (max-width: 900px)  {
+  
+
+  #about{
+
+    #about-left, #about-mid, #about-right{
+      position: relative!important;
+    }
+    #about-right{
+      margin-left: auto;
+    }
+  }
+}
+
+
+@media  (max-width: 1240px) {
+  #gcw-video,#gcw-periods-{
+
+    display: block!important;
+    margin:auto;
+  }
+  #gcw-empty-block{
+    display:none;
+  }
 
 }

@@ -118,7 +118,19 @@ h2{
     }
 
   }
-
+  #gcw-periods-{
+      position:relative;
+    height: 293px;
+    width: 484px;
+    form[name="newsletter"]{
+      position: absolute;
+      top:50%;
+      left:50%;
+      width: 484px;
+      height: 104px;
+      margin:-92px 0 0 -242px;
+    }
+  }
   #gcw-periods-presale,   #gcw-periods-sale{
     max-width: 500px;
     .third-color{

@@ -2,6 +2,8 @@
 
 @import 'variables';
 @import 'anim';
+@import 'mobile';
+
 html, body {
 
   margin: 0;
@@ -28,6 +30,38 @@ header {
       line-height: 1.22;
       margin: 0 5px
     }
+  }
+}
+
+
+
+form[name="newsletter"]{
+  label{
+    font-size: 19px;
+    font-weight: bold;
+    display: block;
+    margin:25px auto;
+  }
+  input[type="email"]{
+    width: 424.1px;
+      height: 51.8px;
+      border-radius: 31px;
+      border:0px;
+      box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.16);
+      background-color: #ffffff;
+      padding:18px;
+      color:$third;
+      font-size: 12px;
+      font-weight: 300;
+  }
+  button{
+    width: 134.9px;
+    height: 51.8px;
+    border-radius: 31px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+    background: $primary;
+    color:#fff;
+    margin: 0 0 0 -80px;
   }
 }
 footer{

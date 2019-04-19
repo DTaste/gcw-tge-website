@@ -1,13 +1,11 @@
 
-<div class="col-12 offset-md-2 col-md-8 blue-bg white-color shadow-2" id="newsletterForm" data-aos="zoom-in-up" data-aos-offset="-1000">
-  <div class="d-none d-md-block" id="closeNewBtn" onclick="closePopupNewsletter()">X</div>
-  <div class="p-2">
-    <form method="POST" action="{{path('newsletter_on')}}">
-      {{ form_row(form.email) }}
-      {{ form_widget(form) }}
-      <div class="text-center">
-        <button class="btn btn-outline-success">{{ 'subscribe' | trans }}</button>
-      </div>
-    {{ form_end(form) }}
-  </div>
-</div>
+{{ form_start(form, {'action': path('newsletter_on') } ) }}
+
+  {{ form_label(form.email) }}
+  {{ form_help(form.email) }}
+  {{ form_errors(form.email) }}
+  {{ form_widget(form.email) }}
+
+  <button class="d-inline-block">{{ 'newsletter_submit' | trans }}</button>
+  {{ form_widget(form) }}
+{{ form_end(form) }}

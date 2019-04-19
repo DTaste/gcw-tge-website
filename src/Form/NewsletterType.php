@@ -13,9 +13,9 @@ class NewsletterType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-      $email = $options['email'];
+      //$email = $options['email'];
         $builder
-            ->add('email', EmailType::class, array('label'=>'stay_updated', 'attr'=> ['placeholder'=> 'newsletter_email', 'value'=>$email] ))
+            ->add('email', EmailType::class, array('label'=>'stay_updated', 'attr'=> ['placeholder'=> 'newsletter_email'], 'label_attr'=>['class'=>'primary-color'] ))
         ;
     }
 
@@ -23,7 +23,8 @@ class NewsletterType extends AbstractType
     {
         $resolver->setDefaults([
             // Configure your form options here
-            'email' => User::class,
+            // 'id',
+            // 'email' => User::class,
         ]);
     }
 }

@@ -13,6 +13,9 @@ parameters:
     app.event_path: 'uploads/event/'
     app.event_directory: '%app.public_dir%%app.event_path%'
 
+    MAILJET_USER: '%env(resolve:MAILJET_USER)%'
+    MAILJET_PWD: '%env(resolve:MAILJET_PWD)%'
+    MAILJET_NEWSLETTER_ID: '%env(resolve:MAILJET_NEWSLETTER)%'
 
     SECURE_SCHEME: https
 
