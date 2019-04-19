@@ -5,6 +5,9 @@
 /.env.dev
 /.env.dev.php
 /.env.*.dev
+/.env.prod
+/.env.prod.php
+/.env.*.prod
 /*.sh
 /public/bundles/
 public/uploads/*/
@@ -25,3 +28,4 @@ yarn-error.log
 ###> liip/imagine-bundle ###
 /public/media/cache/
 ###< liip/imagine-bundle ###
+env.prod

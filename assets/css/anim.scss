@@ -41,6 +41,16 @@ $fade-duration: 3000ms;
 @-webkit-keyframes spin-reverse { 100% { -webkit-transform: rotate(-360deg); } }
 @keyframes spin-reverse { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
 
+$duration-all-move: 500ms;
+.anim-all{
+-webkit-transition: all $duration-all-move ease-in-out;
+-moz-transition: all $duration-all-move ease-in-out;
+-ms-transition: all $duration-all-move ease-in-out;
+-o-transition: all $duration-all-move ease-in-out;
+transition: all $duration-all-move ease-in-out;
+}
+
+
 @for $i from 1 through 10{
   .rotate-#{$i}s {
     -webkit-animation:spin #{$i}s linear infinite;

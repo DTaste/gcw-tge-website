@@ -17,7 +17,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 //require('popper');
 
-
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 // any CSS you require will output into a single css file (app.css in this case)
 import '../css/app.scss';
@@ -37,14 +38,97 @@ $('document').ready(function(){
 
 function initView(){
   preSaleCountDown();
+  animView();
+}
 
+function animView(){
+  //doc : https://github.com/michalsnik/aos
+  AOS.init({
+    offset: 100,
+    duration: 900,
+    delay: 100,
+    disable:  (window.innerWidth < 768 || $('#map').length>0 || $('div[data-aos]').length<=6),
+    once: true,
+  });
+
+  animGo();
 
 }
+
 function addEventsListeners(){
-
+  menuListener();
+  $('#close-timer-btn').click( function(){ $('#presale-timer').addClass('d-none') });
 }
 
 
+
+function menuListener(){
+
+
+  var toggleMenu = function(){
+    var opened = $('#menu').hasClass('open');
+    $('#menu').toggleClass('open');
+
+
+    var itemCount = $('#menu ul li').length;
+    if(!opened){
+
+      setTimeout(function(){
+        $('#logo-white').addClass('on');
+        $('#header-video').addClass('on');
+      }, 450);
+
+      for (var i = 0; i <itemCount; i++)
+      {
+        setTimeout( function(index){
+          //always check if menu is open in case user click twice on btn quickly
+          if($('#menu').hasClass('open')){
+            $('#menu ul li').eq(index).addClass('on');
+          }
+          else{
+            $('#menu .on').removeClass('on');
+          }
+        },250*(i+1), i);
+      }
+    }
+    else
+    {
+      setTimeout(function(){
+        $('#menu .on').removeClass('on');
+      },100);
+
+    }
+  }
+  $('#open-btn').click(toggleMenu);
+  $('#close-btn').click(toggleMenu);
+}
+
+function animGo(){
+  var fadeItems = function(){
+    if($('.fadeIO.off').length>0){
+      $('.fadeIO.off').removeClass('off');
+    }
+    $('.fadeIO.on').addClass('off').removeClass('on');
+    var items = $('.fadeIO:not(.loop):not(.off):not(.on2)');
+    var rand = randomIndex(items);
+    var rand2 = rand;
+    while(rand2==rand){
+      rand2 = randomIndex(items);
+    }
+    $(items[rand]).addClass('on');
+
+    setTimeout(function(){
+      $('.fadeIO.on2').addClass('off').removeClass('on2');
+      $(items[rand2]).addClass('on2');
+    },1500);
+  }
+  fadeItems();
+  setInterval(fadeItems,3000);
+}
+
+function randomIndex(myArray){
+  return Math.floor(Math.random() * myArray.length);
+}
 
 function preSaleCountDown(){
   var countDownDate = new Date("Jan 17, 2020 12:00:00").getTime();

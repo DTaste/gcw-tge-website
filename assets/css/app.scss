@@ -12,6 +12,113 @@ html, body {
   font-family: 'Montserrat', sans-serif;
 }
 
+#menu{
+  position: absolute;
+  top:0;
+  right:0;
+  width: 44px;
+  height: 44px;
+  border-radius: 0 0 0 100%;
+  cursor: pointer;
+  z-index:10;
+  background: $primary no-repeat;
+
+
+
+  #open-btn{
+    @extend .anim-all;
+    position: absolute;
+    top:10px;
+    right:10px;
+    width: 25px;
+    height: 24px;
+    cursor: pointer;
+    background:url('/build/static/layout/menu.svg')  no-repeat;
+  }
+
+  #close-btn{
+    @extend .anim-all;
+    position: absolute;
+    top:-1px;
+    right:-1px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 0 5px;
+    width: 44px;
+    height: 44px;
+    line-height: 35px;
+    border-radius: 0 0 0 100%;
+    opacity: 0;
+  }
+  &:hover{
+    background-position: 17px 11px;
+    width: 50px;
+    height: 50px;
+  }
+
+
+  ul{
+    list-style: none;
+  }
+  li, #logo-white{
+    @extend .anim-all;
+    display: none;
+    opacity: 0;
+    a{
+      font-size: 28px;
+      font-weight: 300;
+      color:#fff;
+      text-decoration: none;
+      &:hover{
+        font-style: italic;
+      }
+    }
+
+    &.on{
+      opacity: 1;
+    }
+  }
+
+  #header-video{
+    @extend .anim-all;
+    background: #FFF;
+    position: absolute;
+    right: 85px;
+
+    opacity: 0;
+    padding:25px;
+    border-radius: 25px;
+    overflow: hidden;
+
+    &.on{
+      opacity: 1;
+
+    }
+  }
+
+  &.open{
+    position: fixed;
+    padding: .5rem 1rem;
+    width: 100%;
+    height: 100vh;
+    border-radius: 0 ;
+
+    #close-btn{
+      opacity: 1;
+      z-index:20;
+    }
+     ul{
+      display: inline-block;
+    }
+    #logo-white, li{
+      display: block;
+    }
+  }
+
+
+}
+
 
 header {
   nav {
@@ -33,6 +140,85 @@ header {
   }
 }
 
+#gcw-video, #gcw-video-menu{
+  position: relative;
+  background: url('/build/static/home/GO_V5.svg') no-repeat bottom right  ;
+
+  height: 293px;
+  width: 604px;
+
+  a.btn-play{
+    background: url('/build/static/home/btn-play.svg') no-repeat center ;
+    background-size:contain;
+    position:absolute;
+    top:50%;
+    left:50%;
+    max-width:133px;
+    max-height: 152px;
+    color:#fff;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.22;
+    padding:55px 10px;
+    margin:-76px 0 0 -66.5px;
+    text-decoration: none;
+    z-index: 2;
+    text-align: left;
+  }
+
+  .gcw-ico{
+    position:absolute;
+    width:32px;
+    height: 32px;
+    text-align: center;
+    z-index: 1;
+    margin:-16px 0 0 -16px;
+
+    &.gcw-ico-gocobooster{
+      width:20px;
+      height: 24px;
+      margin:-12px 0 0 -10px;
+    }
+    /* gocoworker','gocompany','gocobooster','gococampus*/
+    &.gcw-ico-g-gocoworker{
+      top: 20%;
+      left: 6%;
+    }
+    &.gcw-ico-g-gocompany{
+      top: 52%;
+      left: 19.5%;
+    }
+    &.gcw-ico-g-gococampus{
+      top: 69%;
+      left: 28%;
+
+    }
+    &.gcw-ico-g-gocobooster{
+      top: 6%;
+      left: 40%;
+    }
+
+    &.gcw-ico-o-gocoworker{
+      top: 9%;
+      left: 93%;
+    }
+    &.gcw-ico-o-gocompany{
+      top: 54%;
+      left: 77%;
+    }
+    &.gcw-ico-o-gococampus{
+      top: 10%;
+      left: 62%;
+
+    }
+    &.gcw-ico-o-gocobooster{
+      top: 55.5%;
+      left: 66.5%;
+    }
+
+  }
+
+}
 
 
 form[name="newsletter"]{
@@ -83,6 +269,24 @@ footer{
   width:100%;
   background: $primary;
   color:#fff;
+
+  #close-timer-btn{
+    position: absolute;
+
+    color:#FFF;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    background:url('/build/static/layout/cross.svg') center center no-repeat #88517E;
+    text-align: center;
+    border-radius: 100%;
+    top:50%;
+    right: 54px;
+    margin:-12px 0 0 0;
+    cursor: pointer;
+
+  }
 
   h6{
     font-size: 9px;

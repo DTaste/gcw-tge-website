@@ -39,85 +39,7 @@ h2{
     color: $secondary;
   }
 
-  #gcw-video{
-    position: relative;
-    background: url('/build/static/home/GO_V5.svg') no-repeat bottom right  ;
 
-    height: 293px;
-    width: 604px;
-
-    a#btn-play{
-      background: url('/build/static/home/btn-play.svg') no-repeat center ;
-      background-size:contain;
-      position:absolute;
-      top:50%;
-      left:50%;
-      max-width:133px;
-      max-height: 152px;
-      color:#fff;
-      font-size: 18px;
-      font-weight: bold;
-      line-height: 1.22;
-      padding:55px 10px;
-      margin:-76px 0 0 -66.5px;
-      text-decoration: none;
-      z-index: 2;
-      text-align: left;
-    }
-
-    .gcw-ico{
-      position:absolute;
-      width:32px;
-      height: 32px;
-      text-align: center;
-      z-index: 1;
-      margin:-16px 0 0 -16px;
-
-      &.gcw-ico-gocobooster{
-        width:20px;
-        height: 24px;
-        margin:-12px 0 0 -10px;
-      }
-      /* gocoworker','gocompany','gocobooster','gococampus*/
-      &#gcw-ico-g-gocoworker{
-        top: 20%;
-        left: 6%;
-      }
-      &#gcw-ico-g-gocompany{
-        top: 52%;
-        left: 19.5%;
-      }
-      &#gcw-ico-g-gococampus{
-        top: 69%;
-        left: 28%;
-
-      }
-      &#gcw-ico-g-gocobooster{
-        top: 6%;
-        left: 40%;
-      }
-
-      &#gcw-ico-o-gocoworker{
-        top: 9%;
-        left: 93%;
-      }
-      &#gcw-ico-o-gocompany{
-        top: 54%;
-        left: 77%;
-      }
-      &#gcw-ico-o-gococampus{
-        top: 10%;
-        left: 62%;
-
-      }
-      &#gcw-ico-o-gocobooster{
-        top: 55.5%;
-        left: 66.5%;
-      }
-
-    }
-
-  }
   #gcw-periods-{
       position:relative;
     height: 293px;
@@ -204,14 +126,12 @@ h2{
 
     #helix-head{
       background:url('/build/static/home/about/helix-head.svg') no-repeat center center;
-      border: 1px solid #F00;
-      background-size:104.5px 94.3px;
       position: absolute;
-      top:128.8px;
-      left:118px;
-      width:110px;
-      height: 110px;
-      margin:-53px 0 0 -53px;
+      top:140px;
+      left:120px;
+      width:116px;
+      height: 116px;
+      margin:-58px 0 0 -58px;
       z-index: 3;
     }
     #helix-foot{
@@ -251,94 +171,20 @@ h2{
       height: 29px;
       background:url('/build/static/home/about/wheel-foots.svg') no-repeat center center;
     }
-    $time-move : 1100ms;
 
-
+    $time-move : 625ms;
     .wheel-cab{
       position: absolute;
       background:url('/build/static/home/about/wheel-cab.svg') no-repeat center center;
       width:20.6px;
       height: 18px;
-      -webkit-transition: all $time-move ease-in-out;
-      -moz-transition: all $time-move ease-in-out;
-      -ms-transition: all $time-move ease-in-out;
-      -o-transition: all $time-move ease-in-out;
-      transition: all $time-move ease-in-out;
+
+      -webkit-transition: all $time-move linear;
+      -moz-transition: all $time-move linear;
+      -ms-transition: all $time-move linear;
+      -o-transition: all $time-move linear;
+      transition: all $time-move linear;
     }
-
-
-    @for $i from 0 through 15{
-      .wheel-cab-pos#{$i}{
-        /*432.5 + 70* */
-        top:(cos(22.5*$i));
-        left:(257 + 70*sin(22.5*$i));
-      }
-    }
-
-
-
-    /*.wheel-cab-pos1{//1
-    top:375px;
-    left:200px;
-  }
-  .wheel-cab-pos2{//1.2
-  top:365px;
-  left:225px;
-}
-.wheel-cab-pos3{//2
-top:355px;
-left:250px;
-}
-.wheel-cab-pos4{//2.2
-top:365px;
-left:275px;
-}
-.wheel-cab-pos5{//3
-top:375px;
-left:300px;
-}
-.wheel-cab-pos6{//3
-top:400px;
-left:310px;
-}
-.wheel-cab-pos7{//4
-top:425px;
-left:320px;
-}
-*/
-
-.wheel-cab-pos1{
-top:375px;
-left:200px;
-}
-.wheel-cab-pos2{
-top:355px;
-left:250px;
-}
-.wheel-cab-pos3{
-top:375px;
-left:300px;
-}
-.wheel-cab-pos4{
-top:425px;
-left:320px;
-}
-.wheel-cab-pos5{
-top:475px;
-left:300px;
-}
-.wheel-cab-pos6{
-top:495px;
-left:250px;
-}
-.wheel-cab-pos7{
-top:475px;
-left:200px;
-}
-.wheel-cab-pos8{
-top:425px;
-left:180px;
-}
 
 
 
@@ -594,7 +440,7 @@ p{
     }
     #roadmap-label-2{
       top:30%;
-      left:80%;
+      left:60%;
     }
     #roadmap-label-3{
       top:70%;
