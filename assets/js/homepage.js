@@ -68,6 +68,6 @@ function animWheelCabs(){
     $('#wheel').addClass('rotate-10s');
   },moveSpeed);
   console.log(moveSpeed, posXY.length)
-  $('.wheel-cab').css('transition-duration',moveSpeed+'ms')
+  $('.wheel-cab').css('transition-duration',moveSpeed+'ms').css('opacity',1);
   setInterval(move,moveSpeed);
 }

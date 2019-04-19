@@ -43,14 +43,14 @@
             </a>
 
             <ul class="ml-md-3 mt-5">
-              <li data-aos="fade-up"><a href="#about" class="font-weight">{{'about_title' | trans}}</a></li>
-              <li data-aos="fade-up"><a href="#about">{{'sq_title' | trans}}</a></li>
-              <li data-aos="fade-up"><a href="#ecosystem">{{'ecosystem_title' | trans}}</a></li>
-              <li data-aos="fade-up"><a href="#success">{{'story_title' | trans}}</a></li>
-              <li data-aos="fade-up"><a href="#architecture">{{'archi_title' | trans}}</a></li>
-              <li data-aos="fade-up"><a href="#smarttoken">{{'smart_token_title' | trans}}</a></li>
-              <li data-aos="fade-up"><a href="#roadmap">{{'roadmap_title' | trans}}</a></li>
-              <li data-aos="fade-up"><a href="#team">{{'human_title' | trans}}</a></li>
+              <li data-aos="fade-up"><a class="font-weight js-scrollTo" href="{{path('homepage_localized')}}#about">{{'about_title' | trans}}</a></li>
+              <li data-aos="fade-up"><a class="js-scrollTo" href="{{path('homepage_localized')}}#sq">{{'sq_title' | trans}}</a></li>
+              <li data-aos="fade-up"><a class="js-scrollTo" href="{{path('homepage_localized')}}#ecosystem">{{'ecosystem_title' | trans}}</a></li>
+              <li data-aos="fade-up"><a class="js-scrollTo" href="{{path('homepage_localized')}}#story">{{'story_title' | trans}}</a></li>
+              <li data-aos="fade-up"><a class="js-scrollTo" href="{{path('homepage_localized')}}#archi">{{'archi_title' | trans}}</a></li>
+              <li data-aos="fade-up"><a class="js-scrollTo" href="{{path('homepage_localized')}}#smart-token">{{'smart_token_title' | trans}}</a></li>
+              <li data-aos="fade-up"><a class="js-scrollTo" href="{{path('homepage_localized')}}#roadmap">{{'roadmap_title' | trans}}</a></li>
+              <li data-aos="fade-up"><a class="js-scrollTo" href="{{path('homepage_localized')}}#team">{{'human_title' | trans}}</a></li>
             </ul>
             <div id="header-video" class="d-inline-block align-top text-right mt-5">
               {{ include ('frontend/default/partials/_go.html.twig', { 'htmlId' : 'gcw-video-menu' }) }}

@@ -178,6 +178,7 @@ h2{
       background:url('/build/static/home/about/wheel-cab.svg') no-repeat center center;
       width:20.6px;
       height: 18px;
+      opacity: 0;
 
       -webkit-transition: all $time-move linear;
       -moz-transition: all $time-move linear;

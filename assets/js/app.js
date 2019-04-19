@@ -56,6 +56,7 @@ function animView(){
 }
 
 function addEventsListeners(){
+  addScrollListener();
   menuListener();
   $('#close-timer-btn').click( function(){ $('#presale-timer').addClass('d-none') });
 }
@@ -99,6 +100,7 @@ function menuListener(){
 
     }
   }
+  $('#menu a').click(toggleMenu);
   $('#open-btn').click(toggleMenu);
   $('#close-btn').click(toggleMenu);
 }
@@ -130,6 +132,24 @@ function randomIndex(myArray){
   return Math.floor(Math.random() * myArray.length);
 }
 
+
+
+function addScrollListener  (){
+
+  $('.js-scrollTo').on('click', function(event) {
+    var link = $(this).attr('href');
+    var component = link.substring(link.lastIndexOf('#'));
+    if($(component).length>0){
+      event.preventDefault();
+      scrollTo(component);
+    }
+  });
+}
+function scrollTo  (htmlId){
+  var speed = 500;
+  //var navHeight = parseInt($('.navbar-brand').height());
+  $('html, body').animate( { scrollTop: ($(htmlId).offset().top) }, speed );
+}
 function preSaleCountDown(){
   var countDownDate = new Date("Jan 17, 2020 12:00:00").getTime();
   var countDown = function() {
