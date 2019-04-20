@@ -13,7 +13,7 @@ $(document).ready(function() {
 
 
 function initView(){
-  //animWheelCabs();
+  animWheelCabs();
 }
 
 
@@ -22,26 +22,41 @@ function initView(){
 //whrite css animation in console
 function animWheelCabs(){
   var rayon = 140 /2;
-  var posXY = [];
-  var i = 0;
-  var rows = "";
-  var posCab = 14;
-  var start = 180+22.5*posCab;
-  var end = -180 + 22.5*posCab;
+  //var posXY = [];
+  var x0 = 355;
+  var y0 = 180;
 
-  for(var deg = start; deg>=end; deg-=22.5){
-    var angleRad = deg/180*Math.PI;
-    var x=(rayon)+(rayon)*Math.cos(angleRad) + 355;
-    var y=(rayon)+(rayon)*Math.sin(angleRad) + 180;
-    posXY.push({'x':x,'y':y});
-    var p = i*100/16;
-    rows += p+"% { top: "+x+"px;left: "+y+"px; }"+"\n";
-    i++;
-  }
-  /*
-  console.log(rows);
-  console.log(JSON.stringify(posXY));
-*/
+
+
+  var nbCab = 8;
+  var points = 32;
+  for(var posCab = 0; posCab<=32;posCab+=(points/nbCab)){
+    var rows = "";
+    var i = 0;
+    var start = 180 + 360/points*posCab;
+    var end = -180 + 360/points*posCab;
+    for(var deg = start; deg>=end; deg-=360/points){
+      var angleRad = deg/180*Math.PI;
+      var x = rayon+rayon*Math.cos(angleRad) + x0;
+      var y = rayon+rayon*Math.sin(angleRad) + y0;
+      var p = i*100/points;
+
+      x = Math.round(x*10)/10;
+      y = Math.round(y*10)/10;
+      p = Math.round(p*10)/10;
+
+      //posXY.push({'x':x,'y':y});
+
+      rows += p+"% { top: "+x+"px;left: "+y+"px; }"+"\n";
+      i++;
+    }
+    console.log('cab',posCab/nbCab);
+    console.log(rows);
+}
+
+
+  //console.log(JSON.stringify(posXY));
+
   return;
 
 
