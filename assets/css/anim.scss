@@ -1,38 +1,50 @@
-@keyframes fadeIO {
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+@include keyframes(fadeIO) {
   0%   { opacity:1; }
   50%  { opacity:0; }
   100% { opacity:1; }
 }
-@-o-keyframes fadeIO{
-  0%   { opacity:1; }
-  50%  { opacity:0; }
-  100% { opacity:1; }
-}
-@-moz-keyframes fadeIO{
-  0%   { opacity:1; }
-  50%  { opacity:0; }
-  100% { opacity:1; }
-}
-@-webkit-keyframes fadeIO{
-  0%   { opacity:1; }
-  50%  { opacity:0; }
-  100% { opacity:1; }
-}
+
 $fade-duration: 3000ms;
 .fadeIO.loop {
-   -webkit-animation: fadeIO $fade-duration infinite;
-   -moz-animation: fadeIO $fade-duration infinite;
-   -o-animation: fadeIO $fade-duration infinite;
-    animation: fadeIO $fade-duration infinite;
+  -webkit-animation: fadeIO $fade-duration infinite;
+  -moz-animation: fadeIO $fade-duration infinite;
+  -o-animation: fadeIO $fade-duration infinite;
+  animation: fadeIO $fade-duration infinite;
 }
 
 .fadeIO.on, .fadeIO.on2  {
-   -webkit-animation: fadeIO $fade-duration ease-in-out;
-   -moz-animation: fadeIO $fade-duration ease-in-out;
-   -o-animation: fadeIO $fade-duration ease-in-out;
-    animation: fadeIO $fade-duration ease-in-out;
+  -webkit-animation: fadeIO $fade-duration ease-in-out;
+  -moz-animation: fadeIO $fade-duration ease-in-out;
+  -o-animation: fadeIO $fade-duration ease-in-out;
+  animation: fadeIO $fade-duration ease-in-out;
 }
 
+
+
+$duration-all-move: 500ms;
+.anim-all{
+  -webkit-transition: all $duration-all-move ease-in-out;
+  -moz-transition: all $duration-all-move ease-in-out;
+  -ms-transition: all $duration-all-move ease-in-out;
+  -o-transition: all $duration-all-move ease-in-out;
+  transition: all $duration-all-move ease-in-out;
+}
+/* ROTATION */
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
@@ -40,15 +52,6 @@ $fade-duration: 3000ms;
 @-moz-keyframes spin-reverse { 100% { -moz-transform: rotate(-360deg); } }
 @-webkit-keyframes spin-reverse { 100% { -webkit-transform: rotate(-360deg); } }
 @keyframes spin-reverse { 100% { -webkit-transform: rotate(-360deg); transform:rotate(-360deg); } }
-
-$duration-all-move: 500ms;
-.anim-all{
--webkit-transition: all $duration-all-move ease-in-out;
--moz-transition: all $duration-all-move ease-in-out;
--ms-transition: all $duration-all-move ease-in-out;
--o-transition: all $duration-all-move ease-in-out;
-transition: all $duration-all-move ease-in-out;
-}
 
 
 @for $i from 1 through 10{
@@ -75,4 +78,213 @@ transition: all $duration-all-move ease-in-out;
   -webkit-animation:spin-reverse 2s linear infinite;
   -moz-animation:spin-reverse 2s linear infinite;
   animation:spin-reverse 2s linear infinite;
+}
+
+/* CABS */
+
+
+@include keyframes(cab1) {
+  0% { top: 355px;left: 250px; }
+  6.25% { top: 360.32843272420996px;left: 276.78784026555627px; }
+  12.5% { top: 375.50252531694167px;left: 299.49747468305833px; }
+  18.75% { top: 398.21215973444373px;left: 314.67156727579004px; }
+  25% { top: 425px;left: 320px; }
+  31.25% { top: 451.78784026555627px;left: 314.67156727579004px; }
+  37.5% { top: 474.49747468305833px;left: 299.49747468305833px; }
+  43.75% { top: 489.67156727579004px;left: 276.78784026555627px; }
+  50% { top: 495px;left: 250px; }
+  56.25% { top: 489.67156727579004px;left: 223.21215973444373px; }
+  62.5% { top: 474.49747468305833px;left: 200.50252531694167px; }
+  68.75% { top: 451.78784026555627px;left: 185.32843272420993px; }
+  75% { top: 425px;left: 180px; }
+  81.25% { top: 398.21215973444373px;left: 185.32843272420993px; }
+  87.5% { top: 375.50252531694167px;left: 200.50252531694167px; }
+  93.75% { top: 360.32843272420996px;left: 223.2121597344437px; }
+  100% { top: 355px;left: 250px; }
+}
+
+@include keyframes(cab2) {
+
+  0% { top: 375.50252531694167px;left: 200.50252531694167px; }
+  6.25% { top: 360.3284327242099px;left: 223.21215973444373px; }
+  12.5% { top: 355px;left: 250px; }
+  18.75% { top: 360.32843272420996px;left: 276.78784026555627px; }
+  25% { top: 375.50252531694167px;left: 299.49747468305833px; }
+  31.25% { top: 398.21215973444373px;left: 314.67156727579004px; }
+  37.5% { top: 425px;left: 320px; }
+  43.75% { top: 451.78784026555627px;left: 314.67156727579004px; }
+  50% { top: 474.49747468305833px;left: 299.49747468305833px; }
+  56.25% { top: 489.67156727579004px;left: 276.78784026555627px; }
+  62.5% { top: 495px;left: 250px; }
+  68.75% { top: 489.67156727579004px;left: 223.21215973444373px; }
+  75% { top: 474.49747468305833px;left: 200.50252531694167px; }
+  81.25% { top: 451.78784026555627px;left: 185.32843272420993px; }
+  87.5% { top: 425px;left: 180px; }
+  93.75% { top: 398.21215973444373px;left: 185.32843272420993px; }
+  100% { top: 375.50252531694167px;left: 200.50252531694167px; }
+
+}
+@include keyframes(cab3) {
+  0% { top: 425px;left: 180px; }
+  6.25% { top: 398.2121597344437px;left: 185.32843272420996px; }
+  12.5% { top: 375.50252531694167px;left: 200.50252531694167px; }
+  18.75% { top: 360.3284327242099px;left: 223.21215973444373px; }
+  25% { top: 355px;left: 250px; }
+  31.25% { top: 360.32843272420996px;left: 276.78784026555627px; }
+  37.5% { top: 375.50252531694167px;left: 299.49747468305833px; }
+  43.75% { top: 398.21215973444373px;left: 314.67156727579004px; }
+  50% { top: 425px;left: 320px; }
+  56.25% { top: 451.78784026555627px;left: 314.67156727579004px; }
+  62.5% { top: 474.49747468305833px;left: 299.49747468305833px; }
+  68.75% { top: 489.67156727579004px;left: 276.78784026555627px; }
+  75% { top: 495px;left: 250px; }
+  81.25% { top: 489.67156727579004px;left: 223.21215973444373px; }
+  87.5% { top: 474.49747468305833px;left: 200.50252531694167px; }
+  93.75% { top: 451.78784026555627px;left: 185.32843272420993px; }
+  100% { top: 425px;left: 180px; }
+
+}
+@include keyframes(cab4) {
+  0% { top: 474.49747468305833px;left: 200.50252531694167px; }
+  6.25% { top: 451.78784026555627px;left: 185.32843272420993px; }
+  12.5% { top: 425px;left: 180px; }
+  18.75% { top: 398.2121597344437px;left: 185.32843272420996px; }
+  25% { top: 375.50252531694167px;left: 200.50252531694167px; }
+  31.25% { top: 360.3284327242099px;left: 223.21215973444373px; }
+  37.5% { top: 355px;left: 250px; }
+  43.75% { top: 360.32843272420996px;left: 276.78784026555627px; }
+  50% { top: 375.50252531694167px;left: 299.49747468305833px; }
+  56.25% { top: 398.21215973444373px;left: 314.67156727579004px; }
+  62.5% { top: 425px;left: 320px; }
+  68.75% { top: 451.78784026555627px;left: 314.67156727579004px; }
+  75% { top: 474.49747468305833px;left: 299.49747468305833px; }
+  81.25% { top: 489.67156727579004px;left: 276.78784026555627px; }
+  87.5% { top: 495px;left: 250px; }
+  93.75% { top: 489.67156727579004px;left: 223.21215973444373px; }
+  100% { top: 474.49747468305833px;left: 200.50252531694167px; }
+}
+
+@include keyframes(cab5) {
+  0% { top: 495px;left: 250px; }
+  6.25% { top: 489.67156727579004px;left: 223.21215973444367px; }
+  12.5% { top: 474.49747468305833px;left: 200.50252531694167px; }
+  18.75% { top: 451.78784026555627px;left: 185.32843272420993px; }
+  25% { top: 425px;left: 180px; }
+  31.25% { top: 398.2121597344437px;left: 185.32843272420996px; }
+  37.5% { top: 375.50252531694167px;left: 200.50252531694167px; }
+  43.75% { top: 360.3284327242099px;left: 223.21215973444373px; }
+  50% { top: 355px;left: 250px; }
+  56.25% { top: 360.32843272420996px;left: 276.78784026555627px; }
+  62.5% { top: 375.50252531694167px;left: 299.49747468305833px; }
+  68.75% { top: 398.21215973444373px;left: 314.67156727579004px; }
+  75% { top: 425px;left: 320px; }
+  81.25% { top: 451.78784026555627px;left: 314.67156727579004px; }
+  87.5% { top: 474.49747468305833px;left: 299.49747468305833px; }
+  93.75% { top: 489.67156727579004px;left: 276.78784026555627px; }
+  100% { top: 495px;left: 250px; }
+}
+@include keyframes(cab6) {
+  0% { top: 474.49747468305833px;left: 299.49747468305833px; }
+  6.25% { top: 489.67156727579004px;left: 276.78784026555627px; }
+  12.5% { top: 495px;left: 250px; }
+  18.75% { top: 489.67156727579004px;left: 223.21215973444367px; }
+  25% { top: 474.49747468305833px;left: 200.50252531694167px; }
+  31.25% { top: 451.78784026555627px;left: 185.32843272420993px; }
+  37.5% { top: 425px;left: 180px; }
+  43.75% { top: 398.2121597344437px;left: 185.32843272420996px; }
+  50% { top: 375.50252531694167px;left: 200.50252531694167px; }
+  56.25% { top: 360.3284327242099px;left: 223.21215973444373px; }
+  62.5% { top: 355px;left: 250px; }
+  68.75% { top: 360.32843272420996px;left: 276.78784026555627px; }
+  75% { top: 375.50252531694167px;left: 299.49747468305833px; }
+  81.25% { top: 398.21215973444373px;left: 314.67156727579004px; }
+  87.5% { top: 425px;left: 320px; }
+  93.75% { top: 451.78784026555627px;left: 314.67156727579004px; }
+  100% { top: 474.49747468305833px;left: 299.49747468305833px; }
+}
+@include keyframes(cab7) {
+  0% { top: 425px;left: 320px; }
+6.25% { top: 451.7878402655563px;left: 314.67156727579004px; }
+12.5% { top: 474.49747468305833px;left: 299.49747468305833px; }
+18.75% { top: 489.67156727579004px;left: 276.78784026555627px; }
+25% { top: 495px;left: 250px; }
+31.25% { top: 489.67156727579004px;left: 223.21215973444367px; }
+37.5% { top: 474.49747468305833px;left: 200.50252531694167px; }
+43.75% { top: 451.78784026555627px;left: 185.32843272420993px; }
+50% { top: 425px;left: 180px; }
+56.25% { top: 398.2121597344437px;left: 185.32843272420996px; }
+62.5% { top: 375.50252531694167px;left: 200.50252531694167px; }
+68.75% { top: 360.3284327242099px;left: 223.21215973444373px; }
+75% { top: 355px;left: 250px; }
+81.25% { top: 360.32843272420996px;left: 276.78784026555627px; }
+87.5% { top: 375.50252531694167px;left: 299.49747468305833px; }
+93.75% { top: 398.21215973444373px;left: 314.67156727579004px; }
+100% { top: 425px;left: 320px; }
+}
+@include keyframes(cab8) {
+  0% { top: 375.5025253169417px;left: 299.4974746830584px; }
+6.25% { top: 398.21215973444373px;left: 314.67156727579004px; }
+12.5% { top: 425px;left: 320px; }
+18.75% { top: 451.7878402655563px;left: 314.67156727579004px; }
+25% { top: 474.49747468305833px;left: 299.49747468305833px; }
+31.25% { top: 489.67156727579004px;left: 276.78784026555627px; }
+37.5% { top: 495px;left: 250px; }
+43.75% { top: 489.67156727579004px;left: 223.21215973444367px; }
+50% { top: 474.49747468305833px;left: 200.50252531694167px; }
+56.25% { top: 451.78784026555627px;left: 185.32843272420993px; }
+62.5% { top: 425px;left: 180px; }
+68.75% { top: 398.2121597344437px;left: 185.32843272420996px; }
+75% { top: 375.50252531694167px;left: 200.50252531694167px; }
+81.25% { top: 360.3284327242099px;left: 223.21215973444373px; }
+87.5% { top: 355px;left: 250px; }
+93.75% { top: 360.32843272420996px;left: 276.78784026555627px; }
+100% { top: 375.50252531694167px;left: 299.49747468305833px; }
+}
+#wheel-cab-1{
+
+  -webkit-animation:cab1 10s linear infinite;
+  -moz-animation:cab1 10s linear infinite;
+  animation:cab1 10s linear infinite;
+}
+#wheel-cab-2{
+
+  -webkit-animation:cab2 10s linear infinite;
+  -moz-animation:cab2 10s linear infinite;
+  animation:cab2 10s linear infinite;
+}
+#wheel-cab-3{
+
+  -webkit-animation:cab3 10s linear infinite;
+  -moz-animation:cab3 10s linear infinite;
+  animation:cab3 10s linear infinite;
+}
+#wheel-cab-4{
+
+  -webkit-animation:cab4 10s linear infinite;
+  -moz-animation:cab4 10s linear infinite;
+  animation:cab4 10s linear infinite;
+}
+#wheel-cab-5{
+
+  -webkit-animation:cab5 10s linear infinite;
+  -moz-animation:cab5 10s linear infinite;
+  animation:cab5 10s linear infinite;
+}
+#wheel-cab-6{
+
+  -webkit-animation:cab6 10s linear infinite;
+  -moz-animation:cab6 10s linear infinite;
+  animation:cab6 10s linear infinite;
+}
+#wheel-cab-7{
+
+  -webkit-animation:cab7 10s linear infinite;
+  -moz-animation:cab7 10s linear infinite;
+  animation:cab7 10s linear infinite;
+}
+#wheel-cab-8{
+
+  -webkit-animation:cab8 10s linear infinite;
+  -moz-animation:cab8 10s linear infinite;
+  animation:cab8 10s linear infinite;
 }

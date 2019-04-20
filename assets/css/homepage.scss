@@ -171,20 +171,11 @@ h2{
       height: 29px;
       background:url('/build/static/home/about/wheel-foots.svg') no-repeat center center;
     }
-
-    $time-move : 625ms;
     .wheel-cab{
       position: absolute;
       background:url('/build/static/home/about/wheel-cab.svg') no-repeat center center;
       width:20.6px;
       height: 18px;
-      opacity: 0;
-
-      -webkit-transition: all $time-move linear;
-      -moz-transition: all $time-move linear;
-      -ms-transition: all $time-move linear;
-      -o-transition: all $time-move linear;
-      transition: all $time-move linear;
     }
 
 
