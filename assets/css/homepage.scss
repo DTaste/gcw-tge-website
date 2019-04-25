@@ -367,9 +367,10 @@ h2{
 
     position: relative;
     background:url('/build/static/home/ecosystem/ecosystem.svg') top center no-repeat;
-    background-size:auto;
+    background-size:1680px auto;
     width: 100%;
-    height: 730px;
+
+    height: 900px;
     overflow: hidden;
 
     .wave{
@@ -379,7 +380,7 @@ h2{
       width: 50px;
       height: 6px;
       background:url('/build/static/home/ecosystem/wave.svg') left center repeat-x;
-      background-size: cover;
+      background-size: auto 6px;
       .waving{
         margin:auto;
 
@@ -389,42 +390,53 @@ h2{
       }
     }
     #wave-1{
-      margin:-187px 0 0 -455px;
+
+      margin:-247px 0 0 -505px;
       width: 60px;
     }
     #wave-2{
-      margin:-179px 0 0 -455px;
+      margin:-239px 0 0 -505px;
     }
 
     #wave-3{
-      margin:-47px 0 0 -655px;
+
+      margin:-77px 0 0 -755px;
       width: 60px;
     }
     #wave-4{
-      margin:-39px 0 0 -655px;
+      margin:-69px 0 0 -755px;
     }
 
     #wave-5{
-      margin:20px 0 0 -60px;
-      width: 60px;
+
+      margin:30px 0 0 -100px;
+      width: 100px;
     }
     #wave-6{
-      margin:29px 0 0 -60px;
+      margin:39px 0 0 -100px;
+        width: 80px;
     }
     #wave-7{
-      margin:-170px 0 0 574px;
+
+      margin:-170px 0 0 674px;
       width: 60px;
     }
     #wave-8{
-      margin:-159px 0 0 574px;
+      margin:-159px 0 0 674px;
     }
     #wave-9{
-      margin:30px 0 0 494px;
-      width: 30px;
+
+      margin:170px 0 0 474px;
+      width: 90px;
+
     }
     #wave-10{
-      margin:39px 0 0 494px;
+      margin:29px 0 0 564px;
       width: 60px;
+    }
+    #wave-11{
+      margin:39px 0 0 534px;
+      width: 90px;
     }
 
   }
