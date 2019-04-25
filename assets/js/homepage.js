@@ -15,7 +15,7 @@ $(document).ready(function() {
 function initView(){
   //animWheelCabs();
   animArchi();
-  animLoop();
+  //animLoop();
   $('.roadmap-label').click(function(){ $('.roadmap-label').addClass('on')} );
 }
 
@@ -64,7 +64,7 @@ function animWheelCabs(){
 
 //whrite css animation in console
 function animLoop(){
-  var rayon = 38;
+  var rayon = 40;
 
   var x0 = 50;
   var y0 = 10;
@@ -81,7 +81,7 @@ function animLoop(){
   var posCab = points * 0.75;
   var start = 180 + 360/points*posCab;
   var end = -180 + 360/points*posCab;
-  for(var deg = start; deg>=end; deg-=360/(points/2)){
+  for(var deg = start; deg>end; deg-=360/(points/2)){
     var angleRad = deg/180*Math.PI;
     var x = rayon+rayon*Math.cos(angleRad) + x0;
     var y = rayon+rayon*Math.sin(angleRad) + y0;
@@ -101,7 +101,7 @@ function animLoop(){
   var start = 180 + 360/points*posCab;
   var end = -180 + 360/points*posCab;
 
-  for(var deg = end; deg<start; deg+=360/(points/2)){
+  for(var deg = end; deg<=start; deg+=360/(points/2)){
     var angleRad = deg/180*Math.PI;
     var x = rayon+rayon*Math.cos(angleRad) + x0;
     var y = rayon+rayon*Math.sin(angleRad) + y0;
