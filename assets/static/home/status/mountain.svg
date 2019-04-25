@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="252" height="252.071" viewBox="0 0 252 252.071">
+    <defs>
+        <style>
+            .cls-1,.cls-7{fill:none}.cls-2{opacity:.2}.cls-3,.cls-4{fill:#702963}.cls-4{opacity:.1}.cls-5{fill:#fbb03b;opacity:.33}.cls-6{clip-path:url(#clip-path)}.cls-7{stroke:#f9b03c;stroke-miterlimit:10;stroke-width:3.5px}
+        </style>
+        <clipPath id="clip-path">
+            <circle id="Ellipse_3193" cx="126" cy="126" r="126" class="cls-1" data-name="Ellipse 3193" transform="translate(2166.388 411.644)"/>
+        </clipPath>
+    </defs>
+    <g id="Groupe_15953" data-name="Groupe 15953" transform="translate(-719 -245)">
+        <g id="Groupe_14729" class="cls-2" data-name="Groupe 14729" transform="translate(-1447.388 -166.573)">
+            <path id="Tracé_51809" d="M2344 511.019h11.028a1.5 1.5 0 0 0 0-3H2344a1.5 1.5 0 0 0 0 3z" class="cls-3" data-name="Tracé 51809"/>
+            <path id="Tracé_51810" d="M2295.213 496.919h11.028a1.5 1.5 0 0 0 0-3h-11.028a1.5 1.5 0 0 0 0 3z" class="cls-3" data-name="Tracé 51810"/>
+            <path id="Tracé_49200" d="M2261.779 494.352h-11.028a1.5 1.5 0 0 1 0-3h11.028a1.5 1.5 0 0 1 0 3z" class="cls-3" data-name="Tracé 49200"/>
+            <path id="Tracé_49200-2" d="M2238.6 463.792h-11.03a1.5 1.5 0 0 1 0-3h11.03a1.5 1.5 0 0 1 0 3z" class="cls-3" data-name="Tracé 49200"/>
+            <path id="Tracé_49200-3" d="M2334.688 475.526h-11.028a1.5 1.5 0 0 1 0-3h11.028a1.5 1.5 0 0 1 0 3z" class="cls-3" data-name="Tracé 49200"/>
+            <path id="Tracé_51811" d="M2206.637 518.584h11.028a1.5 1.5 0 0 0 0-3h-11.028a1.5 1.5 0 0 0 0 3z" class="cls-3" data-name="Tracé 51811"/>
+            <path id="Tracé_49200-4" d="M2313.255 458h-11.028a1.5 1.5 0 0 1 0-3h11.028a1.5 1.5 0 0 1 0 3z" class="cls-3" data-name="Tracé 49200"/>
+            <path id="Tracé_49200-5" d="M2275.807 436.153h-11.028a1.5 1.5 0 0 1 0-3h11.028a1.5 1.5 0 0 1 0 3z" class="cls-3" data-name="Tracé 49200"/>
+            <path id="Tracé_51812" d="M2204.044 560.05a1.5 1.5 0 0 0-1.5-1.5h-11.028a1.5 1.5 0 0 0 0 3h11.028a1.5 1.5 0 0 0 1.5-1.5z" class="cls-3" data-name="Tracé 51812"/>
+            <path id="Tracé_49200-6" d="M2363.08 454.3h-11.028a1.5 1.5 0 0 1 0-3h11.028a1.5 1.5 0 0 1 0 3z" class="cls-3" data-name="Tracé 49200"/>
+            <path id="Tracé_51813" d="M2377.861 501.715h11.028a1.5 1.5 0 0 0 0-3h-11.028a1.5 1.5 0 0 0 0 3z" class="cls-3" data-name="Tracé 51813"/>
+            <path id="Tracé_51814" d="M2233.172 536.793h11.028a1.5 1.5 0 0 0 0-3h-11.028a1.5 1.5 0 0 0 0 3z" class="cls-3" data-name="Tracé 51814"/>
+            <circle id="Ellipse_3189" cx="2.477" cy="2.477" r="2.477" class="cls-3" data-name="Ellipse 3189" transform="translate(2363.184 475.503)"/>
+            <path id="Tracé_51815" d="M2354.053 551.337a2.477 2.477 0 1 0-2.477-2.477 2.477 2.477 0 0 0 2.477 2.477z" class="cls-3" data-name="Tracé 51815"/>
+            <path id="Tracé_51816" d="M2245.7 567.794a2.477 2.477 0 1 0-2.476-2.476 2.477 2.477 0 0 0 2.476 2.476z" class="cls-3" data-name="Tracé 51816"/>
+            <circle id="Ellipse_3190" cx="2.477" cy="2.477" r="2.477" class="cls-3" data-name="Ellipse 3190" transform="translate(2220.203 490.375)"/>
+            <circle id="Ellipse_3191" cx="2.477" cy="2.477" r="2.477" class="cls-3" data-name="Ellipse 3191" transform="translate(2317.742 432.176)"/>
+            <circle id="Ellipse_3192" cx="2.477" cy="2.477" r="2.477" class="cls-3" data-name="Ellipse 3192" transform="translate(2274.83 463.792)"/>
+        </g>
+        <g id="Groupe_14730" data-name="Groupe 14730" transform="translate(-1447.388 -166.573)">
+            <path id="Tracé_51817" d="M2238.053 600.12l29.971 22.091a5.63 5.63 0 0 0 6.589-.147l41.163-32.456a5.628 5.628 0 0 1 4.167-1.086l21.072 12.764a5.629 5.629 0 0 0 5-1.855l68.777-91.846A126.008 126.008 0 1 0 2202.2 625.548l30.164-25.838a5.628 5.628 0 0 1 5.689.41z" class="cls-4" data-name="Tracé 51817"/>
+            <path id="Tracé_51818" d="M2346.01 599.431a5.629 5.629 0 0 1-5 1.855l-21.072-12.764a5.628 5.628 0 0 0-4.167 1.086l-41.163 32.456a5.63 5.63 0 0 1-6.589.147l-29.971-22.091a5.628 5.628 0 0 0-5.69-.41l-30.158 25.838a126.026 126.026 0 0 0 212.588-117.963z" class="cls-5" data-name="Tracé 51818"/>
+        </g>
+        <g id="Groupe_14733" data-name="Groupe 14733" transform="translate(-1447.388 -166.573)">
+            <g id="Groupe_14732" data-name="Groupe 14732">
+                <g id="Groupe_14731" class="cls-6" data-name="Groupe 14731">
+                    <path id="Tracé_51819" d="M2423.878 495.445l-77.868 103.986a5.629 5.629 0 0 1-5 1.855l-21.072-12.764a5.628 5.628 0 0 0-4.167 1.086l-41.163 32.456a5.63 5.63 0 0 1-6.589.147l-29.971-22.091a5.628 5.628 0 0 0-5.69-.41l-35.333 30.266" class="cls-7" data-name="Tracé 51819"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

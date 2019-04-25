@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i');
 
+
+
 @import 'variables';
 @import 'anim';
 @import 'mobile';
@@ -22,6 +24,7 @@ html, body {
   cursor: pointer;
   z-index:50;
   background: $primary no-repeat;
+
 
 
 
@@ -80,6 +83,10 @@ html, body {
     }
   }
 
+  #social-links-top{
+    display: none;
+  }
+
   #header-video{
     @extend .anim-all;
     background: #FFF;
@@ -108,11 +115,17 @@ html, body {
       opacity: 1;
       z-index:20;
     }
-     ul{
+    ul{
       display: inline-block;
     }
     #logo-white, li{
       display: block;
+    }
+    #social-links-top{
+      display: block;
+      a{
+        color:#fff;
+      }
     }
   }
 
@@ -146,6 +159,7 @@ header {
 
   height: 293px;
   width: 604px;
+  max-width: 100%;
 
   a.btn-play{
     background: url('/build/static/home/btn-play.svg') no-repeat center ;
@@ -222,32 +236,39 @@ header {
 
 
 form[name="newsletter"]{
+
   label{
     font-size: 19px;
     font-weight: bold;
     display: block;
     margin:25px auto;
   }
-  input[type="email"]{
-    width: 424.1px;
+  .inputs{
+    box-shadow: 3px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    border-radius: 31px;
+    input[type="email"]{
+      width: 424.1px;
       height: 51.8px;
       border-radius: 31px;
       border:0px;
-      box-shadow: 3px 3px 6px 3px rgba(0, 0, 0, 0.16);
+
       background-color: #ffffff;
       padding:18px;
       color:$third;
       font-size: 12px;
       font-weight: 300;
-  }
-  button{
-    width: 134.9px;
-    height: 51.8px;
-    border-radius: 31px;
-    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
-    background: $primary;
-    color:#fff;
-    margin: 0 0 0 -80px;
+    }
+    button{
+      width: 134.9px;
+      height: 52px;
+      border-radius: 31px;
+      box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.16);
+      background: $primary;
+      color:#fff;
+      margin: 0 0 0 -80px;
+    }
+
+
   }
 }
 footer{

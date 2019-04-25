@@ -1,27 +1,38 @@
-<div id="ecosystem" class="screen py-5 row">
-  <div class="col-12 col-md-4 offset-md-4 text-center">
-    <h2 class="text-center d-inline-block primary-color">{{'ecosystem_title' | trans }}</h2>
-    <p class="text-center my-5 secondary-color">{{'ecosystem_p' | trans | raw}}</p>
-  </div>
+<div id="ecosystem" class="screen py-5">
+  <div id="animated-bg">
+    {% for i in range(1,10) %}
+        <div class="wave" id="wave-{{i}}"><div class="waving"></div></div>
+    {% endfor %}
+    {% for key, value in ['gocoworker','gocompany','gocobooster','gococampus'] %}
 
-  <div id="eco-list" class="col-12 py-5">
-    <div class="container py-5">
-      <div class="row">
-        {% for key, value in ['gocoworker','gocompany','gocobooster','gococampus'] %}
-          <div class="col-12 col-md-6 py-2" id="ecosystem-{{value}}">
-            <div class="eco-item h-100 mx-auto w-100">
-              <div class="row h-100 mx-0">
-                <div class="col-4 text-center my-auto mx-0">
-                  <img src="{{asset('build/static/home/ecosystem/'~value~'.svg')}}" alt="{{value}}" class="my-auto"/>
-                </div>
-                <div class="col-8 my-auto mx-0">
-                  <h3 class="primary-color">{{('eco_t_'~(key+1)) | trans }}</h3>
-                  <p class="secondary-color">{{('eco_p_'~(key+1)) | trans | raw }}</p>
+    {% endfor %}
+  </div>
+  <div class="row" id="eco-title">
+    <div class="col-12 col-md-4 offset-md-4 text-center">
+      <h2 class="text-center d-inline-block primary-color">{{'ecosystem_title' | trans }}</h2>
+      <p class="text-center my-5 secondary-color">{{'ecosystem_p' | trans | raw}}</p>
+    </div>
+
+
+    <div id="eco-list" class="col-12 py-5">
+      <div class="container py-5">
+        <div class="row">
+          {% for key, value in ['gocoworker','gocompany','gocobooster','gococampus'] %}
+            <div class="col-12 col-md-6 py-2" id="ecosystem-{{value}}">
+              <div class="eco-item h-100 mx-auto w-100">
+                <div class="row h-100 mx-0">
+                  <div class="col-4 text-center my-auto mx-0">
+                    <img src="{{asset('build/static/home/ecosystem/'~value~'.svg')}}" alt="{{value}}" class="my-auto"/>
+                  </div>
+                  <div class="col-8 my-auto mx-0">
+                    <h3 class="primary-color">{{('eco_t_'~(key+1)) | trans }}</h3>
+                    <p class="secondary-color">{{('eco_p_'~(key+1)) | trans | raw }}</p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        {% endfor %}
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>

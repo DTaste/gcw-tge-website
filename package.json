@@ -23,6 +23,7 @@
     "dependencies": {
         "acorn": "^6.1.1",
         "aos": "^2.3.4",
+        "compass": "^0.1.1",
         "popper.js": "^1.14.7",
         "web3": "^1.0.0-beta.52"
     }

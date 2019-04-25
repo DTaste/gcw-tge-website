@@ -13,7 +13,9 @@ $(document).ready(function() {
 
 
 function initView(){
-  animWheelCabs();
+  //animWheelCabs();
+  animArchi();
+  $('.roadmap-label').click(function(){ $('.roadmap-label').addClass('on')} );
 }
 
 
@@ -21,17 +23,19 @@ function initView(){
 
 //whrite css animation in console
 function animWheelCabs(){
-  var rayon = 140 /2;
-  //var posXY = [];
-  var x0 = 355;
-  var y0 = 180;
+  var rayon = 73.5;
+
+  var x0 = 94;
+  var y0 = 73.5;
 
 
 
-  var nbCab = 8;
+  var cabCount = 8;
   var points = 32;
-  for(var posCab = 0; posCab<=32;posCab+=(points/nbCab)){
-    var rows = "";
+  var rows = "";
+  var cabIndex = 1;
+  for(var posCab = 0; posCab<32;posCab+=(points/cabCount)){
+    var row =""
     var i = 0;
     var start = 180 + 360/points*posCab;
     var end = -180 + 360/points*posCab;
@@ -45,19 +49,66 @@ function animWheelCabs(){
       y = Math.round(y*10)/10;
       p = Math.round(p*10)/10;
 
-      //posXY.push({'x':x,'y':y});
-
-      rows += p+"% { top: "+x+"px;left: "+y+"px; }"+"\n";
+      row += p+"% { bottom: "+x+"px;right: "+y+"px; };";
       i++;
     }
-    console.log('cab',posCab/nbCab);
-    console.log(rows);
+    rows += '@include keyframes(cab'+cabIndex+') {'+"\n"+row+"\n"+"}"+"\n";
+    cabIndex++;
+    //posCab  = 32;
+  }
+  console.log(rows);
 }
 
 
-  //console.log(JSON.stringify(posXY));
 
-  return;
+function animArchi(){
+  //rain
+
+  var rain = function(){
+    if($('.drop.off').length>0){
+      $('.drop.off').removeClass('off');
+    }
+
+    var waiting = $('.drop:not(.on)');
+    //var dropping = $('.drop.on');
+    var drop = 0;
+    var width = $('#archi-main-body-content').width();
+
+    while(drop<1 && waiting.length>0){
+      var left = Math.round((Math.random()*80))+10;
+      if($('.drop-p-'+left).length==0){
+        var rand = randomIndex(waiting);
+
+        $(waiting[rand]).addClass('on').addClass('drop-p-'+left).css('left', left+"%");
+
+        drop++;
+        waiting = $('.drop:not(.on)');
+      }
+    }
+    if(waiting==0){
+      clearInterval(rainIntervalId);
+    }
+    /*
+    if(dropping.length>waiting.length){
+      console.log('waiting', waiting.length );
+      console.log('dropping', dropping.length );
+      var wait = 0;
+      while(wait<4){
+        var rand = randomIndex(dropping);
+        $(dropping[rand]).removeClass('on');
+        wait++;
+      }
+    }*/
+  }
+
+  rain();
+  var rainIntervalId = setInterval(rain,350);
+
+}
 
 
+
+
+function randomIndex(myArray){
+  return Math.floor(Math.random() * myArray.length);
 }

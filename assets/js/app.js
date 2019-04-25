@@ -89,7 +89,7 @@ function menuListener(){
           else{
             $('#menu .on').removeClass('on');
           }
-        },250*(i+1), i);
+        },200*(i+1), i);
       }
     }
     else

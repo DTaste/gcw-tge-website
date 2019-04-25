@@ -1,4 +1,5 @@
 $primary: #701663; // grap
+$primary-hover: #865980;
 $secondary: #636466; // slate gray
 $third: #707070;
 $gray-light: #EFE6EF;
@@ -8,6 +9,10 @@ $custom-file-text: (
   es: "Elegir",
   fr: "Parcourir"
 );
+
+
+
+
 
 .custom-file-label::after{content:"Parcourir"!important;}
 
