@@ -221,145 +221,145 @@ h2{
     background:  url('/build/static/home/bg-dashed.svg') center center;
     /*
     .mask{
-      position:absolute;
-      background:  url('/build/static/home/mask-nope.svg') center center no-repeat transparent;
-      top:0;
-      left:0;
+    position:absolute;
+    background:  url('/build/static/home/mask-nope.svg') center center no-repeat transparent;
+    top:0;
+    left:0;
+    width:252px;
+    height: 252px;
+    z-index:10;
+  }*/
+
+  .freelance{
+    background: url('/build/static/home/status/freelance.svg') center center no-repeat;
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin: -33px 0 0 -33px;
+  }
+
+  &#sq-anim-1{
+
+    .z-1{
+      position: absolute;
+      top:49px;
+      left:50px;
+      height: 134px;
+      width: 155px;
+      background: linear-gradient(to bottom, #CA0049 0%,  #CA0049 25%,#D75082 26%, #D75082 50%, #D66994 51%, #D66994 75%, #E49CB9 76%, #E49CB9 100%);;
+      z-index: 1;
+    }
+
+    .z-2{
+      position: relative;
       width:252px;
       height: 252px;
-      z-index:10;
-    }*/
+      background: url('/build/static/home/status/pyramide.svg') center center no-repeat;
+      z-index:2;
+    }
+    .freelance{
+      z-index:3;
+    }
+
+  }
+
+  &#sq-anim-2{
+    background: url('/build/static/home/bg-dashed.svg') 60% 76% no-repeat ;
+    .z-1{
+      position: relative;
+      width:252px;
+      height: 252px;
+      background: url('/build/static/home/status/computer.svg') center center no-repeat;
+      z-index:1;
+    }
 
     .freelance{
-      background: url('/build/static/home/status/freelance.svg') center center no-repeat;
-      width: 66px;
-      height: 66px;
+      z-index:2;
+    }
+    .z-3{
       position: absolute;
-      top:50%;
-      left: 50%;
-      margin: -33px 0 0 -33px;
-    }
-
-    &#sq-anim-1{
-
-      .z-1{
-        position: absolute;
-        top:49px;
-        left:50px;
-        height: 134px;
-        width: 155px;
-        background: linear-gradient(to bottom, #CA0049 0%,  #CA0049 25%,#D75082 26%, #D75082 50%, #D66994 51%, #D66994 75%, #E49CB9 76%, #E49CB9 100%);;
-        z-index: 1;
-      }
-
-      .z-2{
-        position: relative;
-        width:252px;
-        height: 252px;
-        background: url('/build/static/home/status/pyramide.svg') center center no-repeat;
-        z-index:2;
-      }
-      .freelance{
-        z-index:3;
-      }
-
-    }
-
-    &#sq-anim-2{
-      background: url('/build/static/home/bg-dashed.svg') 60% 76% no-repeat ;
-      .z-1{
-        position: relative;
-        width:252px;
-        height: 252px;
-        background: url('/build/static/home/status/computer.svg') center center no-repeat;
-        z-index:1;
-      }
-
-      .freelance{
-        z-index:2;
-      }
-      .z-3{
-        position: absolute;
-        top:80px;
-        left:96px;
-        height: 86px;
-        width: 89px;
-        background: url('/build/static/home/status/lock.svg') top center no-repeat;
-        background-size:cover;
-        z-index: 3;
-      }
-    }
-
-    &#sq-anim-3{
-      background: url('/build/static/home/bg-dashed.svg') center 20% no-repeat ;
-      .z-1{
-        position: relative;
-        width:252px;
-        height: 252px;
-        background: url('/build/static/home/status/mountain.svg') center center no-repeat;
-        z-index:1;
-      }
-
-      .freelance{
-        z-index:3;
-      }
-    }
-
-    &#sq-anim-4{
-      background: url('/build/static/home/bg-dashed.svg') 10% 45% no-repeat ;
-      .z-3{
-        position: relative;
-        width:252px;
-        height: 252px;
-        background: url('/build/static/home/status/milennials.svg') center center no-repeat;
-        z-index:3;
-      }
-      #dash-1, #dash-2, #dash-3{
-        position: absolute;
-
-        width: 4px;
-        height: 18px;
-        margin:-9px 0 0 -2px;
-        background: #2E48FB;
-        z-index: 2;
-      }
-      #dash-1{
-        top:50px;
-        left:50%;
-      }
-      #dash-2{
-        top:75%;
-        left:25%;
-        -webkit-transform:rotate(45deg);
-      }
-      #dash-3{
-        top:75%;
-        left:75%;
-        -webkit-transform:rotate(-45deg);
-      }
-      .freelance{
-        z-index:3;
-      }
+      bottom:86px;
+      left:96px;
+      height: 86px;
+      width: 89px;
+      background: url('/build/static/home/status/lock.svg') top center no-repeat;
+      background-size:cover;
+      z-index: 3;
     }
   }
-  h3{
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 1.56;
-    color:$primary;
-    text-align: center;
-  }
-  ul{
-    margin:0;
-    padding:0;
 
+  &#sq-anim-3{
+    background: url('/build/static/home/bg-dashed.svg') center 20% no-repeat ;
+    .z-1{
+      position: relative;
+      width:252px;
+      height: 252px;
+      background: url('/build/static/home/status/mountain.svg') center center no-repeat;
+      z-index:1;
+    }
+
+    .freelance{
+      z-index:3;
+    }
   }
-  li{
-    color:$secondary;
-    text-align: center;
-    list-style: none;
-    margin:10px auto;
+
+  &#sq-anim-4{
+    background: url('/build/static/home/bg-dashed.svg') 10% 45% no-repeat ;
+    .z-3{
+      position: relative;
+      width:252px;
+      height: 252px;
+      background: url('/build/static/home/status/milennials.svg') center center no-repeat;
+      z-index:3;
+    }
+    #dash-1, #dash-2, #dash-3{
+      position: absolute;
+
+      width: 4px;
+      height: 18px;
+      margin:-9px 0 0 -2px;
+      background: #2E48FB;
+      z-index: 2;
+    }
+    #dash-1{
+      top:50px;
+      left:50%;
+    }
+    #dash-2{
+      top:75%;
+      left:25%;
+      -webkit-transform:rotate(45deg);
+    }
+    #dash-3{
+      top:75%;
+      left:75%;
+      -webkit-transform:rotate(-45deg);
+    }
+    .freelance{
+      z-index:3;
+    }
   }
+}
+h3{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.56;
+  color:$primary;
+  text-align: center;
+}
+ul{
+  margin:0;
+  padding:0;
+
+}
+li{
+  color:$secondary;
+  text-align: center;
+  list-style: none;
+  margin:10px auto;
+}
 }
 #ecosystem{
 
@@ -414,7 +414,7 @@ h2{
     }
     #wave-6{
       margin:39px 0 0 -100px;
-        width: 80px;
+      width: 80px;
     }
     #wave-7{
 
@@ -595,11 +595,11 @@ h2{
           border:0px;
           background-color: #F00;
         }
-        #archi-blank-1, #archi-blank-4{
-          width: 41px;
+        #archi-blank-1, #archi-blank-6{
+          width: 40px;
         }
-        #archi-blank-2, #archi-blank-3{
-          width: 70px;
+        #archi-blank-2, #archi-blank-3, #archi-blank-4, #archi-blank-5{
+          width: 34px;
         }
         .archi-col-1, .archi-col-2, .archi-col-3{
           width: 100px;
@@ -622,20 +622,20 @@ h2{
     #archi-scheme-footer {
       position: relative;
       z-index:3;
-    .archi-scheme-left{
-      background: #CEB7CB;
-      border-radius: 0 0 21px 21px;
-      padding: 15px 0 25px 0;
-      .archi-col-1, .archi-col-3{
-        width: 30%;
-        margin: auto;
-      }
-      .archi-col-2{
-        width: 33%;
-      }
+      .archi-scheme-left{
+        background: #CEB7CB;
+        border-radius: 0 0 21px 21px;
+        padding: 15px 0 25px 0;
+        .archi-col-1, .archi-col-3{
+          width: 30%;
+          margin: auto;
+        }
+        .archi-col-2{
+          width: 33%;
+        }
 
+      }
     }
-  }
   }
 
 }
@@ -946,6 +946,111 @@ h2{
     }
 
   }
+}
+
+/* Smart Token */
+.st-anim{
+  position: relative;
+  width:252px;
+  height: 252px;
+  background:  url('/build/static/home/bg-dashed.svg') center center ;
 
 
+  .token{
+    background: url('/build/static/home/archi/TOKEN_ARCHITECTURE.png') center center no-repeat;
+    background-size: contain;
+    width: 66px;
+    height: 66px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin: -33px 0 0 -33px;
+  }
+
+  &#st-anim-1{
+
+    .z-1{
+      position: absolute;
+      bottom:56px;
+      left:50%;
+      margin:0 0 0 -75px;
+      height: 91px;
+      border-top: 3px solid #0054ff;
+      width: 150px;
+      background: #A5B6F3;
+      z-index: 1;
+    }
+
+    .z-2{
+      position: relative;
+      width:252px;
+      height: 252px;
+      background: url('/build/static/home/smart/erlenmayer.svg') center center no-repeat;
+      z-index:2;
+    }
+    .token{
+      top:60%;
+      opacity: 0;
+      z-index:3;
+    }
+  }
+
+  &#st-anim-2{
+    .z-1{
+      border: 5px dotted #F4AF4A;
+      border-radius: 15px;
+      width: 80px;
+      height: 96px;
+      position: absolute;
+      top:50%;
+      left: 50%;
+      margin:-20px 0 0 -45px;
+
+    }
+    .z-2{
+      position: relative;
+      width:72px;
+      height: 105px;
+      background: url('/build/static/home/smart/doc.svg') center center no-repeat;
+      position: absolute;
+      top:50%;
+      left: 50%;
+      z-index:2;
+      margin:-90px 0 0 -10px;
+    }
+
+  }
+
+  &#st-anim-3{
+    .z-1{
+      width:252px;
+      height: 252px;
+      background: url('/build/static/home/smart/gift-box.svg') center center no-repeat;
+    }
+    .z-2{
+      position: absolute;
+      top:40%;
+      left: 50%;
+      margin:-32px 0 0 -63.5px;
+      width: 127px;
+      height: 62px;
+      background: url('/build/static/home/smart/gift-top.svg') center center no-repeat;
+    }
+    .token{
+      top:60%;
+    }
+  }
+
+
+    &#st-anim-4{
+      .z-1{
+        width:252px;
+        height: 252px;
+        background: url('/build/static/home/smart/infini.svg') center center no-repeat;
+      }
+      .token{
+        top:inherit;
+        left:inherit;
+      }
+    }
 }

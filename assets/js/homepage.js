@@ -15,6 +15,7 @@ $(document).ready(function() {
 function initView(){
   //animWheelCabs();
   animArchi();
+  animLoop();
   $('.roadmap-label').click(function(){ $('.roadmap-label').addClass('on')} );
 }
 
@@ -52,13 +53,73 @@ function animWheelCabs(){
       row += p+"% { bottom: "+x+"px;right: "+y+"px; };";
       i++;
     }
-    rows += '@include keyframes(cab'+cabIndex+') {'+"\n"+row+"\n"+"}"+"\n";
+    rows += '@include keyframes(cab'+cabIndex+') {'+"\n"+row+"\n"+"}";
     cabIndex++;
     //posCab  = 32;
   }
   console.log(rows);
 }
 
+
+
+//whrite css animation in console
+function animLoop(){
+  var rayon = 38;
+
+  var x0 = 50;
+  var y0 = 10;
+
+
+
+  var cabCount = 8;
+  var points = 64;
+  var rows = "";
+  var cabIndex = 1;
+
+  var row =""
+  var i = 0;
+  var posCab = points * 0.75;
+  var start = 180 + 360/points*posCab;
+  var end = -180 + 360/points*posCab;
+  for(var deg = start; deg>=end; deg-=360/(points/2)){
+    var angleRad = deg/180*Math.PI;
+    var x = rayon+rayon*Math.cos(angleRad) + x0;
+    var y = rayon+rayon*Math.sin(angleRad) + y0;
+    var p = i*100/points;
+
+    x = Math.round(x*10)/10;
+    y = Math.round(y*10)/10;
+    p = Math.round(p*10)/10;
+
+    row += p+"% { bottom: "+x+"px;right: "+y+"px; };";
+    i++;
+  }
+  y0 = y ;
+  console.log(y0);
+  //var y0 = 126;
+  var posCab = points * 0.25;
+  var start = 180 + 360/points*posCab;
+  var end = -180 + 360/points*posCab;
+
+  for(var deg = end; deg<start; deg+=360/(points/2)){
+    var angleRad = deg/180*Math.PI;
+    var x = rayon+rayon*Math.cos(angleRad) + x0;
+    var y = rayon+rayon*Math.sin(angleRad) + y0;
+    var p = i*100/points;
+
+    x = Math.round(x*10)/10;
+    y = Math.round(y*10)/10;
+    p = Math.round(p*10)/10;
+
+    row += p+"% { bottom: "+x+"px;right: "+y+"px; };";
+    i++;
+  }
+    rows += '@include keyframes(infini) {'+"\n"+row+"\n"+"}"+"\n";
+
+    //posCab  = 32;
+
+  console.log(rows);
+}
 
 
 function animArchi(){
@@ -75,7 +136,7 @@ function animArchi(){
     var width = $('#archi-main-body-content').width();
 
     while(drop<1 && waiting.length>0){
-      var left = Math.round((Math.random()*80))+10;
+      var left = Math.round((Math.random()*60))+20;
       if($('.drop-p-'+left).length==0){
         var rand = randomIndex(waiting);
 
