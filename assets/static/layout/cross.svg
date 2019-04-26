@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="10.438" height="10.438" viewBox="0 0 10.438 10.438">
-    <defs>
-        <style>
-            .cls-1{fill:#fff}
-        </style>
-    </defs>
-    <path id="Rectangle_9962" d="M0 0h13.436v1.326H0z" class="cls-1" data-name="Rectangle 9962" transform="rotate(-45 11.469 4.75)"/>
-</svg>
+<svg id="Calque_1" data-name="Calque 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 23.55 23.56"><defs><style>.cls-1{fill:#88517e;}.cls-2{fill:#fff;}</style></defs><circle id="Ellipse_1647" data-name="Ellipse 1647" class="cls-1" cx="11.78" cy="11.78" r="11.78"/><g id="fleche"><rect id="Rectangle_9961" data-name="Rectangle 9961" class="cls-2" x="11.11" y="5.06" width="1.33" height="13.44" transform="translate(-4.88 11.78) rotate(-45)"/><rect id="Rectangle_9962" data-name="Rectangle 9962" class="cls-2" x="5.06" y="11.12" width="13.44" height="1.33" transform="translate(-4.88 11.78) rotate(-45)"/></g></svg>

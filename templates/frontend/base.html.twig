@@ -112,9 +112,18 @@
             <div class="col-4">
               <p class="primary-color p-3 my-0 ml-2">© {{ "now"|date("Y") }} <span class="font-weight-bold">Gocoworker</span></p>
             </div>
-            <div class="col-4 text-center">
-              <p class="primary-color"><a href="mailto:{{url_email}}">
-                <a href="mailto:{{url_email}}"><img src="{{asset('build/static/layout/enveloppe.svg') }}" alt="mailto" /></a> <br />
+            <div class="col-4 text-center" id="mailto-content">
+
+              <a href="mailto:{{url_email}}" id="mailbox">
+
+                <span class="helix rotate-2s"></span>
+
+              </a>
+
+              <p class="primary-color">
+
+
+
               <a href="mailto:{{url_email}}">{{url_email}}</a></p>
             </div>
             <div class="col-4 text-right">

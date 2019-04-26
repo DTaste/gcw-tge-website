@@ -86,6 +86,7 @@ html, body {
   }
 
   #header-video{
+    display: none!important;
     @extend .anim-all;
     background: #FFF;
     position: absolute;
@@ -97,6 +98,7 @@ html, body {
     overflow: hidden;
 
     &.on{
+      display: inline-block!important;
       opacity: 1;
 
     }
@@ -270,9 +272,39 @@ form[name="newsletter"]{
   }
 }
 footer{
-  background:url('/build/static/home/ecosystem/fond-ecosystem.svg') center center;
+  background:url('/build/static/home/bg-dashed.svg') center center;
 
   padding:0 0 55px 0;
+
+  #mailto-content{
+    position: relative;
+    padding:200px 0 0 0;
+
+    #mailbox{
+      background: url('/build/static/layout/enveloppe.svg') top center no-repeat;
+      margin:auto;
+      position: absolute;
+      top:25px;
+      left:50%;
+      margin: 0 0 0 -62px;
+      display: block;
+      width: 124px;
+      height: 140px;
+
+      .helix{
+        position: absolute;
+        top:120px;
+        left:50%;
+        width: 30px;
+        height: 30px;
+        margin:-15px 0 0 -15px;
+        background:url('/build/static/home/roadmap/helix.svg') center left no-repeat;
+
+      }
+    }
+
+  }
+
 
   p#social-links a{
     padding: 0 7px ;

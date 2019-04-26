@@ -374,6 +374,24 @@ h2{
     height: 900px;
     overflow: hidden;
 
+    .fountain{
+      position: absolute;
+      top:50%;
+      left:50%;
+      width: 29px;
+      height: 33px;
+      background:
+      url('/build/static/home/ecosystem/fountain/haut-clair-droit.png') center center no-repeat,
+      url('/build/static/home/ecosystem/fountain/haut-fonce-droit.png') center center no-repeat,
+      url('/build/static/home/ecosystem/fountain/haut-fonce-gauche.png') center center no-repeat,
+
+      url('/build/static/home/ecosystem/fountain/bas-clair-droit.png') center center no-repeat,
+      url('/build/static/home/ecosystem/fountain/bas-fonce-droit.png') center center no-repeat,
+      url('/build/static/home/ecosystem/fountain/bas-clair-gauche.png') center center no-repeat,
+      url('/build/static/home/ecosystem/fountain/bas-fonce-gauche.png') center center no-repeat,
+      url('/build/static/home/ecosystem/fountain/base.png') center center no-repeat;
+
+    }
     .wave{
       position: absolute;
       top:50%;
@@ -455,7 +473,7 @@ h2{
     line-height: 1.93;
   }
   #eco-list{
-    background:url('/build/static/home/ecosystem/fond-ecosystem.svg') top center;
+    background:url('/build/static/home/bg-dashed.svg') top center;
     .eco-item{
       width: 456px;
       min-height: 185px;
@@ -489,7 +507,7 @@ h2{
   }
 
   #story-list{
-    background:url('/build/static/home/ecosystem/fond-ecosystem.svg') top center;
+    background:url('/build/static/home/bg-dashed.svg') top center;
     .story-item{
       max-width: 456px;
       min-height: 205px;

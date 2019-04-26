@@ -225,43 +225,32 @@ $sq-anim-duration-twice : 12s;
 
 }
 
-@include keyframes(goto-center-dash-1) {
-  0% {  }
+@include keyframes(goto-center) {
+  0% { }
+  50% { top: 50%; left: 50%; }
+  100% { top: 50%; left: 50%; }
+}
+@include keyframes(back-from-center) {
+  0% { top: 50%; left: 50%; }
   50% { top: 50%; left: 50%; }
   100% {  }
 }
-@include keyframes(goto-center-dash-2) {
-  0% { }
-  25% { top:75%; left: 25%; }
-  50% { top: 50%; left: 50%; }
-  75% { top:75%; left: 25%; }
-  100% { top:75%; left: 25%; }
-}
 
-@include keyframes(goto-center-f-3) {
-  0% { }
-  50% { top:75%; left: 75%; }
-  75% { top: 50%; left: 50%; }
-  100% { top:75%; left: 75%; }
-}
+
 #sq-anim-4{
-  #dash-1{
-    -webkit-animation:goto-center-dash-1 3s linear infinite;
-    -moz-animation:goto-center-dash-1 3s linear infinite;
-    animation:goto-center-dash-1 3s linear infinite;
+  $sq4-duration: 1000ms;
+  #dash-1.out, #dash-2.out, #dash-3.out
+  {
+    -webkit-animation:goto-center $sq4-duration linear 1;
+    -moz-animation:goto-center $sq4-duration linear 1;
+    animation:goto-center $sq4-duration linear 1;
   }
-  #dash-2{
-    -webkit-animation:goto-center-dash-2 4500ms linear infinite;
-    -moz-animation:goto-center-dash-2 4500ms linear infinite;
-    animation:goto-center-dash-2 4500ms linear infinite;
+  #dash-1.in, #dash-2.in, #dash-3.in
+  {
+    -webkit-animation:back-from-center $sq4-duration linear 1;
+    -moz-animation:back-from-center $sq4-duration linear 1;
+    animation:back-from-center $sq4-duration linear 1;
   }
-
-  #dash-3{
-    -webkit-animation:goto-center-dash-3 4500ms linear infinite;
-    -moz-animation:goto-center-dash-3 4500ms linear infinite;
-    animation:goto-center-dash-3 4500ms linear infinite;
-  }
-
 }
 
 @include keyframes(bg-translate) {
@@ -433,4 +422,19 @@ $sq-anim-duration-twice : 12s;
     animation:infini 6s linear infinite;
 
   }
+}
+
+@include keyframes(mailbox-move) {
+  0% { margin-top:0px;  }
+  25% { margin-top:-20px;   }
+  75% { margin-top:20px; }
+  100% { margin-top:0px; }
+
+}
+#mailbox{
+
+  -webkit-animation:mailbox-move 6s linear infinite;
+  -moz-animation:mailbox-move 6s linear infinite;
+  animation:mailbox-move 6s linear infinite;
+
 }

@@ -13,12 +13,37 @@ $(document).ready(function() {
 
 
 function initView(){
-  //animWheelCabs();
+
+  animStatusQuo();
   animArchi();
+
+  //animWheelCabs();
   //animLoop();
   $('.roadmap-label').click(function(){ $('.roadmap-label').addClass('on')} );
+
 }
 
+function animStatusQuo(){
+  var connect = function(){
+    $('.dash').removeClass('in').removeClass('out');
+    for(var i = 1; i <4; i++){
+
+      var r = Math.random();
+      if( r >= 0.33){
+        if(r>=0.66){
+          $('#dash-'+i).addClass('in');
+        }
+        else
+        {
+          $('#dash-'+i).addClass('out');
+        }
+      }
+    }
+
+  }
+  connect();
+  setInterval(connect, 1000);
+}
 
 //whrite css animation in console
 function animWheelCabs(){
