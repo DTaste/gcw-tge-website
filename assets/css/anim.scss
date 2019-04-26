@@ -214,8 +214,8 @@ $sq-anim-duration-twice : 12s;
   20% { top: 160px; left: 104px; }
   32.5% { top: 130px; left: 152px; }
   38.5% { top: 136px; left: 168px; }
-  50% { top: 80px; left: 205px; }
-  100% { top: 80px; left: 205px; }
+  50% { top: 80px; left: 195px; }
+  100% { top: 80px; left: 195px; }
 }
 
 #sq-anim-3 .freelance{
@@ -238,7 +238,7 @@ $sq-anim-duration-twice : 12s;
   100% { top:75%; left: 25%; }
 }
 
-@include keyframes(goto-center-dash-3) {
+@include keyframes(goto-center-f-3) {
   0% { }
   50% { top:75%; left: 75%; }
   75% { top: 50%; left: 50%; }
@@ -361,7 +361,8 @@ $sq-anim-duration-twice : 12s;
 }
 
 @include keyframes(token-fadein) {
-  66% { opacity: 0 }
+  0% { opacity: 0 }
+  20% { opacity: 1 }
   100% { opacity: 1 }
 }
 #st-anim-1 {

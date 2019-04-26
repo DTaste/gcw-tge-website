@@ -20,8 +20,6 @@ function initView(){
 }
 
 
-
-
 //whrite css animation in console
 function animWheelCabs(){
   var rayon = 73.5;

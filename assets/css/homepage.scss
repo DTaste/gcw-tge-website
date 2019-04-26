@@ -218,148 +218,149 @@ h2{
     position: relative;
     width:252px;
     height: 252px;
-    background:  url('/build/static/home/bg-dashed.svg') center center;
+    //background:  url('/build/static/home/bg-dashed.svg') center center;
     /*
     .mask{
-    position:absolute;
-    background:  url('/build/static/home/mask-nope.svg') center center no-repeat transparent;
-    top:0;
-    left:0;
-    width:252px;
-    height: 252px;
-    z-index:10;
-  }*/
+      position:absolute;
+      background:  url('/build/static/home/mask.svg') center center no-repeat transparent;
+      top:0;
+      left:0;
+      width:252px;
+      height: 252px;
+      z-index:10;
 
-  .freelance{
-    background: url('/build/static/home/status/freelance.svg') center center no-repeat;
-    width: 66px;
-    height: 66px;
-    position: absolute;
-    top:50%;
-    left: 50%;
-    margin: -33px 0 0 -33px;
-  }
-
-  &#sq-anim-1{
-
-    .z-1{
+    }
+*/
+    .freelance{
+      background: url('/build/static/home/status/freelance.svg') center center no-repeat;
+      width: 66px;
+      height: 66px;
       position: absolute;
-      top:49px;
-      left:50px;
-      height: 134px;
-      width: 155px;
-      background: linear-gradient(to bottom, #CA0049 0%,  #CA0049 25%,#D75082 26%, #D75082 50%, #D66994 51%, #D66994 75%, #E49CB9 76%, #E49CB9 100%);;
-      z-index: 1;
+      top:50%;
+      left: 50%;
+      margin: -33px 0 0 -33px;
     }
 
-    .z-2{
-      position: relative;
-      width:252px;
-      height: 252px;
-      background: url('/build/static/home/status/pyramide.svg') center center no-repeat;
-      z-index:2;
+    &#sq-anim-1{
+      background:  url('/build/static/home/bg-dot-bar.svg') 55% 85%;
+      .z-1{
+        position: absolute;
+        top:49px;
+        left:50px;
+        height: 134px;
+        width: 155px;
+        background: linear-gradient(to bottom, #CA0049 0%,  #CA0049 25%,#D75082 26%, #D75082 50%, #D66994 51%, #D66994 75%, #E49CB9 76%, #E49CB9 100%);;
+        z-index: 1;
+      }
+
+      .z-2{
+        position: relative;
+        width:252px;
+        height: 252px;
+        background: url('/build/static/home/status/pyramide.svg') center center no-repeat;
+        z-index:2;
+      }
+      .freelance{
+        z-index:3;
+      }
+
     }
-    .freelance{
-      z-index:3;
+
+    &#sq-anim-2{
+      /*background: url('/build/static/home/bg-dashed.svg') 60% 76% no-repeat ;*/
+      .z-1{
+        position: relative;
+        width:252px;
+        height: 252px;
+        background: url('/build/static/home/status/fond-ordi.svg') center center no-repeat;
+        z-index:1;
+      }
+
+      .freelance{
+        z-index:2;
+      }
+      .z-3{
+        position: absolute;
+        bottom:86px;
+        left:96px;
+        height: 86px;
+        width: 89px;
+        background: url('/build/static/home/status/lock.svg') top center no-repeat;
+        background-size:cover;
+        z-index: 3;
+      }
     }
+
+    &#sq-anim-3{
+      /*background: url('/build/static/home/bg-dashed.svg') center 20% no-repeat ;*/
+      .z-1{
+        position: relative;
+        width:252px;
+        height: 252px;
+        background: url('/build/static/home/status/mountain.svg') center center no-repeat;
+        z-index:1;
+      }
+
+      .freelance{
+        z-index:3;
+      }
+    }
+
+    &#sq-anim-4{
+      background: url('/build/static/home/status/fond-milennials.svg') center center no-repeat;
+      .z-3{
+        position: relative;
+        width:252px;
+        height: 252px;
+        background: url('/build/static/home/status/milennials.svg') center center no-repeat;
+        z-index:3;
+      }
+      #dash-1, #dash-2, #dash-3{
+        position: absolute;
+
+        width: 4px;
+        height: 18px;
+        margin:-9px 0 0 -2px;
+        background: #2E48FB;
+        z-index: 2;
+      }
+      #dash-1{
+        top:50px;
+        left:50%;
+      }
+      #dash-2{
+        top:75%;
+        left:25%;
+        -webkit-transform:rotate(45deg);
+      }
+      #dash-3{
+        top:75%;
+        left:75%;
+        -webkit-transform:rotate(-45deg);
+      }
+      .freelance{
+        z-index:3;
+      }
+    }
+  }
+  h3{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.56;
+    color:$primary;
+    text-align: center;
+  }
+  ul{
+    margin:0;
+    padding:0;
 
   }
-
-  &#sq-anim-2{
-    background: url('/build/static/home/bg-dashed.svg') 60% 76% no-repeat ;
-    .z-1{
-      position: relative;
-      width:252px;
-      height: 252px;
-      background: url('/build/static/home/status/computer.svg') center center no-repeat;
-      z-index:1;
-    }
-
-    .freelance{
-      z-index:2;
-    }
-    .z-3{
-      position: absolute;
-      bottom:86px;
-      left:96px;
-      height: 86px;
-      width: 89px;
-      background: url('/build/static/home/status/lock.svg') top center no-repeat;
-      background-size:cover;
-      z-index: 3;
-    }
+  li{
+    color:$secondary;
+    text-align: center;
+    list-style: none;
+    margin:10px auto;
   }
-
-  &#sq-anim-3{
-    background: url('/build/static/home/bg-dashed.svg') center 20% no-repeat ;
-    .z-1{
-      position: relative;
-      width:252px;
-      height: 252px;
-      background: url('/build/static/home/status/mountain.svg') center center no-repeat;
-      z-index:1;
-    }
-
-    .freelance{
-      z-index:3;
-    }
-  }
-
-  &#sq-anim-4{
-    background: url('/build/static/home/bg-dashed.svg') 10% 45% no-repeat ;
-    .z-3{
-      position: relative;
-      width:252px;
-      height: 252px;
-      background: url('/build/static/home/status/milennials.svg') center center no-repeat;
-      z-index:3;
-    }
-    #dash-1, #dash-2, #dash-3{
-      position: absolute;
-
-      width: 4px;
-      height: 18px;
-      margin:-9px 0 0 -2px;
-      background: #2E48FB;
-      z-index: 2;
-    }
-    #dash-1{
-      top:50px;
-      left:50%;
-    }
-    #dash-2{
-      top:75%;
-      left:25%;
-      -webkit-transform:rotate(45deg);
-    }
-    #dash-3{
-      top:75%;
-      left:75%;
-      -webkit-transform:rotate(-45deg);
-    }
-    .freelance{
-      z-index:3;
-    }
-  }
-}
-h3{
-  font-size: 16px;
-  font-weight: 600;
-  line-height: 1.56;
-  color:$primary;
-  text-align: center;
-}
-ul{
-  margin:0;
-  padding:0;
-
-}
-li{
-  color:$secondary;
-  text-align: center;
-  list-style: none;
-  margin:10px auto;
-}
 }
 #ecosystem{
 
@@ -953,7 +954,7 @@ li{
   position: relative;
   width:252px;
   height: 252px;
-  background:  url('/build/static/home/bg-dashed.svg') center center ;
+  /*background:  url('/build/static/home/bg-dashed.svg') center center ;*/
 
 
   .token{
@@ -968,7 +969,7 @@ li{
   }
 
   &#st-anim-1{
-
+    background:  url('/build/static/home/bg-dot-bar.svg') center center;
     .z-1{
       position: absolute;
       bottom:56px;
@@ -996,8 +997,9 @@ li{
   }
 
   &#st-anim-2{
+    background:  url('/build/static/home/bg-dot-bar.svg') top left;
     .z-1{
-      border: 5px dotted #F4AF4A;
+      background: url('/build/static/home/smart/cercle-doc.svg') center center no-repeat;
       border-radius: 15px;
       width: 80px;
       height: 96px;
@@ -1005,6 +1007,7 @@ li{
       top:50%;
       left: 50%;
       margin:-20px 0 0 -45px;
+
 
     }
     .z-2{
@@ -1042,15 +1045,15 @@ li{
   }
 
 
-    &#st-anim-4{
-      .z-1{
-        width:252px;
-        height: 252px;
-        background: url('/build/static/home/smart/infini.svg') center center no-repeat;
-      }
-      .token{
-        top:inherit;
-        left:inherit;
-      }
+  &#st-anim-4{
+    .z-1{
+      width:252px;
+      height: 252px;
+      background: url('/build/static/home/smart/infini.svg') center center no-repeat;
     }
+    .token{
+      top:inherit;
+      left:inherit;
+    }
+  }
 }

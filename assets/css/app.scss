@@ -15,7 +15,7 @@ html, body {
 }
 
 #menu{
-  position: absolute;
+  position: fixed;
   top:0;
   right:0;
   width: 44px;
@@ -24,8 +24,6 @@ html, body {
   cursor: pointer;
   z-index:50;
   background: $primary no-repeat;
-
-
 
 
   #open-btn{
