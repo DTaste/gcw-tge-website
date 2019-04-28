@@ -1,7 +1,9 @@
 
 <section id="ecosystem" class="screen py-5 px-0 row">
   <div id="animated-bg">
-    <div class="fountain" id="fountain-1"></div>
+    {% for i in range(1,4) %}
+      <div class="fountain" id="fountain-{{i}}"><div class="base"></div></div>
+    {% endfor %}
     {% for i in range(1,11) %}
         <div class="wave" id="wave-{{i}}"><div class="waving"></div></div>
     {% endfor %}

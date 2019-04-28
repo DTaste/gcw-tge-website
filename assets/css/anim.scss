@@ -184,8 +184,6 @@ $sq-anim-duration-twice : 12s;
   25% { background: linear-gradient(to top, #E49CB9 0%,  #E49CB9 25%,#D66994 26%, #D66994 50%, #D75082 51%, #D75082 75%, #fff 76%) }
   50% {background: linear-gradient(to top, #E49CB9 0%,  #E49CB9 25%,#D66994 26%, #D66994 50%, #D75082 51%, #D75082 75%, #CA0049 76%, #CA0049 100%); }
   100% {background: linear-gradient(to top, #E49CB9 0%,  #E49CB9 25%,#D66994 26%, #D66994 50%, #D75082 51%, #D75082 75%, #CA0049 76%, #CA0049 100%); }
-
-
 }
 #sq-anim-1 .z-1{
 
@@ -410,7 +408,7 @@ $sq-anim-duration-twice : 12s;
   }
 }
 @include keyframes(infini) {
-0% { bottom: 90px;right: 90px; };1.6% { bottom: 97.8px;right: 89.2px; };3.1% { bottom: 105.3px;right: 87px; };4.7% { bottom: 112.2px;right: 83.3px; };6.3% { bottom: 118.3px;right: 78.3px; };7.8% { bottom: 123.3px;right: 72.2px; };9.4% { bottom: 127px;right: 65.3px; };10.9% { bottom: 129.2px;right: 57.8px; };12.5% { bottom: 130px;right: 50px; };14.1% { bottom: 129.2px;right: 42.2px; };15.6% { bottom: 127px;right: 34.7px; };17.2% { bottom: 123.3px;right: 27.8px; };18.8% { bottom: 118.3px;right: 21.7px; };20.3% { bottom: 112.2px;right: 16.7px; };21.9% { bottom: 105.3px;right: 13px; };23.4% { bottom: 97.8px;right: 10.8px; };25% { bottom: 90px;right: 10px; };26.6% { bottom: 82.2px;right: 10.8px; };28.1% { bottom: 74.7px;right: 13px; };29.7% { bottom: 67.8px;right: 16.7px; };31.3% { bottom: 61.7px;right: 21.7px; };32.8% { bottom: 56.7px;right: 27.8px; };34.4% { bottom: 53px;right: 34.7px; };35.9% { bottom: 50.8px;right: 42.2px; };37.5% { bottom: 50px;right: 50px; };39.1% { bottom: 50.8px;right: 57.8px; };40.6% { bottom: 53px;right: 65.3px; };42.2% { bottom: 56.7px;right: 72.2px; };43.8% { bottom: 61.7px;right: 78.3px; };45.3% { bottom: 67.8px;right: 83.3px; };46.9% { bottom: 74.7px;right: 87px; };48.4% { bottom: 82.2px;right: 89.2px; };50% { bottom: 90px;right: 89.2px; };51.6% { bottom: 97.8px;right: 90px; };53.1% { bottom: 105.3px;right: 92.2px; };54.7% { bottom: 112.2px;right: 95.9px; };56.3% { bottom: 118.3px;right: 100.9px; };57.8% { bottom: 123.3px;right: 107px; };59.4% { bottom: 127px;right: 113.9px; };60.9% { bottom: 129.2px;right: 121.4px; };62.5% { bottom: 130px;right: 129.2px; };64.1% { bottom: 129.2px;right: 137px; };65.6% { bottom: 127px;right: 144.5px; };67.2% { bottom: 123.3px;right: 151.4px; };68.8% { bottom: 118.3px;right: 157.5px; };70.3% { bottom: 112.2px;right: 162.5px; };71.9% { bottom: 105.3px;right: 166.2px; };73.4% { bottom: 97.8px;right: 168.4px; };75% { bottom: 90px;right: 169.2px; };76.6% { bottom: 82.2px;right: 168.4px; };78.1% { bottom: 74.7px;right: 166.2px; };79.7% { bottom: 67.8px;right: 162.5px; };81.3% { bottom: 61.7px;right: 157.5px; };82.8% { bottom: 56.7px;right: 151.4px; };84.4% { bottom: 53px;right: 144.5px; };85.9% { bottom: 50.8px;right: 137px; };87.5% { bottom: 50px;right: 129.2px; };89.1% { bottom: 50.8px;right: 121.4px; };90.6% { bottom: 53px;right: 113.9px; };92.2% { bottom: 56.7px;right: 107px; };93.8% { bottom: 61.7px;right: 100.9px; };95.3% { bottom: 67.8px;right: 95.9px; };96.9% { bottom: 74.7px;right: 92.2px; };98.4% { bottom: 82.2px;right: 90px; };100% { bottom: 90px;right: 89.2px; };
+  0% { bottom: 90px;right: 90px; };1.6% { bottom: 97.8px;right: 89.2px; };3.1% { bottom: 105.3px;right: 87px; };4.7% { bottom: 112.2px;right: 83.3px; };6.3% { bottom: 118.3px;right: 78.3px; };7.8% { bottom: 123.3px;right: 72.2px; };9.4% { bottom: 127px;right: 65.3px; };10.9% { bottom: 129.2px;right: 57.8px; };12.5% { bottom: 130px;right: 50px; };14.1% { bottom: 129.2px;right: 42.2px; };15.6% { bottom: 127px;right: 34.7px; };17.2% { bottom: 123.3px;right: 27.8px; };18.8% { bottom: 118.3px;right: 21.7px; };20.3% { bottom: 112.2px;right: 16.7px; };21.9% { bottom: 105.3px;right: 13px; };23.4% { bottom: 97.8px;right: 10.8px; };25% { bottom: 90px;right: 10px; };26.6% { bottom: 82.2px;right: 10.8px; };28.1% { bottom: 74.7px;right: 13px; };29.7% { bottom: 67.8px;right: 16.7px; };31.3% { bottom: 61.7px;right: 21.7px; };32.8% { bottom: 56.7px;right: 27.8px; };34.4% { bottom: 53px;right: 34.7px; };35.9% { bottom: 50.8px;right: 42.2px; };37.5% { bottom: 50px;right: 50px; };39.1% { bottom: 50.8px;right: 57.8px; };40.6% { bottom: 53px;right: 65.3px; };42.2% { bottom: 56.7px;right: 72.2px; };43.8% { bottom: 61.7px;right: 78.3px; };45.3% { bottom: 67.8px;right: 83.3px; };46.9% { bottom: 74.7px;right: 87px; };48.4% { bottom: 82.2px;right: 89.2px; };50% { bottom: 90px;right: 89.2px; };51.6% { bottom: 97.8px;right: 90px; };53.1% { bottom: 105.3px;right: 92.2px; };54.7% { bottom: 112.2px;right: 95.9px; };56.3% { bottom: 118.3px;right: 100.9px; };57.8% { bottom: 123.3px;right: 107px; };59.4% { bottom: 127px;right: 113.9px; };60.9% { bottom: 129.2px;right: 121.4px; };62.5% { bottom: 130px;right: 129.2px; };64.1% { bottom: 129.2px;right: 137px; };65.6% { bottom: 127px;right: 144.5px; };67.2% { bottom: 123.3px;right: 151.4px; };68.8% { bottom: 118.3px;right: 157.5px; };70.3% { bottom: 112.2px;right: 162.5px; };71.9% { bottom: 105.3px;right: 166.2px; };73.4% { bottom: 97.8px;right: 168.4px; };75% { bottom: 90px;right: 169.2px; };76.6% { bottom: 82.2px;right: 168.4px; };78.1% { bottom: 74.7px;right: 166.2px; };79.7% { bottom: 67.8px;right: 162.5px; };81.3% { bottom: 61.7px;right: 157.5px; };82.8% { bottom: 56.7px;right: 151.4px; };84.4% { bottom: 53px;right: 144.5px; };85.9% { bottom: 50.8px;right: 137px; };87.5% { bottom: 50px;right: 129.2px; };89.1% { bottom: 50.8px;right: 121.4px; };90.6% { bottom: 53px;right: 113.9px; };92.2% { bottom: 56.7px;right: 107px; };93.8% { bottom: 61.7px;right: 100.9px; };95.3% { bottom: 67.8px;right: 95.9px; };96.9% { bottom: 74.7px;right: 92.2px; };98.4% { bottom: 82.2px;right: 90px; };100% { bottom: 90px;right: 89.2px; };
 }
 
 
@@ -432,9 +430,51 @@ $sq-anim-duration-twice : 12s;
 
 }
 #mailbox{
-
   -webkit-animation:mailbox-move 6s linear infinite;
   -moz-animation:mailbox-move 6s linear infinite;
   animation:mailbox-move 6s linear infinite;
-
 }
+
+$path : '/build/static/home/ecosystem/fountain/';
+$files : [
+'base.png','fontaine.png','bas-fonce-droit.png',
+'bas-clair-droit.png','bas-fonce-gauche.png','bas-clair-gauche.png','haut-fonce-gauche.png','haut-fonce-droit.png','haut-clair-droit.png'
+];
+
+@debug "Sorry, but `nth($files,2)` is not a valid value for $variable.";
+
+@include keyframes(spray) {
+
+
+
+  15% { background-image: url('#{$path}#{nth($files,3)}') ; }
+  30% { background-image: url('#{$path}#{nth($files,4)}'), url('#{$path}#{nth($files,3)}')  ; }
+  45% { background-image: url('#{$path}#{nth($files,5)}'), url('#{$path}#{nth($files,4)}'), url('#{$path}#{nth($files,3)}') ; }
+  60% { background-image: url('#{$path}#{nth($files,6)}'), url('#{$path}#{nth($files,5)}'), url('#{$path}#{nth($files,4)}'), url('#{$path}#{nth($files,3)}');}
+  75% {
+    background-image: url('#{$path}#{nth($files,7)}'), url('#{$path}#{nth($files,6)}'), url('#{$path}#{nth($files,5)}'), url('#{$path}#{nth($files,4)}'), url('#{$path}#{nth($files,3)}');
+  }
+  90% { background-image: url('#{$path}#{nth($files,8)}'), url('#{$path}#{nth($files,7)}'), url('#{$path}#{nth($files,6)}'), url('#{$path}#{nth($files,5)}'), url('#{$path}#{nth($files,4)}'), url('#{$path}#{nth($files,3)}');}
+  100% { background-image: url('#{$path}#{nth($files,9)}'), url('#{$path}#{nth($files,8)}'), url('#{$path}#{nth($files,7)}'), url('#{$path}#{nth($files,6)}'), url('#{$path}#{nth($files,5)}'), url('#{$path}#{nth($files,4)}'), url('#{$path}#{nth($files,3)}')}
+
+/*
+
+*/
+}
+.fountain{
+  -webkit-animation:spray 3s linear infinite alternate;
+  -moz-animation:spray 3s linear infinite alternate;
+  animation:spray 3s linear infinite alternate;
+}
+/*
+url('/build/static/home/ecosystem/fountain/haut-clair-droit.png') center center no-repeat,
+url('/build/static/home/ecosystem/fountain/haut-fonce-droit.png') center center no-repeat,
+url('/build/static/home/ecosystem/fountain/haut-fonce-gauche.png') center center no-repeat,
+
+url('/build/static/home/ecosystem/fountain/bas-clair-droit.png') center center no-repeat,
+url('/build/static/home/ecosystem/fountain/bas-fonce-droit.png') center center no-repeat,
+url('/build/static/home/ecosystem/fountain/bas-clair-gauche.png') center center no-repeat,
+url('/build/static/home/ecosystem/fountain/bas-fonce-gauche.png') center center no-repeat,
+url('/build/static/home/ecosystem/fountain/fontaine.png') center center no-repeat,
+url('/build/static/home/ecosystem/fountain/base.png') center center no-repeat;
+*/

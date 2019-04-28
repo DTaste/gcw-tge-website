@@ -380,16 +380,30 @@ h2{
       left:50%;
       width: 29px;
       height: 33px;
-      background:
-      url('/build/static/home/ecosystem/fountain/haut-clair-droit.png') center center no-repeat,
-      url('/build/static/home/ecosystem/fountain/haut-fonce-droit.png') center center no-repeat,
-      url('/build/static/home/ecosystem/fountain/haut-fonce-gauche.png') center center no-repeat,
+      background: center center no-repeat;
 
-      url('/build/static/home/ecosystem/fountain/bas-clair-droit.png') center center no-repeat,
-      url('/build/static/home/ecosystem/fountain/bas-fonce-droit.png') center center no-repeat,
-      url('/build/static/home/ecosystem/fountain/bas-clair-gauche.png') center center no-repeat,
-      url('/build/static/home/ecosystem/fountain/bas-fonce-gauche.png') center center no-repeat,
-      url('/build/static/home/ecosystem/fountain/base.png') center center no-repeat;
+      .base{
+        position: absolute;
+        top:0;
+        left:0;
+        width: 29px;
+        height: 33px;
+        background:url('/build/static/home/ecosystem/fountain/base.png') center center no-repeat,url('/build/static/home/ecosystem/fountain/fontaine.png') center center no-repeat;
+        z-index:7;
+      }
+
+      &#fountain-1{
+          margin:-297px 0 0 -405px;
+      }
+      &#fountain-2{
+          margin:-275px 0 0 390px;
+      }
+      &#fountain-3{
+          margin:172px 0 0 424px;
+      }
+      &#fountain-4{
+          margin:356px 0 0 -491px;
+      }
 
     }
     .wave{
