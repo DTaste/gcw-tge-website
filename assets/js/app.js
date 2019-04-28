@@ -118,7 +118,7 @@ function reverseGoIcons(){
       groupGo=1;
     }
   }
-  setInterval(fadeItems,3500);
+  setInterval(fadeItems,4000);
 }
 // icons within top menu
 var groupMenu = 1;
@@ -131,31 +131,28 @@ function reverseMenuIcons(){
       groupMenu=1;
     }
   }
-  setInterval(fadeItems,3500);
+  setInterval(fadeItems,4000);
 }
 
 function reverseIconsOfGroup(htmlId, groupIndex){
   var icons = ['gocoworker','gocompany','gocobooster','gococampus'];
   var iconCount = icons.length;
-  //  var faddingIcoSession = faddingIco;
+  
 
-  $('.fadeIO.on').removeClass('on');
-
-
+  $(htmlId+' .fadeIO.on').removeClass('on');
 
   var rand = randomIndex(icons);
   var rand2 = rand;
   while(rand2==rand){
     rand2 = randomIndex(icons);
   }
-  console.log(rand, rand2);
+
   var icoKlassIndex1 = htmlId+' .gcw-ico-g'+groupIndex+'-'+(rand);
   var icoKlassIndex2 = htmlId+' .gcw-ico-g'+groupIndex+'-'+(rand2);
-  console.log("fadding",icoKlassIndex1, icoKlassIndex2);
-  //reverse icons
-  var icoKlassName1 = false;
-  var icoKlassName2 = false;
 
+  //reverse icons
+  var icoKlassName1;
+  var icoKlassName2;
   for(var i = 0; i<iconCount ; i++)
   {
     if($(icoKlassIndex1).hasClass('gcw-ico-'+icons[i])){
@@ -170,41 +167,15 @@ function reverseIconsOfGroup(htmlId, groupIndex){
   $(icoKlassIndex2).addClass('on');
 
   setTimeout(function(){
-    console.log("revert",icoKlassName1, icoKlassName2);
     $(icoKlassIndex1).removeClass(icoKlassName1).addClass(icoKlassName2);
     $(icoKlassIndex2).removeClass(icoKlassName2).addClass(icoKlassName1);
   }, 1500);
 }
 
-function animGo(){
-  var fadeItems = function(){
-
-    if($('.fadeIO.off').length>0){
-      $('.fadeIO.off').removeClass('off');
-    }
-    $('.fadeIO.on').addClass('off').removeClass('on');
-    var items = $('.fadeIO:not(.loop):not(.off):not(.on2)');
-    var rand = randomIndex(items);
-    var rand2 = rand;
-    while(rand2==rand){
-      rand2 = randomIndex(items);
-    }
-    $(items[rand]).addClass('on');
-
-    setTimeout(function(){
-      $('.fadeIO.on2').addClass('off').removeClass('on2');
-      $(items[rand2]).addClass('on2');
-    },1500);
-  }
-  fadeItems();
-  setInterval(fadeItems,3000);
-}
 
 function randomIndex(myArray){
   return Math.floor(Math.random() * myArray.length);
 }
-
-
 
 function addScrollListener  (){
 
