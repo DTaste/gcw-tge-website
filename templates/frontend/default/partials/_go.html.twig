@@ -1,7 +1,4 @@
 <div class="d-inline-block align-middle mb-5 my-md-3" id="{{htmlId}}">
   <a class="btn-play" href="#">{{'main_btn_play' | trans}}</a>
-  {% for i in ['gocoworker','gocompany','gocobooster','gococampus'] %}
-    <div class="gcw-ico gcw-ico-{{i}} fadeIO gcw-ico-g-{{i}}"><img src="{{asset('build/static/home/ecosystem/'~i~'.svg')}}" alt="{{i}}" class="img-fluid"/></div>
-    <div class="gcw-ico gcw-ico-{{i}} fadeIO gcw-ico-o-{{i}}"><img src="{{asset('build/static/home/ecosystem/'~i~'.svg')}}" alt="{{i}}" class="img-fluid"/></div>
-  {% endfor %}
+   {{ include('frontend/default/partials/_icoGroup.html.twig', { 'groupCount' : 2 }) }}
 </div>

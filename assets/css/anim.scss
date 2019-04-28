@@ -36,15 +36,14 @@
 
 $fade-duration: 3000ms;
 .fadeIO.loop {
-
 }
 
 
 .fadeIO.on, .fadeIO.on2  {
-  -webkit-animation: fadeIO $fade-duration ease-in-out;
-  -moz-animation: fadeIO $fade-duration ease-in-out;
-  -o-animation: fadeIO $fade-duration ease-in-out;
-  animation: fadeIO $fade-duration ease-in-out;
+  -webkit-animation: fadeIO $fade-duration linear;
+  -moz-animation: fadeIO $fade-duration linear;
+  -o-animation: fadeIO $fade-duration linear;
+  animation: fadeIO $fade-duration linear;
 }
 
 
@@ -438,14 +437,10 @@ $sq-anim-duration-twice : 12s;
 $path : '/build/static/home/ecosystem/fountain/';
 $files : [
 'base.png','fontaine.png','bas-fonce-droit.png',
-'bas-clair-droit.png','bas-fonce-gauche.png','bas-clair-gauche.png','haut-fonce-gauche.png','haut-fonce-droit.png','haut-clair-droit.png'
+'bas-fonce-gauche.png','bas-clair-droit.png','bas-clair-gauche.png','haut-fonce-gauche.png','haut-fonce-droit.png','haut-clair-droit.png'
 ];
 
-@debug "Sorry, but `nth($files,2)` is not a valid value for $variable.";
-
 @include keyframes(spray) {
-
-
 
   15% { background-image: url('#{$path}#{nth($files,3)}') ; }
   30% { background-image: url('#{$path}#{nth($files,4)}'), url('#{$path}#{nth($files,3)}')  ; }

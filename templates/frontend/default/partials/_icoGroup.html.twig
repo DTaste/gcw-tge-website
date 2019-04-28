@@ -1,0 +1,5 @@
+{% for group in range(1,groupCount) %}
+  {% for index, item in ['gocoworker','gocompany','gocobooster','gococampus'] %}
+    <div class="gcw-ico gcw-ico-{{item}} fadeIO gcw-ico-g{{group}}-{{index}}"></div>
+  {% endfor %}
+{% endfor %}
