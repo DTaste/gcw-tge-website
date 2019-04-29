@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="401.576" height="401.919" viewBox="0 0 401.576 401.919">
+    <defs>
+        <style>
+            .cls-1{fill:#0054ff}.cls-1,.cls-2,.cls-3,.cls-4{opacity:.5}.cls-2{fill:#d31744}.cls-3{fill:#ea5621}.cls-4{fill:#f9b03c}
+        </style>
+    </defs>
+    <g id="Groupe_13475" data-name="Groupe 13475" transform="translate(-811.604 -817.596)">
+        <path id="Tracé_45505" d="M1012.6 872.388c.23 0 .45.014.675.014l.266-54.8h-.979C902.32 817.6 811.6 908.312 811.6 1018.553a200.931 200.931 0 0 0 10.587 64.374l51.94-17.564A146.165 146.165 0 0 1 1012.6 872.388z" class="cls-1" data-name="Tracé 45505"/>
+        <path id="Tracé_45506" d="M973.736 825.993l-32.276 44.274a146.15 146.15 0 0 1-86.068 264.284h-.037v54.792a201.106 201.106 0 0 0 162.962-83.371c64.292-89.099 44.206-215.251-44.581-279.979z" class="cls-2" data-name="Tracé 45506" transform="translate(157.206 30.172)"/>
+        <path id="Tracé_45507" d="M973.1 856.153A200.953 200.953 0 0 0 855.827 817.6l-.3 54.8a145.447 145.447 0 0 1 85.3 28.023z" class="cls-3" data-name="Tracé 45507" transform="translate(157.828 .007)"/>
+        <path id="Tracé_45508" d="M865.852 871.556l-51.935 17.6a200.964 200.964 0 0 0 190.333 136.473v-54.796a146.2 146.2 0 0 1-138.398-99.277z" class="cls-4" data-name="Tracé 45508" transform="translate(8.311 193.889)"/>
+    </g>
+</svg>

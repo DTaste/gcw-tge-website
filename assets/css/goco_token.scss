@@ -12,20 +12,89 @@ h1{
   color:$primary;
   background:url('/build/static/home/title-shadow.svg') center left no-repeat;
 }
-ul{
-  margin:auto;
-  list-style-type: none;
+#goco-token{
+  ul{
+    margin:auto;
+    list-style-type: none;
 
-  li{
-    color:$secondary;
-    line-height: 2.25;
-    font-size: 16px;
-    label{
-      display: inline-block;
-      width: 220px;
-      color:$primary;
+    li{
+      color:$third;
+      line-height: 2.25;
+      font-size: 16px;
+      label{
+        display: inline-block;
+        width: 220px;
+        color:$primary;
 
-      font-weight: bold;
+        font-weight: bold;
+      }
     }
   }
+
+}
+#structure{
+
+
+  .chart{
+    margin:25px auto;
+    padding:150px 100px;
+    max-width: 402px;
+    min-height: 402px;
+    line-height: 51px;
+    text-align: center;
+    color:$primary;
+    font-size: 25px;
+    font-weight: bold;
+
+  }
+  #goco_distribution .chart{
+    background: url('/build/static/goco/distribution.svg') no-repeat center center;
+  }
+  #goco_allocation .chart {
+    background: url('/build/static/goco/allocation.svg') no-repeat center center;
+  }
+
+
+
+  ul{
+    max-width: 402px;
+    margin:25px auto;
+    list-style-type: none;
+
+    li{
+      margin:3px auto;
+      color:$primary;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 1.19;
+
+      label{
+        width: 80%;
+        display: inline-block;
+        margin-right: auto;
+
+        span{
+          display: inline-block;
+          border-radius: 100%;
+          width: 22px;
+          height: 22px;
+          margin-right:16px;
+          vertical-align: middle;
+        }
+      }
+
+      &:nth-child(1) label span{ background: rgba(0, 84, 255, 0.33);}
+      &:nth-child(2) label span{ background: rgba(255, 153, 9, 0.33);}
+      &:nth-child(3) label span{ background: rgba(255, 84, 14, 0.33);}
+      &:nth-child(4) label span{ background: rgba(211, 22, 67, 0.33);}
+
+      span.value{
+        display: inline-block;
+        color: $secondary;
+      }
+    }
+  }
+
+
+
 }

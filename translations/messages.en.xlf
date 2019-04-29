@@ -518,6 +518,34 @@
 <source>goco_eth_only</source>
 <target>ETH only</target>
 </trans-unit>
+<trans-unit id="130">
+<source>structure_title</source>
+<target>Structure</target>
+</trans-unit>
+<trans-unit id="131">
+<source>goco_distribution</source>
+<target>Token Distribution</target>
+</trans-unit>
+<trans-unit id="132">
+<source>goco_token_sale</source>
+<target>Token Sale</target>
+</trans-unit>
+<trans-unit id="133">
+<source>goco_team</source>
+<target>Team</target>
+</trans-unit>
+<trans-unit id="134">
+<source>goco_reward_pool</source>
+<target>Reward Pool</target>
+</trans-unit>
+<trans-unit id="135">
+<source>goco_allocation</source>
+<target>Contribution Allocation</target>
+</trans-unit>
+<trans-unit id="136">
+<source>goco_presale</source>
+<target>Presale</target>
+</trans-unit>
 </body>
 </file>
 </xliff>

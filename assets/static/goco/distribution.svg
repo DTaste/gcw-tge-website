@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="401.502" height="401.511" viewBox="0 0 401.502 401.511">
+    <defs>
+        <style>
+            .cls-1{fill:#0054ff}.cls-1,.cls-2,.cls-3,.cls-4{opacity:.5}.cls-2{fill:#ea5621}.cls-3{fill:#f9b03c}.cls-4{fill:#d31744}
+        </style>
+    </defs>
+    <g id="Groupe_13464" data-name="Groupe 13464" transform="translate(-142 -1008.996)">
+        <g id="Groupe_13463" data-name="Groupe 13463" transform="translate(-790.036 89.314)">
+            <path id="Tracé_45497" d="M975.783 919.682z" class="cls-1" data-name="Tracé 45497" transform="translate(156.98 .001)"/>
+            <path id="Tracé_45498" d="M986.749 1120.424A146.026 146.026 0 0 1 1132.3 974.4l-.184-54.718c-109.825.367-200.081 90.833-200.081 200.737 0 110.064 90.517 200.641 200.558 200.746l.055-54.722a146.03 146.03 0 0 1-145.899-146.019z" class="cls-1" data-name="Tracé 45498" transform="translate(0 .014)"/>
+            <path id="Tracé_45499" d="M975.8 974.409a146.011 146.011 0 0 1 129.561 213.374l48.569 25.25a200.781 200.781 0 0 0 22.63-92.6c0-110.133-90.623-200.756-200.751-200.756h-.023v54.727z" class="cls-2" data-name="Tracé 45499" transform="translate(156.982)"/>
+            <path id="Tracé_45500" d="M975.641 919.687v.014c.216 0 .432-.019.647-.019z" class="cls-2" data-name="Tracé 45500" transform="translate(156.476)"/>
+            <path id="Tracé_45501" d="M976.293 974.409v-54.727c-.215 0-.431.019-.647.019l.184 54.718c.151-.001.307-.01.463-.01z" class="cls-2" data-name="Tracé 45501" transform="translate(156.476)"/>
+            <path id="Tracé_45502" d="M975.938 1071.993h-.192v.007h.192a200.793 200.793 0 0 0 118.443-38.663l-32.3-44.21a145.33 145.33 0 0 1-86.14 28.141z" class="cls-3" data-name="Tracé 45502" transform="translate(156.849 249.195)"/>
+            <path id="Tracé_45503" d="M975.938 995.258h-.138l-.055 54.722h.192z" class="cls-3" data-name="Tracé 45503" transform="translate(156.849 271.203)"/>
+            <path id="Tracé_45504" d="M994.563 1028.633l32.308 44.2a200.841 200.841 0 0 0 59.655-69.465l-48.569-25.255a146.631 146.631 0 0 1-43.394 50.52z" class="cls-4" data-name="Tracé 45504" transform="translate(224.377 209.679)"/>
+        </g>
+    </g>
+</svg>
