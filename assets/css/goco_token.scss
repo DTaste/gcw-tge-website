@@ -1,0 +1,31 @@
+@import 'variables';
+
+h1{
+  font-size: 38.7px;
+  font-weight: 600;
+  height: 116px;
+  line-height: 116px;
+
+  display: inline-block;
+  padding: auto 80px;
+  margin:auto;
+  color:$primary;
+  background:url('/build/static/home/title-shadow.svg') center left no-repeat;
+}
+ul{
+  margin:auto;
+  list-style-type: none;
+
+  li{
+    color:$secondary;
+    line-height: 2.25;
+    font-size: 16px;
+    label{
+      display: inline-block;
+      width: 220px;
+      color:$primary;
+
+      font-weight: bold;
+    }
+  }
+}

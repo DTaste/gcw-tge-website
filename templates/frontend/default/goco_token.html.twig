@@ -1,0 +1,43 @@
+{% extends 'frontend/base.html.twig' %}
+
+
+{% block body %}
+<div class="container-fluid">
+  <div id="goco-token" class="screen py-5">
+
+      <div class="row">
+        <div class="mx-auto col-12 col-md-4">
+        <h1 class="text-center px-5 my-5">GOCO Token</h1>
+        <ul>
+
+        <li><label>{{'goco_symbol' | trans }}</label> GOCO</li>
+        <li><label>{{'goco_type' | trans }}</label> ERC20</li>
+        <li><label>{{'goco_classification' | trans }}</label> Utility Token</li>
+        <li><label>{{'goco_digit' | trans }}</label> 18</li>
+        <li><label>{{'goco_liquidity' | trans }}</label> Native</li>
+        <li><label>{{'goco_total_supply' | trans }}</label> 21,000,000</li>
+        <li><label>{{'goco_circulating_supply' | trans }}</label> 12,600,000</li>
+        <li><label>{{'goco_cap' | trans }}</label> 210,000</li>
+        <li><label>{{'goco_currency' | trans }}</label> {{'goco_eth_only' | trans }}</li>
+        <li><label>{{'goco_min_contribution' | trans }}</label> 0.01</li>
+
+        </ul>
+        </div>
+      </div>
+
+  </div>
+</div>
+
+
+
+
+{% endblock %}
+
+
+{% block stylesheets %}
+    {{ parent() }}
+  {{ encore_entry_link_tags('goco_token') }}
+{% endblock %}
+{% block javascripts %}
+  {{ parent() }}
+{% endblock %}

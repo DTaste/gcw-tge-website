@@ -474,6 +474,50 @@
 <source>roadmap_step_12</source>
 <target>Operation in 20+ Nations</target>
 </trans-unit>
+<trans-unit id="119">
+<source>goco_symbol</source>
+<target>Symbol</target>
+</trans-unit>
+<trans-unit id="120">
+<source>goco_type</source>
+<target>Type</target>
+</trans-unit>
+<trans-unit id="121">
+<source>goco_classification</source>
+<target>Classification</target>
+</trans-unit>
+<trans-unit id="122">
+<source>goco_digit</source>
+<target>Digit Number</target>
+</trans-unit>
+<trans-unit id="123">
+<source>goco_liquidity</source>
+<target>Liquidity</target>
+</trans-unit>
+<trans-unit id="124">
+<source>goco_total_supply</source>
+<target>Total Supply</target>
+</trans-unit>
+<trans-unit id="125">
+<source>goco_circulating_supply</source>
+<target>Circulating Supply</target>
+</trans-unit>
+<trans-unit id="126">
+<source>goco_cap</source>
+<target>Soft Cap (ETH)</target>
+</trans-unit>
+<trans-unit id="127">
+<source>goco_currency</source>
+<target>Currency</target>
+</trans-unit>
+<trans-unit id="128">
+<source>goco_min_contribution</source>
+<target>Min. Contribution</target>
+</trans-unit>
+<trans-unit id="129">
+<source>goco_eth_only</source>
+<target>ETH only</target>
+</trans-unit>
 </body>
 </file>
 </xliff>

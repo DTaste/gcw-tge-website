@@ -88,10 +88,9 @@ function menuListener(){
 
 
   var toggleMenu = function(){
-    reverseMenuIcons();
+
     var opened = $('#menu').hasClass('open');
     $('#menu').toggleClass('open');
-
 
     var itemCount = $('#menu ul li').length;
     if(!opened){

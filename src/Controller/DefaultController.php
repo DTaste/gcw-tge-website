@@ -83,14 +83,22 @@ class DefaultController extends CustomController
   }
 
 /**
-
-* @Route("/{_locale}/a-propos", name="about_localized", requirements={"_locale"="%app.locales%"})
+* @Route("/{_locale}/about", name="about_localized", requirements={"_locale"="%app.locales%"})
 */
 public function aboutAction(Request $request)
 {
-
   return $this->render('frontend/default/about.html.twig', []);
 }
+
+
+/**
+* @Route("/{_locale}/goco-token", name="goco_token", requirements={"_locale"="%app.locales%"})
+*/
+public function gocoTokenAction(Request $request)
+{
+  return $this->render('frontend/default/goco_token.html.twig', []);
+}
+
 
 /**
 * @Route("/contact", name="contact")
