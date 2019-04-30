@@ -546,6 +546,166 @@
 <source>goco_presale</source>
 <target>Presale</target>
 </trans-unit>
+<trans-unit id="137">
+<source>presale_label_1</source>
+<target>Total Token</target>
+</trans-unit>
+<trans-unit id="138">
+<source>presale_label_2</source>
+<target>Token Price (ETH)</target>
+</trans-unit>
+<trans-unit id="139">
+<source>presale_label_3</source>
+<target>Start Time (UTC)</target>
+</trans-unit>
+<trans-unit id="140">
+<source>presale_label_4</source>
+<target>End Time (UTC)</target>
+</trans-unit>
+<trans-unit id="141">
+<source>presale_label_5</source>
+<target>Token Distribution</target>
+</trans-unit>
+<trans-unit id="142">
+<source>presale_label_6</source>
+<target>Bonus</target>
+</trans-unit>
+<trans-unit id="143">
+<source>presale_label_7</source>
+<target>Ending</target>
+</trans-unit>
+<trans-unit id="144">
+<source>presale_label_9</source>
+<target>Whitelist</target>
+</trans-unit>
+<trans-unit id="145">
+<source>presale_label_10</source>
+<target>Referral Program</target>
+</trans-unit>
+<trans-unit id="146">
+<source>presale_label_8</source>
+<target>Unsold Token</target>
+</trans-unit>
+<trans-unit id="147">
+<source>presale_value_1</source>
+<target>2,100,000</target>
+</trans-unit>
+<trans-unit id="148">
+<source>presale_value_2</source>
+<target>0.1</target>
+</trans-unit>
+<trans-unit id="149">
+<source>presale_value_3</source>
+<target>Jan. 17, 2020 (12:00)</target>
+</trans-unit>
+<trans-unit id="150">
+<source>presale_value_4</source>
+<target>Apr. 17, 2020 (12:00)</target>
+</trans-unit>
+<trans-unit id="151">
+<source>presale_value_5</source>
+<target>Immediate</target>
+</trans-unit>
+<trans-unit id="152">
+<source>presale_value_6</source>
+<target>No</target>
+</trans-unit>
+<trans-unit id="153">
+<source>presale_value_7</source>
+<target>End Time (or sold out)</target>
+</trans-unit>
+<trans-unit id="154">
+<source>presale_value_8</source>
+<target>Reward Pool</target>
+</trans-unit>
+<trans-unit id="155">
+<source>presale_value_9</source>
+<target>Yes</target>
+</trans-unit>
+<trans-unit id="156">
+<source>presale_value_10</source>
+<target>No</target>
+</trans-unit>
+<trans-unit id="157">
+<source>tokensale_label_1</source>
+<target>Total Token</target>
+</trans-unit>
+<trans-unit id="158">
+<source>tokensale_label_2</source>
+<target>Token Price (ETH)</target>
+</trans-unit>
+<trans-unit id="159">
+<source>tokensale_label_3</source>
+<target>Start Time (UTC)</target>
+</trans-unit>
+<trans-unit id="160">
+<source>tokensale_label_4</source>
+<target>End Time (UTC)</target>
+</trans-unit>
+<trans-unit id="161">
+<source>tokensale_label_5</source>
+<target>Token Distribution</target>
+</trans-unit>
+<trans-unit id="162">
+<source>tokensale_label_6</source>
+<target>Period Number</target>
+</trans-unit>
+<trans-unit id="163">
+<source>tokensale_label_7</source>
+<target>Token / Period</target>
+</trans-unit>
+<trans-unit id="164">
+<source>tokensale_label_8</source>
+<target>Period Duration (hrs)</target>
+</trans-unit>
+<trans-unit id="165">
+<source>tokensale_label_9</source>
+<target>Whitelist</target>
+</trans-unit>
+<trans-unit id="166">
+<source>tokensale_label_10</source>
+<target>Referral Program</target>
+</trans-unit>
+<trans-unit id="167">
+<source>tokensale_value_1</source>
+<target>10,500,000</target>
+</trans-unit>
+<trans-unit id="168">
+<source>tokensale_value_2</source>
+<target>Not Fixed</target>
+</trans-unit>
+<trans-unit id="169">
+<source>tokensale_value_3</source>
+<target>May 17, 2020 (12:00)</target>
+</trans-unit>
+<trans-unit id="170">
+<source>tokensale_value_4</source>
+<target>Nov. 15, 2020 (12:00)</target>
+</trans-unit>
+<trans-unit id="171">
+<source>tokensale_value_5</source>
+<target>End of each period</target>
+</trans-unit>
+<trans-unit id="172">
+<source>tokensale_value_6</source>
+<target>250</target>
+</trans-unit>
+<trans-unit id="173">
+<source>tokensale_value_7</source>
+<target>42,000</target>
+</trans-unit>
+<trans-unit id="174">
+<source>tokensale_value_8</source>
+<target>21</target>
+</trans-unit>
+<trans-unit id="175">
+<source>tokensale_value_9</source>
+<target>No</target>
+</trans-unit>
+<trans-unit id="176">
+<source>tokensale_value_10</source>
+<target>No</target>
+</trans-unit>
 </body>
 </file>
 </xliff>

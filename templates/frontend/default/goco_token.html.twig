@@ -6,9 +6,11 @@
   <section id="goco-token" class="screen py-5">
 
       <div class="row">
-        <div class="mx-auto col-12 col-md-4">
+      <div class="d-none d-md-block col-md-4 order-1"></div>
+      <div class="d-none d-md-block col-md-4 order-3"></div>
+        <div class="mx-auto col-12 col-md-4 text-center order-2">
         <h1 class="text-center px-5 my-5">GOCO Token</h1>
-        <ul>
+        <ul class="text-left">
 
         <li><label>{{'goco_symbol' | trans }}</label> GOCO</li>
         <li><label>{{'goco_type' | trans }}</label> ERC20</li>
@@ -29,17 +31,18 @@
 
 
   <section id="structure" class="container">
+  <div class="row">
+    <div class="mx-auto col-12 text-center">
+        <h2 class="text-center px-5 my-5 mx-auto shadow-right">{{'structure_title' | trans }}</h2>
+    </div>
 
-      <h2 class="text-center px-5 my-5 primary-color">{{'structure_title' | trans }}</h2>
-
-    <div class="row">
     <div class="col-12 col-md-6" id="goco_distribution">
       <div class="chart">{{'goco_distribution' | trans }}</div>
       <ul>
-      <li><label><span></span>{{'goco_token_sale' | trans }}</label> <span class="value">50%</span></li>
-      <li><label><span></span>{{'goco_presale' | trans }}</label> <span class="value">10%</span></li>
-      <li><label><span></span>{{'goco_team' | trans }}</label> <span class="value">33%</span></li>
-      <li><label><span></span>{{'goco_reward_pool' | trans }}</label> <span class="value">7%</span></li>
+        <li><label><span></span>{{'goco_token_sale' | trans }}</label> <span class="value">50%</span></li>
+        <li><label><span></span>{{'goco_presale' | trans }}</label> <span class="value">10%</span></li>
+        <li><label><span></span>{{'goco_team' | trans }}</label> <span class="value">33%</span></li>
+        <li><label><span></span>{{'goco_reward_pool' | trans }}</label> <span class="value">7%</span></li>
       </ul>
     </div>
 
@@ -54,7 +57,78 @@
     </div>
 
   </section>
+
+
+  <section id="timeline">
+    <div class="row">
+
+      <div class="mx-auto col-12 text-center">
+          <h2 class="text-center px-5 my-5 mx-auto shadow-right">{{'timeline_title' | trans }}</h2>
+      </div>
+
+
+      <div class="d-none d-md-block col-md-2 order-1"></div>
+      <div class="d-none d-md-block col-md-2 order-4"></div>
+
+      <div class="col-6 col-md-4 order-2">
+        <h3 class="text-center px-5 my-5 primary-color">Presale</h1>
+        <ul class="text-left">
+          {% for i in range(1,10) %}
+            <li><label>{{ ('presale_label_'~i) | trans }}</label> {{ ('presale_value_'~i) | trans }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-4 order-3">
+        <h3 class="text-center px-5 my-5 primary-color">Token Sale</h1>
+        <ul class="text-left">
+          {% for i in range(1,10) %}
+            <li><label>{{ ('tokensale_label_'~i) | trans }}</label> {{ ('tokensale_value_'~i) | trans }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+    </div>
+  </section>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

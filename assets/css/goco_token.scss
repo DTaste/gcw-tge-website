@@ -1,18 +1,24 @@
 @import 'variables';
 
-h1{
+h1, h2{
   font-size: 38.7px;
   font-weight: 600;
   height: 116px;
   line-height: 116px;
-
+  text-align: center;
   display: inline-block;
   padding: auto 80px;
   margin:auto;
   color:$primary;
   background:url('/build/static/home/title-shadow.svg') center left no-repeat;
 }
-#goco-token{
+h1.shadow-right, h2.shadow-right{
+  background:url('/build/static/home/title-shadow.svg') center right no-repeat;
+}
+
+
+
+#goco-token, #timeline{
   ul{
     margin:auto;
     list-style-type: none;
@@ -23,15 +29,38 @@ h1{
       font-size: 16px;
       label{
         display: inline-block;
-        width: 220px;
+        width: 60%;
+        min-width: 220px;
         color:$primary;
 
         font-weight: bold;
       }
     }
   }
-
 }
+
+#goco-token{
+  .col-md-4.order-1{
+    background: url('/build/static/goco/goco-left.svg') bottom left no-repeat;
+    background-size: auto;
+  }
+  .col-md-4.order-3{
+    background: url('/build/static/goco/goco-right.svg') bottom right no-repeat;
+    background-size: auto;
+  }
+}
+
+#timeline{
+  .col-md-4.order-1{
+    background: url('/build/static/goco/timeline-left.svg') bottom left no-repeat;
+    background-size: auto;
+  }
+  .col-md-4.order-4{
+    background: url('/build/static/goco/timeline-right.svg') bottom right no-repeat;
+    background-size: auto;
+  }
+}
+
 #structure{
 
 

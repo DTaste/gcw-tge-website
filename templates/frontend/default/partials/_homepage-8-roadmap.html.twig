@@ -6,10 +6,10 @@
         <div id="roadmap-label-{{i}}" class="roadmap-label">{{ ('roadmap_label_'~i) | trans }}</div>
       {% endfor %}
 
-      {% for year in range(2013,2023) %}
-          <div id="roadmap-date-{{year}}" class="roadmap-date">Jan {{year}}</div>
+      {% for i, date in ["Jan 2013", "Jan 2014","Jan 2015","Jan 2016","Jan 2017","Jan 2018","Jan 2020","May 2020","Jan 2021","Jan 2022","Jan 2024","Jan 2027"] %}
+          <div id="roadmap-date-{{(i+1)}}" class="roadmap-date"> {{date}}</div>
       {% endfor %}
-      <div id="roadmap-date-2027" class="roadmap-date">Jan 2027</div>
+
 
       {% for i in range(1,12) %}
         <div id="roadmap-step-{{i}}" class="roadmap-step">{{ ('roadmap_step_'~i) | trans }}</div>
