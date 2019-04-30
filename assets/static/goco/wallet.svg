@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="107.569" height="79.875" viewBox="0 0 107.569 79.875">
+    <defs>
+        <style>
+            .cls-1,.cls-4,.cls-5{fill:none;stroke:#d31744;stroke-miterlimit:10}.cls-1{stroke-width:3.5px}.cls-2,.cls-3{fill:#d31744}.cls-2{opacity:.33}.cls-4{stroke-width:2.542px}.cls-5{stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Portefeuille" transform="translate(-2298.951 -798.35)">
+        <g id="Groupe_13544" data-name="Groupe 13544" transform="translate(2300.701 800.1)">
+            <path id="Tracé_45570" d="M2404.77 816.3v43.974a16.2 16.2 0 0 1-16.2 16.2h-71.67a16.2 16.2 0 0 1-16.2-16.2V816.3a16.195 16.195 0 0 1 16.2-16.2h71.669a16.207 16.207 0 0 1 16.2 16.2z" class="cls-1" data-name="Tracé 45570" transform="translate(-2300.701 -800.1)"/>
+            <path id="Tracé_45571" d="M2404.77 816.3v43.974a16.2 16.2 0 0 1-16.2 16.2h-71.67a16.2 16.2 0 0 1-16.2-16.2V816.3a16.195 16.195 0 0 1 16.2-16.2h71.669a16.207 16.207 0 0 1 16.2 16.2z" class="cls-2" data-name="Tracé 45571" transform="translate(-2300.701 -800.1)"/>
+        </g>
+        <circle id="Ellipse_2503" cx="3.42" cy="3.42" r="3.42" class="cls-3" data-name="Ellipse 2503" transform="translate(2364.938 836.47)"/>
+        <path id="Rectangle_12855" d="M12.145 0h36.194a1.928 1.928 0 0 1 1.928 1.928v20.434a1.928 1.928 0 0 1-1.928 1.928H12.145A12.145 12.145 0 0 1 0 12.145 12.145 12.145 0 0 1 12.145 0z" class="cls-4" data-name="Rectangle 12855" transform="translate(2354.683 827.745)"/>
+        <g id="Groupe_13545" data-name="Groupe 13545" transform="translate(2300.701 825.27)">
+            <path id="Tracé_45572" d="M2300.7 827.385h9.227l8.9 8.9v5.879" class="cls-5" data-name="Tracé 45572" transform="translate(-2300.701 -827.385)"/>
+            <circle id="Ellipse_2504" cx="2.979" cy="2.979" r="2.979" class="cls-5" data-name="Ellipse 2504" transform="translate(15.145 14.777)"/>
+        </g>
+        <g id="Groupe_13546" data-name="Groupe 13546" transform="translate(2300.789 819.858)">
+            <path id="Tracé_45573" d="M2300.8 821.518h14.947l4.649 4.649h12.036" class="cls-5" data-name="Tracé 45573" transform="translate(-2300.796 -821.518)"/>
+            <circle id="Ellipse_2505" cx="2.979" cy="2.979" r="2.979" class="cls-5" data-name="Ellipse 2505" transform="translate(31.631 1.67)"/>
+        </g>
+        <g id="Groupe_13547" data-name="Groupe 13547" transform="translate(2300.789 811.706)">
+            <path id="Ligne_1097" d="M0 0h23.598" class="cls-5" data-name="Ligne 1097" transform="translate(0 2.979)"/>
+            <circle id="Ellipse_2506" cx="2.979" cy="2.979" r="2.979" class="cls-5" data-name="Ellipse 2506" transform="translate(23.598)"/>
+        </g>
+        <g id="Groupe_13548" data-name="Groupe 13548" transform="translate(2375.394 814.685)">
+            <path id="Ligne_1098" d="M23.598 0H0" class="cls-5" data-name="Ligne 1098" transform="translate(5.959 2.979)"/>
+            <circle id="Ellipse_2507" cx="2.979" cy="2.979" r="2.979" class="cls-5" data-name="Ellipse 2507"/>
+        </g>
+        <g id="Groupe_13549" data-name="Groupe 13549" transform="translate(2364.066 860.292)">
+            <path id="Tracé_45574" d="M2407.481 873.229h-14.947l-4.649-4.649h-12.035" class="cls-5" data-name="Tracé 45574" transform="translate(-2369.891 -865.601)"/>
+            <circle id="Ellipse_2508" cx="2.979" cy="2.979" r="2.979" class="cls-5" data-name="Ellipse 2508"/>
+        </g>
+    </g>
+</svg>

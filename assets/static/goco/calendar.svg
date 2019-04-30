@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="108.574" height="93.569" viewBox="0 0 108.574 93.569">
+    <defs>
+        <style>
+            .cls-1,.cls-3,.cls-4{fill:#ff5401}.cls-2{fill:rgba(255,84,14,.33);stroke:#ff540e;stroke-width:3.5px}.cls-3,.cls-4{font-size:19px;font-family:Montserrat-Bold,Montserrat;font-weight:700}.cls-4{font-size:17px}.cls-5{fill:none;stroke:#fff;stroke-linecap:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="Groupe_14358" data-name="Groupe 14358" transform="translate(-887.4 -2881.501)">
+        <g id="Groupe_13665" data-name="Groupe 13665" transform="translate(-89.85 -3.986)">
+            <path id="Tracé_45804" d="M1198.524 401.241c2.295 0 4.155-2.149 4.155-4.8v-12.978c0-2.651-1.86-4.8-4.155-4.8s-4.156 2.149-4.156 4.8v12.979c0 2.651 1.86 4.799 4.156 4.799z" class="cls-1" data-name="Tracé 45804" transform="translate(-193.201 2506.824)"/>
+            <path id="Tracé_45807" d="M1198.524 401.241c2.295 0 4.155-2.149 4.155-4.8v-12.978c0-2.651-1.86-4.8-4.155-4.8s-4.156 2.149-4.156 4.8v12.979c0 2.651 1.86 4.799 4.156 4.799z" class="cls-1" data-name="Tracé 45807" transform="translate(-141 2506.824)"/>
+            <path id="Tracé_45806" d="M1268.207 385.67h-4.874v10.107a7.516 7.516 0 1 1-15.032 0V385.67h-37.237v10.107a7.516 7.516 0 0 1-15.033 0V385.67h-4.714a14.093 14.093 0 0 0-14.093 14.093v54.032a14.092 14.092 0 0 0 14.093 14.092h76.889a14.092 14.092 0 0 0 14.092-14.092v-54.032a14.092 14.092 0 0 0-14.091-14.093z" class="cls-2" data-name="Tracé 45806" transform="translate(-198.225 2509.42)"/>
+            <rect id="Rectangle_12943" width="23.256" height="20.677" class="cls-1" data-name="Rectangle 12943" rx="4.057" transform="translate(997.471 2948.048)"/>
+            <rect id="Rectangle_12946" width="23.256" height="20.677" class="cls-1" data-name="Rectangle 12946" rx="4.057" transform="translate(1038.767 2918.974)"/>
+            <text id="_1" class="cls-3" data-name="1" transform="translate(1004.85 2937.986)">
+                <tspan x="0" y="0">1</tspan>
+            </text>
+            <text id="_250" class="cls-4" data-name="250" transform="translate(1031.98 2962.567)">
+                <tspan x="0" y="0">250</tspan>
+            </text>
+            <g id="Groupe_13664" data-name="Groupe 13664" transform="translate(1046.847 2926.117)">
+                <path id="Tracé_45821" d="M2226 3780.07l6.8 6.8" class="cls-5" data-name="Tracé 45821" transform="translate(-2226 -3780.07)"/>
+                <path id="Tracé_45822" d="M2232.8 3780.07l-6.8 6.8" class="cls-5" data-name="Tracé 45822" transform="translate(-2226 -3780.07)"/>
+            </g>
+        </g>
+    </g>
+</svg>

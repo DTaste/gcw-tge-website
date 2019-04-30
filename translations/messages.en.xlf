@@ -706,6 +706,34 @@
 <source>tokensale_value_10</source>
 <target>No</target>
 </trans-unit>
+<trans-unit id="177">
+<source>timeline_title</source>
+<target>Timeline</target>
+</trans-unit>
+<trans-unit id="178">
+<source>period_title</source>
+<target>Period Illustration</target>
+</trans-unit>
+<trans-unit id="179">
+<source>period_desc</source>
+<target><![CDATA[GCW distributed pro rata between<br />contributors on the basis of the total ETH<br />collected during these periods.]]></target>
+</trans-unit>
+<trans-unit id="180">
+<source>eth_powered</source>
+<target>Powered by Ethereum</target>
+</trans-unit>
+<trans-unit id="181">
+<source>eth_desc</source>
+<target><![CDATA[Open-source, public, blockchain-based distributed computing platform. <br />Hosted by Ethereum Foundation.]]></target>
+</trans-unit>
+<trans-unit id="182">
+<source>contributor_wallets</source>
+<target>Contributor Wallets</target>
+</trans-unit>
+<trans-unit id="183">
+<source>ecosystem_infrastructure</source>
+<target>Ecosystem Infrastructure</target>
+</trans-unit>
 </body>
 </file>
 </xliff>

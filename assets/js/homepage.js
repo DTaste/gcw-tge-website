@@ -15,7 +15,6 @@ $(document).ready(function() {
 function initView(){
 
   animStatusQuo();
-  animArchi();
 
   //animWheelCabs();
   //animLoop();
@@ -142,57 +141,4 @@ function animLoop(){
     //posCab  = 32;
 
   console.log(rows);
-}
-
-
-function animArchi(){
-  //rain
-
-  var rain = function(){
-    if($('.drop.off').length>0){
-      $('.drop.off').removeClass('off');
-    }
-
-    var waiting = $('.drop:not(.on)');
-    //var dropping = $('.drop.on');
-    var drop = 0;
-    var width = $('#archi-main-body-content').width();
-
-    while(drop<1 && waiting.length>0){
-      var left = Math.round((Math.random()*60))+20;
-      if($('.drop-p-'+left).length==0){
-        var rand = randomIndex(waiting);
-
-        $(waiting[rand]).addClass('on').addClass('drop-p-'+left).css('left', left+"%");
-
-        drop++;
-        waiting = $('.drop:not(.on)');
-      }
-    }
-    if(waiting==0){
-      clearInterval(rainIntervalId);
-    }
-    /*
-    if(dropping.length>waiting.length){
-      console.log('waiting', waiting.length );
-      console.log('dropping', dropping.length );
-      var wait = 0;
-      while(wait<4){
-        var rand = randomIndex(dropping);
-        $(dropping[rand]).removeClass('on');
-        wait++;
-      }
-    }*/
-  }
-
-  rain();
-  var rainIntervalId = setInterval(rain,350);
-
-}
-
-
-
-
-function randomIndex(myArray){
-  return Math.floor(Math.random() * myArray.length);
 }

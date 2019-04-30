@@ -52,6 +52,7 @@ function animView(){
   });
 
   reverseGroupIcons();
+  animScheme();
 
 }
 var groups = [
@@ -136,7 +137,7 @@ function reverseIconsOfGroup(htmlId, groupIndex){
   $(htmlId+' .fadeIO.on').removeClass('on');
 
   var rand = randomIndex(icons);
-  var rand2 = rand;
+  var rand2 = randomIndex(icons);
   while(rand2==rand){
     rand2 = randomIndex(icons);
   }
@@ -152,6 +153,7 @@ function reverseIconsOfGroup(htmlId, groupIndex){
     if($(htmlId+' '+icoKlassIndex1).hasClass('gcw-ico-'+icons[i])){
       icoKlassName1 = 'gcw-ico-'+icons[i];
     }
+
     if($(htmlId+' '+icoKlassIndex2).hasClass('gcw-ico-'+icons[i])){
       icoKlassName2 = 'gcw-ico-'+icons[i];
     }
@@ -165,6 +167,45 @@ function reverseIconsOfGroup(htmlId, groupIndex){
     $(htmlId+' '+icoKlassIndex2).removeClass(icoKlassName2).addClass(icoKlassName1);
   }, 1500);
 }
+
+
+
+
+function animScheme(){
+  //rain
+
+  var rain = function(){
+    if($('.drop.off').length>0){
+      $('.drop.off').removeClass('off');
+    }
+
+    var waiting = $('.drop:not(.on)');
+    //var dropping = $('.drop.on');
+    var drop = 0;
+    var width = $('#archi-main-body-content').width();
+
+    while(drop<1 && waiting.length>0){
+      var left = Math.round((Math.random()*60))+20;
+      if($('.drop-p-'+left).length==0){
+        var rand = randomIndex(waiting);
+
+        $(waiting[rand]).addClass('on').addClass('drop-p-'+left).css('left', left+"%");
+
+        drop++;
+        waiting = $('.drop:not(.on)');
+      }
+    }
+    if(waiting==0){
+      clearInterval(rainIntervalId);
+    }
+
+  }
+
+  rain();
+  var rainIntervalId = setInterval(rain,350);
+
+}
+
 
 
 function randomIndex(myArray){

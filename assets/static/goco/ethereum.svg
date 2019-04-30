@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Groupe_13128" width="56.89" height="56.89" data-name="Groupe 13128" viewBox="0 0 56.89 56.89">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2{fill:#702963}.cls-3{opacity:.66}
+        </style>
+    </defs>
+    <g id="Groupe_13109" data-name="Groupe 13109">
+        <circle id="Ellipse_2701" cx="28.445" cy="28.445" r="28.445" class="cls-1" data-name="Ellipse 2701"/>
+    </g>
+    <g id="Groupe_13125" data-name="Groupe 13125" transform="translate(13.149 4.456)">
+        <g id="Groupe_13123" data-name="Groupe 13123">
+            <path id="Tracé_47126" d="M895.094 422.2l-13.879-8.064 13.885-23.408 13.835 23.48zm-12.046-8.542l12.05 7 12.005-6.924-12.009-20.388z" class="cls-2" data-name="Tracé 47126" transform="translate(-879.672 -390.728)"/>
+            <path id="Tracé_47127" d="M894.839 441.527l-15.426-21.79 15.4 9.538 15.341-9.443zM884.3 424.339l10.531 14.88 10.479-14.84-10.5 6.465z" class="cls-2" data-name="Tracé 47127" transform="translate(-879.413 -394.899)"/>
+        </g>
+        <g id="Groupe_13124" class="cls-3" data-name="Groupe 13124" transform="translate(2.42 1.309)">
+            <path id="Tracé_47128" d="M895.218 392.257l12.924 21.94-12.924 7.452-12.961-7.531z" class="cls-2" data-name="Tracé 47128" transform="translate(-882.242 -392.257)"/>
+            <path id="Tracé_47129" d="M908.118 422.492l-12.9 18.258-12.978-18.33 12.962 8.023z" class="cls-2" data-name="Tracé 47129" transform="translate(-882.239 -396.594)"/>
+        </g>
+    </g>
+</svg>
