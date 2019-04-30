@@ -1,0 +1,49 @@
+{% extends 'frontend/base.html.twig' %}
+
+
+{% block body %}
+<div class="container-fluid">
+  <div id="goco-token" class="screen py-5">
+
+      <div class="row">
+        <div class="mx-auto col-12 col-md-8">
+          <h1 class="text-center px-5 my-5">FAQ</h1>
+          {% set categories = [{'name':'eco', 'prefix': 'faq_eco_', 'items': 10}, {'name':'token', 'prefix': 'faq_eco_token_', 'items': 9}, {'name':'token', 'prefix': 'faq_eco_tokensale_', 'items': 10}  ] %}
+          <ul class="nav nav-tabs">:
+          {% for cat in categories %}
+            <li id="tab-{{ cat.name}}">{{ ( 'faq_'~cat.name~'_title' ) |trans }}</li>
+          {% endfor %}
+          </ul>
+
+          {% for cat in categories %}
+
+            <ul id="list-{{ cat.name}}">
+            {% for q in range(1, cat.items) %}
+              <li>
+
+                <p class="question">{{ (cat.prefix~'question_'~q) | trans}}</p>
+                <p class="answer">{{ (cat.prefix~'answer_'~q) | trans | raw}}</p>
+              </li>
+            {% endfor %}
+            </ul>
+          {% endfor %}
+
+        </div>
+      </div>
+
+  </div>
+</div>
+
+
+
+
+{% endblock %}
+
+
+{% block stylesheets %}
+    {{ parent() }}
+  {{ encore_entry_link_tags('faq') }}
+{% endblock %}
+{% block javascripts %}
+  {{ parent() }}
+{% endblock %}

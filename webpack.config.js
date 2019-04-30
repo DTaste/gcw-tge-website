@@ -23,6 +23,7 @@ Encore
     .addEntry('homepage', './assets/js/homepage.js')
     .addEntry('token', './assets/js/token.js')
     .addEntry('goco_token', './assets/css/goco_token.scss')
+    .addEntry('faq', './assets/css/faq.scss')
 
 
 

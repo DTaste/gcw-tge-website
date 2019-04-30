@@ -734,6 +734,250 @@
 <source>ecosystem_infrastructure</source>
 <target>Ecosystem Infrastructure</target>
 </trans-unit>
+<trans-unit id="184">
+<source>faq_eco_question_1</source>
+<target>Where is Gocoworker registered?</target>
+</trans-unit>
+<trans-unit id="185">
+<source>faq_eco_question_2</source>
+<target>Does the European Union support DLT-based projects?</target>
+</trans-unit>
+<trans-unit id="186">
+<source>faq_eco_question_3</source>
+<target>Is DLT and Blockchain the same?</target>
+</trans-unit>
+<trans-unit id="187">
+<source>faq_eco_question_4</source>
+<target>What is the Gocoworker?</target>
+</trans-unit>
+<trans-unit id="188">
+<source>faq_eco_question_5</source>
+<target>What is a Gocompany?</target>
+</trans-unit>
+<trans-unit id="189">
+<source>faq_eco_question_6</source>
+<target>What is a Gocobooster?</target>
+</trans-unit>
+<trans-unit id="190">
+<source>faq_eco_question_7</source>
+<target>What is a Gococampus?</target>
+</trans-unit>
+<trans-unit id="191">
+<source>faq_eco_question_8</source>
+<target>Is is a proven solution?</target>
+</trans-unit>
+<trans-unit id="192">
+<source>faq_eco_question_9</source>
+<target>What is the token economy?</target>
+</trans-unit>
+<trans-unit id="193">
+<source>faq_eco_question_10</source>
+<target>Is it a vector of social progress?</target>
+</trans-unit>
+<trans-unit id="194">
+<source>faq_eco_answer_1</source>
+<target><![CDATA[The company is incorporated in Spain (EU).<br />Annual reports are certified.]]></target>
+</trans-unit>
+<trans-unit id="195">
+<source>faq_eco_answer_2</source>
+<target><![CDATA[Under the DLT resolution (2017/2772/EU), policies to strengthen and finance DLTs become a top priority.]]></target>
+</trans-unit>
+<trans-unit id="196">
+<source>faq_eco_answer_3</source>
+<target><![CDATA[They are digitalized and decentralized databases spread across several nodes.Blockchain is a type of DLT where data is organized in the « chain of blocks » form.]]></target>
+</trans-unit>
+<trans-unit id="197">
+<source>faq_eco_answer_4</source>
+<target><![CDATA[It is a distributed corporation for Talents. It is pioneering communal work.]]></target>
+</trans-unit>
+<trans-unit id="198">
+<source>faq_eco_answer_5</source>
+<target><![CDATA[It is a communal company where each professional is his own boss and the company a mean.<br />There is a voluntary creation of collective between autonomous workers.]]></target>
+</trans-unit>
+<trans-unit id="199">
+<source>faq_eco_answer_6</source>
+<target><![CDATA[It is an acceleration program enabling the sustainable creation of its dream job safely and being accompanied.]]></target>
+</trans-unit>
+<trans-unit id="200">
+<source>faq_eco_answer_7</source>
+<target><![CDATA[It is a talent campus gathering a whole entrepreneurial ecosystem in one place.]]></target>
+</trans-unit>
+<trans-unit id="201">
+<source>faq_eco_answer_8</source>
+<target><![CDATA[Gocoworker has at least 7 years of experience. Processes have been continually improved.<br />Standards of communal work, company and corporation have been designed to meet the challenges of a collaborative economy.]]></target>
+</trans-unit>
+<trans-unit id="202">
+<source>faq_eco_answer_9</source>
+<target><![CDATA[Ecosystems are replacing markets. Money is no longer an end but a mean.<br />A quaternary employment sector is emerging as illustrated by the theory of job spill.]]></target>
+</trans-unit>
+<trans-unit id="203">
+<source>faq_eco_answer_10</source>
+<target><![CDATA[The Keynesian unemployement is solved. Individual and collective empowerment are permitted.<br />A move from a pyramidal collective intelligence to global is allowed for a new sustainable wave of development.]]></target>
+</trans-unit>
+<trans-unit id="204">
+<source>faq_eco_token_question_1</source>
+<target>Is it a utility token?</target>
+</trans-unit>
+<trans-unit id="205">
+<source>faq_eco_token_question_2</source>
+<target>When will it be possible to use the token?</target>
+</trans-unit>
+<trans-unit id="206">
+<source>faq_eco_token_question_3</source>
+<target>Is there a « Total Cap »?</target>
+</trans-unit>
+<trans-unit id="207">
+<source>faq_eco_token_question_4</source>
+<target>What is token network effect?</target>
+</trans-unit>
+<trans-unit id="208">
+<source>faq_eco_token_question_5</source>
+<target>What is a Liquid Token?</target>
+</trans-unit>
+<trans-unit id="209">
+<source>faq_eco_token_question_6</source>
+<target>What is the liquidity depth?</target>
+</trans-unit>
+<trans-unit id="210">
+<source>faq_eco_token_question_7</source>
+<target>Is there a wide distribution?</target>
+</trans-unit>
+<trans-unit id="211">
+<source>faq_eco_token_question_8</source>
+<target>Is there a distributed allocation?</target>
+</trans-unit>
+<trans-unit id="212">
+<source>faq_eco_token_question_9</source>
+<target>Why the token has 18 decimals?</target>
+</trans-unit>
+<trans-unit id="213">
+<source>faq_eco_token_answer_1</source>
+<target><![CDATA[It is the object-link of the daily life of the organization (product-use tokens).<br />The project success is not based on the team efforts (proven community and existing product).<br />There is no expectation of profits.]]></target>
+</trans-unit>
+<trans-unit id="214">
+<source>faq_eco_token_answer_2</source>
+<target>It is currently possible to pay for business services within the ecosystem.</target>
+</trans-unit>
+<trans-unit id="215">
+<source>faq_eco_token_answer_3</source>
+<target><![CDATA[The Total Cap is 21,000,000.]]></target>
+</trans-unit>
+<trans-unit id="216">
+<source>faq_eco_token_answer_4</source>
+<target>It is a business model for a decentralized web. The network becomes more valuable as more people use it. Achieving critical mass creates a winner-take-all dynamic.</target>
+</trans-unit>
+<trans-unit id="217">
+<source>faq_eco_token_answer_5</source>
+<target><![CDATA[It is a type of cryptocurrency that can be converted without needing to match 2 parties, eliminatingcounterparty risk and decoupling liquidity from trade volume.<br />A formula enables automatic price determination without spread.]]></target>
+</trans-unit>
+<trans-unit id="218">
+<source>faq_eco_token_answer_6</source>
+<target><![CDATA[The initial reserve is 21,000 ETH.<br />1% of the « Total Cap » is allocated to the stability of the token.<br />It is in line with the MAR (596/2014/EU) regarding liquidity contracts for illiquid assets.]]></target>
+</trans-unit>
+<trans-unit id="219">
+<source>faq_eco_token_answer_7</source>
+<target><![CDATA[The token sale takes place over 219 days which is expected to provide ample time for thestakeholders to familiarize themselves with the ecosystem.<br />The price is set on-chain by the demand to ensure transparency and inclusivity.]]></target>
+</trans-unit>
+<trans-unit id="220">
+<source>faq_eco_token_answer_8</source>
+<target><![CDATA[A qualified majority is initally allocated to the ecosystem with at least a simple majority during thetoken sale. All tokens were created one and for all.]]></target>
+</trans-unit>
+<trans-unit id="221">
+<source>faq_eco_token_answer_9</source>
+<target><![CDATA[It is the most common number because 1 ETH is represented by 10e18 of wei.<br />It simplifies the programming, reduces the user experience complexity of adding ERC20 tokens, allows transactions to be easily detected and have the correct value shown on wallets.]]></target>
+</trans-unit>
+<trans-unit id="222">
+<source>faq_eco_tokensale_question_1</source>
+<target>How stakeholders are well protected?</target>
+</trans-unit>
+<trans-unit id="223">
+<source>faq_eco_tokensale_question_2</source>
+<target>Is there a geographical restriction?</target>
+</trans-unit>
+<trans-unit id="224">
+<source>faq_eco_tokensale_question_3</source>
+<target>Is there a KYC process?</target>
+</trans-unit>
+<trans-unit id="225">
+<source>faq_eco_tokensale_question_4</source>
+<target>Is there a minimum contribution?</target>
+</trans-unit>
+<trans-unit id="226">
+<source>faq_eco_tokensale_question_5</source>
+<target>Is there a bonus policy?</target>
+</trans-unit>
+<trans-unit id="227">
+<source>faq_eco_tokensale_question_6</source>
+<target>Is there a referral program?</target>
+</trans-unit>
+<trans-unit id="228">
+<source>faq_eco_tokensale_question_7</source>
+<target>What happens to undistributed tokens during the Presale?</target>
+</trans-unit>
+<trans-unit id="229">
+<source>faq_eco_tokensale_question_8</source>
+<target>What happens if there is no contributor during a Period?</target>
+</trans-unit>
+<trans-unit id="230">
+<source>faq_eco_tokensale_question_9</source>
+<target>Why 42,000 tokens per Period?</target>
+</trans-unit>
+<trans-unit id="231">
+<source>faq_eco_tokensale_question_10</source>
+<target>Why a Period of 21 hours?</target>
+</trans-unit>
+<trans-unit id="232">
+<source>faq_eco_tokensale_answer_1</source>
+<target>The only currency is ETH. This is essential for running a complete distributed solution on-chain where contributions are directly send to smart contracts.</target>
+</trans-unit>
+<trans-unit id="233">
+<source>faq_eco_tokensale_answer_2</source>
+<target>Everyone can contributed except citizens, residents and entities of the United States and the People’s Republic of China.</target>
+</trans-unit>
+<trans-unit id="234">
+<source>faq_eco_tokensale_answer_3</source>
+<target><![CDATA[Under the 5AML (2018/843/EU), AML/CTF legislation concerns exclusively « obliged entities » ascustodian wallet providers and virtual currency exchange platforms.<br />Under the GDPR (2016/679/EU), processing of personal information of EU natural persons forunregulated uses (non FIAT/non securities…) is forbidden.]]></target>
+</trans-unit>
+<trans-unit id="235">
+<source>faq_eco_tokensale_answer_4</source>
+<target><![CDATA[The minimum contribution is 0.01 ETH.<br />It ensures the smooth operation by avoiding infinite loops.]]></target>
+</trans-unit>
+<trans-unit id="236">
+<source>faq_eco_tokensale_answer_5</source>
+<target><![CDATA[No bonuses are available.<br />It is to avoid any harmful behavior in the short term detrimental to stakeholders.]]></target>
+</trans-unit>
+<trans-unit id="237">
+<source>faq_eco_tokensale_answer_6</source>
+<target><![CDATA[It is a world first with an on-chain program and automated rewards distribution.<br />It is available during the Presale. The listing is verifiable directly in the blockchain.<br />It is advisable to modify the addresses taken in case of problem.]]></target>
+</trans-unit>
+<trans-unit id="238">
+<source>faq_eco_tokensale_answer_7</source>
+<target><![CDATA[They are automatically assigned to the Reward Pool.]]></target>
+</trans-unit>
+<trans-unit id="239">
+<source>faq_eco_tokensale_answer_8</source>
+<target><![CDATA[They are automatically assigned to the Reward Pool.]]></target>
+</trans-unit>
+<trans-unit id="240">
+<source>faq_eco_tokensale_answer_9</source>
+<target><![CDATA[It represents 0.2% of the « Total Cap. ».<br />It is about the average daily liquidity of the financial market.]]></target>
+</trans-unit>
+<trans-unit id="241">
+<source>faq_eco_tokensale_answer_10</source>
+<target><![CDATA[It is to accommodate time zones and allow everyone to join the movement easily.]]></target>
+</trans-unit>
+<trans-unit id="242">
+<source>faq_eco_title</source>
+<target>ECOSYSTEM</target>
+</trans-unit>
+<trans-unit id="243">
+<source>faq_token_title</source>
+<target>TOKEN</target>
+</trans-unit>
+<trans-unit id="244">
+<source>faq_tokensale_title</source>
+<target>TOKEN SALE</target>
+</trans-unit>
 </body>
 </file>
 </xliff>
