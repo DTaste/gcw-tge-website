@@ -9,7 +9,7 @@
       <div class="row align-items-center">
         {% for index, item in [
         {'key': 'aecis', 'link' : 'https://www.aecis.fr/', 'width' : 204, 'height': 118, 'img_class':''},
-        {'key': 'fucc', 'link' : 'https://www.ufec.pro/', 'width' : 78, 'height': 78, 'img_class':'d-inline-block  my-4'},
+        {'key': 'fucc', 'link' : 'https://www.ufec.pro/', 'width' : 78, 'height': 78, 'img_class':'d-inline-block  my-4', 'format':'png'},
         {'key': 'cognitum', 'link' : 'https://www.cognitum.fr/', 'width' : 253, 'height': 100, 'img_class':''},
         {'key': 'ce', 'link' : 'https://consultant-entrepreneur.com/', 'width' : 203, 'height': 85, 'img_class':'d-inline-block my-3'}
         ] %}
@@ -17,7 +17,12 @@
             <div class="story-item d-flex m-auto">
                 <div class="m-auto align-self-center">
                     <a href="{{item.link}}" target="_blank" class="{{item.img_class}}">
+
+                    {% if item.format is defined and item.format=='png' %}
                         <img src="{{asset('build/static/home/story/'~item.key~'.png')}}" alt="{{item.key}}" srcset="{{asset('build/static/home/story/'~item.key~'@2x.png')}} 2x, {{asset('build/static/home/story/'~item.key~'@3x.png')}} 3x" width="{{item.width}}" height="{{item.height}}" />
+                    {% else %}
+                        <img src="{{asset('build/static/home/story/'~item.key~'.svg')}}" alt="{{item.key}}" width="{{item.width}}" height="{{item.height}}" />
+                    {% endif %}
                     </a>
 
                     <h4 class="primary-color mb-3">{{('story_'~(item.key)~'_title') | trans }}</h4>

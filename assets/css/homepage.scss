@@ -385,11 +385,18 @@ h2{
   #animated-bg{
 
     position: relative;
-    background:url('/build/static/home/ecosystem/ecosystem.svg') top center no-repeat;
-    background-size:1680px auto;
-    width: 100%;
 
+
+    width: 100%;
     height: 900px;
+    background:url('/build/static/home/ecosystem/ecosystem_old.svg') top center no-repeat;
+    height: 900px;
+    /*
+    background:url('/build/static/home/ecosystem/ecosystem_new.svg') top center no-repeat;
+    height: 915px;
+    */
+
+    background-size:1680px auto;
     overflow: hidden;
 
     .fountain{

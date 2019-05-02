@@ -1,0 +1,256 @@
+{% extends 'frontend/base.html.twig' %}
+
+
+{% block body %}
+<div class="container-fluid">
+  <section id="goco-token" class="screen py-5">
+
+      <div class="row">
+      <div class="d-none d-md-block col-md-4 order-1"></div>
+      <div class="d-none d-md-block col-md-4 order-3"></div>
+        <div class="mx-auto col-12 col-md-4 text-center order-2">
+        <h1 class="text-center px-5 my-5">GOCO Token</h1>
+        <ul class="text-left">
+
+        <li><label>{{'goco_symbol' | trans }}</label> GOCO</li>
+        <li><label>{{'goco_type' | trans }}</label> ERC20</li>
+        <li><label>{{'goco_classification' | trans }}</label> Utility Token</li>
+        <li><label>{{'goco_digit' | trans }}</label> 18</li>
+        <li><label>{{'goco_liquidity' | trans }}</label> Native</li>
+        <li><label>{{'goco_total_supply' | trans }}</label> 21,000,000</li>
+        <li><label>{{'goco_circulating_supply' | trans }}</label> 12,600,000</li>
+        <li><label>{{'goco_cap' | trans }}</label> 210,000</li>
+        <li><label>{{'goco_currency' | trans }}</label> {{'goco_eth_only' | trans }}</li>
+        <li><label>{{'goco_min_contribution' | trans }}</label> 0.01</li>
+
+        </ul>
+        </div>
+      </div>
+
+  </section>
+
+
+  <section id="structure" class="screen container">
+    <div class="row">
+      <div class="mx-auto col-12 text-center">
+          <h2 class="text-center px-5 my-5 mx-auto shadow-right">{{'structure_title' | trans }}</h2>
+      </div>
+
+      <div class="col-12 col-md-6" id="goco_distribution">
+        <div class="chart">{{'goco_distribution' | trans }}</div>
+        <ul>
+          <li><label><span></span>{{'goco_token_sale' | trans }}</label> <span class="value">50%</span></li>
+          <li><label><span></span>{{'goco_presale' | trans }}</label> <span class="value">10%</span></li>
+          <li><label><span></span>{{'goco_team' | trans }}</label> <span class="value">33%</span></li>
+          <li><label><span></span>{{'goco_reward_pool' | trans }}</label> <span class="value">7%</span></li>
+        </ul>
+      </div>
+
+      <div class="col-12 col-md-6" id="goco_allocation">
+        <div class="chart">{{'goco_allocation' | trans }}</div>
+        <ul>
+        <li><label><span></span>Gocoworker</label> <span class="value">30%</span></li>
+        <li><label><span></span>Gocompany</label> <span class="value">20%</span></li>
+        <li><label><span></span>Gocobooster</label> <span class="value">10%</span></li>
+        <li><label><span></span>Gococampus</label> <span class="value">40%</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="timeline" class="screen py-5">
+    <div class="row">
+
+      <div class="mx-auto col-12 text-center">
+          <h2 class="text-center px-5 my-5 mx-auto shadow-right">{{'timeline_title' | trans }}</h2>
+      </div>
+
+
+      <div class="d-none d-md-block col-md-2 order-1"></div>
+      <div class="d-none d-md-block col-md-2 order-4"></div>
+
+      <div class="col-6 col-md-4 order-2">
+        <h3 class="text-center px-5 my-5 primary-color">Presale</h1>
+        <ul class="text-left">
+          {% for i in range(1,10) %}
+            <li><label>{{ ('presale_label_'~i) | trans }}</label> {{ ('presale_value_'~i) | trans }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="col-6 col-md-4 order-3">
+        <h3 class="text-center px-5 my-5 primary-color">Token Sale</h1>
+        <ul class="text-left">
+          {% for i in range(1,10) %}
+            <li><label>{{ ('tokensale_label_'~i) | trans }}</label> {{ ('tokensale_value_'~i) | trans }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="illustration" class="screen py-5">
+    <div class="row">
+      <div class="col-12 col-md-5 text-center">
+        <h2 class="px-5">{{'period_title' | trans }}</h2>
+        <p class="my-5 secondary-color">{{'period_desc' | trans | raw }}</p>
+
+        <div id="eth" class="mx-auto my-5 p-3 gray-light-bg">
+        <h3><img src="{{asset('/build/static/goco/ethereum.svg')}}" alt="Ethereum" width="57" height="57" /> {{'eth_powered' | trans }}</h3>
+        <p>{{'eth_desc' | trans | raw }}</p>
+        </div>
+      </div>
+      <div id="illu-scheme" class="col-12 col-md-7">
+
+        <div id="illu-header">
+          <div class="illu-left">
+            <div class="illu-col-1">
+              <img src="{{asset('/build/static/home/status/freelance.svg')}}" alt="Freelance" width="67" height=67 />
+              <div id="goco-100" class="token">
+                <img src="{{asset('/build/static/home/archi/TOKEN_ARCHITECTURE.png')}}" alt="100 GOCO" width="67" height=67 />
+                <p class="primary-bg white-color">100</p>
+              </div>
+            </div>
+            <div class="illu-col-2">
+              <img src="{{asset('/build/static/goco/wallet.svg')}}" alt="Wallet" width="108" height="80px" />
+              <p>42,000</p>
+            </div>
+            <div class="illu-col-3">
+              <img src="{{asset('/build/static/home/status/freelance.svg')}}" alt="Freelance" width="67" height=67 />
+              <div id="goco-100" class="token">
+                <img src="{{asset('/build/static/home/archi/TOKEN_ARCHITECTURE.png')}}" alt="500 GOCO" width="67" height=67 />
+                <p class="primary-bg white-color">100</p>
+              </div>
+            </div>
+          </div>
+          <div class="illu-right">
+            <p>{{ 'contributor_wallets' | trans }}</p>
+          </div>
+        </div>
+
+        <div id="illu-body">
+
+          <div class="illu-left">
+            <div class="illu-col-1 illu-blank">
+              {% for i in range (1, 8) %}
+                <div class="drop"></div>
+              {% endfor %}
+
+            </div>
+
+            <div class="illu-col-2 white-bg py-5">
+              <img src="{{asset('/build/static/goco/calendar.svg')}}" alt="Calendar" width="67" height=67 />
+              <div id="period-scheme">
+
+                21
+
+              </div>
+            </div>
+
+
+            <div class="illu-col-3 illu-blank">
+              {% for i in range (1, 8) %}
+                <div class="drop"></div>
+              {% endfor %}
+            </div>
+
+          </div>
+
+          <div class="illu-right">
+            <p>{{ 'ecosystem_infrastructure' | trans }}</p>
+          </div>
+
+        </div>
+
+
+        <div id="illu-footer">
+          <div class="illu-left">
+            <div class="illu-col-1">
+              <div id="eth-10" class="token">
+                <img src="{{asset('/build/static/home/archi/TOKEN_ARCHITECTURE.png')}}" alt="10 ETH" width="67" height=67 />
+                <p class="primary-bg white-color">10</p>
+              </div>
+            </div>
+            <div class="illu-col-2">
+              <p>4,200</p>
+              <img src="{{asset('/build/static/goco/safe-deposit-box.svg')}}" alt="Wallet" width="108" height="80px" />
+
+            </div>
+            <div class="illu-col-3">
+              <div id="eth-50" class="token">
+                <img src="{{asset('/build/static/home/archi/TOKEN_ARCHITECTURE.png')}}" alt="50 ETH" width="67" height=67 />
+                <p class="primary-bg white-color">50</p>
+              </div>
+            </div>
+          </div>
+          <div class="illu-right">
+            <p>{{ 'smart_contracts' | trans }}</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+  <section id="referral" class="screen py-5">
+
+  </section>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
+
+
+{% block stylesheets %}
+    {{ parent() }}
+  {{ encore_entry_link_tags('goco_token') }}
+{% endblock %}
+{% block javascripts %}
+  {{ parent() }}
+{% endblock %}

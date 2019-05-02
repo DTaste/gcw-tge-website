@@ -26,8 +26,6 @@ Encore
     .addEntry('faq', './assets/css/faq.scss')
 
 
-
-
     // uncomment if you're having problems with a jQuery plugin
     .autoProvidejQuery()
     .addPlugin(new CopyWebpackPlugin([
@@ -50,7 +48,6 @@ Encore
     // enables hashed filenames (e.g. app.abc123.css)
     .enableVersioning()
     .enableSingleRuntimeChunk()
-
 
 
     // uncomment if you use TypeScript

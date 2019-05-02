@@ -475,508 +475,688 @@
 <target>Operation in 20+ Nations</target>
 </trans-unit>
 <trans-unit id="119">
+<source>team_title</source>
+<target>Human Capital</target>
+</trans-unit>
+<trans-unit id="120">
+<source>team_you_here</source>
+<target>Your Name Here</target>
+</trans-unit>
+<trans-unit id="121">
+<source>team_join</source>
+<target>Join Us</target>
+</trans-unit>
+<trans-unit id="122">
+<source>team_more</source>
+<target>MORE</target>
+</trans-unit>
+<trans-unit id="123">
 <source>goco_symbol</source>
 <target>Symbol</target>
 </trans-unit>
-<trans-unit id="120">
+<trans-unit id="124">
 <source>goco_type</source>
 <target>Type</target>
 </trans-unit>
-<trans-unit id="121">
+<trans-unit id="125">
 <source>goco_classification</source>
 <target>Classification</target>
 </trans-unit>
-<trans-unit id="122">
+<trans-unit id="126">
 <source>goco_digit</source>
 <target>Digit Number</target>
 </trans-unit>
-<trans-unit id="123">
+<trans-unit id="127">
 <source>goco_liquidity</source>
 <target>Liquidity</target>
 </trans-unit>
-<trans-unit id="124">
+<trans-unit id="128">
 <source>goco_total_supply</source>
 <target>Total Supply</target>
 </trans-unit>
-<trans-unit id="125">
+<trans-unit id="129">
 <source>goco_circulating_supply</source>
 <target>Circulating Supply</target>
 </trans-unit>
-<trans-unit id="126">
+<trans-unit id="130">
 <source>goco_cap</source>
 <target>Soft Cap (ETH)</target>
 </trans-unit>
-<trans-unit id="127">
+<trans-unit id="131">
 <source>goco_currency</source>
 <target>Currency</target>
 </trans-unit>
-<trans-unit id="128">
+<trans-unit id="132">
 <source>goco_min_contribution</source>
 <target>Min. Contribution</target>
 </trans-unit>
-<trans-unit id="129">
+<trans-unit id="133">
 <source>goco_eth_only</source>
 <target>ETH only</target>
 </trans-unit>
-<trans-unit id="130">
+<trans-unit id="134">
 <source>structure_title</source>
 <target>Structure</target>
 </trans-unit>
-<trans-unit id="131">
+<trans-unit id="135">
 <source>goco_distribution</source>
 <target>Token Distribution</target>
 </trans-unit>
-<trans-unit id="132">
+<trans-unit id="136">
 <source>goco_token_sale</source>
 <target>Token Sale</target>
 </trans-unit>
-<trans-unit id="133">
+<trans-unit id="137">
 <source>goco_team</source>
 <target>Team</target>
 </trans-unit>
-<trans-unit id="134">
+<trans-unit id="138">
 <source>goco_reward_pool</source>
 <target>Reward Pool</target>
 </trans-unit>
-<trans-unit id="135">
+<trans-unit id="139">
 <source>goco_allocation</source>
 <target>Contribution Allocation</target>
 </trans-unit>
-<trans-unit id="136">
+<trans-unit id="140">
 <source>goco_presale</source>
 <target>Presale</target>
 </trans-unit>
-<trans-unit id="137">
+<trans-unit id="141">
 <source>presale_label_1</source>
 <target>Total Token</target>
 </trans-unit>
-<trans-unit id="138">
+<trans-unit id="142">
 <source>presale_label_2</source>
 <target>Token Price (ETH)</target>
 </trans-unit>
-<trans-unit id="139">
+<trans-unit id="143">
 <source>presale_label_3</source>
 <target>Start Time (UTC)</target>
 </trans-unit>
-<trans-unit id="140">
+<trans-unit id="144">
 <source>presale_label_4</source>
 <target>End Time (UTC)</target>
 </trans-unit>
-<trans-unit id="141">
+<trans-unit id="145">
 <source>presale_label_5</source>
 <target>Token Distribution</target>
 </trans-unit>
-<trans-unit id="142">
+<trans-unit id="146">
 <source>presale_label_6</source>
 <target>Bonus</target>
 </trans-unit>
-<trans-unit id="143">
+<trans-unit id="147">
 <source>presale_label_7</source>
 <target>Ending</target>
 </trans-unit>
-<trans-unit id="144">
+<trans-unit id="148">
 <source>presale_label_9</source>
 <target>Whitelist</target>
 </trans-unit>
-<trans-unit id="145">
+<trans-unit id="149">
 <source>presale_label_10</source>
 <target>Referral Program</target>
 </trans-unit>
-<trans-unit id="146">
+<trans-unit id="150">
 <source>presale_label_8</source>
 <target>Unsold Token</target>
 </trans-unit>
-<trans-unit id="147">
+<trans-unit id="151">
 <source>presale_value_1</source>
 <target>2,100,000</target>
 </trans-unit>
-<trans-unit id="148">
+<trans-unit id="152">
 <source>presale_value_2</source>
 <target>0.1</target>
 </trans-unit>
-<trans-unit id="149">
+<trans-unit id="153">
 <source>presale_value_3</source>
 <target>Jan. 17, 2020 (12:00)</target>
 </trans-unit>
-<trans-unit id="150">
+<trans-unit id="154">
 <source>presale_value_4</source>
 <target>Apr. 17, 2020 (12:00)</target>
 </trans-unit>
-<trans-unit id="151">
+<trans-unit id="155">
 <source>presale_value_5</source>
 <target>Immediate</target>
 </trans-unit>
-<trans-unit id="152">
+<trans-unit id="156">
 <source>presale_value_6</source>
 <target>No</target>
 </trans-unit>
-<trans-unit id="153">
+<trans-unit id="157">
 <source>presale_value_7</source>
 <target>End Time (or sold out)</target>
 </trans-unit>
-<trans-unit id="154">
+<trans-unit id="158">
 <source>presale_value_8</source>
 <target>Reward Pool</target>
 </trans-unit>
-<trans-unit id="155">
+<trans-unit id="159">
 <source>presale_value_9</source>
 <target>Yes</target>
 </trans-unit>
-<trans-unit id="156">
+<trans-unit id="160">
 <source>presale_value_10</source>
 <target>No</target>
 </trans-unit>
-<trans-unit id="157">
+<trans-unit id="161">
 <source>tokensale_label_1</source>
 <target>Total Token</target>
 </trans-unit>
-<trans-unit id="158">
+<trans-unit id="162">
 <source>tokensale_label_2</source>
 <target>Token Price (ETH)</target>
 </trans-unit>
-<trans-unit id="159">
+<trans-unit id="163">
 <source>tokensale_label_3</source>
 <target>Start Time (UTC)</target>
 </trans-unit>
-<trans-unit id="160">
+<trans-unit id="164">
 <source>tokensale_label_4</source>
 <target>End Time (UTC)</target>
 </trans-unit>
-<trans-unit id="161">
+<trans-unit id="165">
 <source>tokensale_label_5</source>
 <target>Token Distribution</target>
 </trans-unit>
-<trans-unit id="162">
+<trans-unit id="166">
 <source>tokensale_label_6</source>
 <target>Period Number</target>
 </trans-unit>
-<trans-unit id="163">
+<trans-unit id="167">
 <source>tokensale_label_7</source>
 <target>Token / Period</target>
 </trans-unit>
-<trans-unit id="164">
+<trans-unit id="168">
 <source>tokensale_label_8</source>
 <target>Period Duration (hrs)</target>
 </trans-unit>
-<trans-unit id="165">
+<trans-unit id="169">
 <source>tokensale_label_9</source>
 <target>Whitelist</target>
 </trans-unit>
-<trans-unit id="166">
+<trans-unit id="170">
 <source>tokensale_label_10</source>
 <target>Referral Program</target>
 </trans-unit>
-<trans-unit id="167">
+<trans-unit id="171">
 <source>tokensale_value_1</source>
 <target>10,500,000</target>
 </trans-unit>
-<trans-unit id="168">
+<trans-unit id="172">
 <source>tokensale_value_2</source>
 <target>Not Fixed</target>
 </trans-unit>
-<trans-unit id="169">
+<trans-unit id="173">
 <source>tokensale_value_3</source>
 <target>May 17, 2020 (12:00)</target>
 </trans-unit>
-<trans-unit id="170">
+<trans-unit id="174">
 <source>tokensale_value_4</source>
 <target>Nov. 15, 2020 (12:00)</target>
 </trans-unit>
-<trans-unit id="171">
+<trans-unit id="175">
 <source>tokensale_value_5</source>
 <target>End of each period</target>
 </trans-unit>
-<trans-unit id="172">
+<trans-unit id="176">
 <source>tokensale_value_6</source>
 <target>250</target>
 </trans-unit>
-<trans-unit id="173">
+<trans-unit id="177">
 <source>tokensale_value_7</source>
 <target>42,000</target>
 </trans-unit>
-<trans-unit id="174">
+<trans-unit id="178">
 <source>tokensale_value_8</source>
 <target>21</target>
 </trans-unit>
-<trans-unit id="175">
+<trans-unit id="179">
 <source>tokensale_value_9</source>
 <target>No</target>
 </trans-unit>
-<trans-unit id="176">
+<trans-unit id="180">
 <source>tokensale_value_10</source>
 <target>No</target>
 </trans-unit>
-<trans-unit id="177">
+<trans-unit id="181">
 <source>timeline_title</source>
 <target>Timeline</target>
 </trans-unit>
-<trans-unit id="178">
+<trans-unit id="182">
 <source>period_title</source>
 <target>Period Illustration</target>
 </trans-unit>
-<trans-unit id="179">
+<trans-unit id="183">
 <source>period_desc</source>
 <target><![CDATA[GCW distributed pro rata between<br />contributors on the basis of the total ETH<br />collected during these periods.]]></target>
 </trans-unit>
-<trans-unit id="180">
+<trans-unit id="184">
 <source>eth_powered</source>
 <target>Powered by Ethereum</target>
 </trans-unit>
-<trans-unit id="181">
+<trans-unit id="185">
 <source>eth_desc</source>
 <target><![CDATA[Open-source, public, blockchain-based distributed computing platform. <br />Hosted by Ethereum Foundation.]]></target>
 </trans-unit>
-<trans-unit id="182">
+<trans-unit id="186">
 <source>contributor_wallets</source>
 <target>Contributor Wallets</target>
 </trans-unit>
-<trans-unit id="183">
+<trans-unit id="187">
 <source>ecosystem_infrastructure</source>
 <target>Ecosystem Infrastructure</target>
 </trans-unit>
-<trans-unit id="184">
+<trans-unit id="188">
 <source>faq_eco_question_1</source>
 <target>Where is Gocoworker registered?</target>
 </trans-unit>
-<trans-unit id="185">
+<trans-unit id="189">
 <source>faq_eco_question_2</source>
 <target>Does the European Union support DLT-based projects?</target>
 </trans-unit>
-<trans-unit id="186">
+<trans-unit id="190">
 <source>faq_eco_question_3</source>
 <target>Is DLT and Blockchain the same?</target>
 </trans-unit>
-<trans-unit id="187">
+<trans-unit id="191">
 <source>faq_eco_question_4</source>
 <target>What is the Gocoworker?</target>
 </trans-unit>
-<trans-unit id="188">
+<trans-unit id="192">
 <source>faq_eco_question_5</source>
 <target>What is a Gocompany?</target>
 </trans-unit>
-<trans-unit id="189">
+<trans-unit id="193">
 <source>faq_eco_question_6</source>
 <target>What is a Gocobooster?</target>
 </trans-unit>
-<trans-unit id="190">
+<trans-unit id="194">
 <source>faq_eco_question_7</source>
 <target>What is a Gococampus?</target>
 </trans-unit>
-<trans-unit id="191">
+<trans-unit id="195">
 <source>faq_eco_question_8</source>
 <target>Is is a proven solution?</target>
 </trans-unit>
-<trans-unit id="192">
+<trans-unit id="196">
 <source>faq_eco_question_9</source>
 <target>What is the token economy?</target>
 </trans-unit>
-<trans-unit id="193">
+<trans-unit id="197">
 <source>faq_eco_question_10</source>
 <target>Is it a vector of social progress?</target>
 </trans-unit>
-<trans-unit id="194">
+<trans-unit id="198">
 <source>faq_eco_answer_1</source>
 <target><![CDATA[The company is incorporated in Spain (EU).<br />Annual reports are certified.]]></target>
 </trans-unit>
-<trans-unit id="195">
+<trans-unit id="199">
 <source>faq_eco_answer_2</source>
 <target><![CDATA[Under the DLT resolution (2017/2772/EU), policies to strengthen and finance DLTs become a top priority.]]></target>
 </trans-unit>
-<trans-unit id="196">
+<trans-unit id="200">
 <source>faq_eco_answer_3</source>
 <target><![CDATA[They are digitalized and decentralized databases spread across several nodes.Blockchain is a type of DLT where data is organized in the « chain of blocks » form.]]></target>
 </trans-unit>
-<trans-unit id="197">
+<trans-unit id="201">
 <source>faq_eco_answer_4</source>
 <target><![CDATA[It is a distributed corporation for Talents. It is pioneering communal work.]]></target>
 </trans-unit>
-<trans-unit id="198">
+<trans-unit id="202">
 <source>faq_eco_answer_5</source>
 <target><![CDATA[It is a communal company where each professional is his own boss and the company a mean.<br />There is a voluntary creation of collective between autonomous workers.]]></target>
 </trans-unit>
-<trans-unit id="199">
+<trans-unit id="203">
 <source>faq_eco_answer_6</source>
 <target><![CDATA[It is an acceleration program enabling the sustainable creation of its dream job safely and being accompanied.]]></target>
 </trans-unit>
-<trans-unit id="200">
+<trans-unit id="204">
 <source>faq_eco_answer_7</source>
 <target><![CDATA[It is a talent campus gathering a whole entrepreneurial ecosystem in one place.]]></target>
 </trans-unit>
-<trans-unit id="201">
+<trans-unit id="205">
 <source>faq_eco_answer_8</source>
 <target><![CDATA[Gocoworker has at least 7 years of experience. Processes have been continually improved.<br />Standards of communal work, company and corporation have been designed to meet the challenges of a collaborative economy.]]></target>
 </trans-unit>
-<trans-unit id="202">
+<trans-unit id="206">
 <source>faq_eco_answer_9</source>
 <target><![CDATA[Ecosystems are replacing markets. Money is no longer an end but a mean.<br />A quaternary employment sector is emerging as illustrated by the theory of job spill.]]></target>
 </trans-unit>
-<trans-unit id="203">
+<trans-unit id="207">
 <source>faq_eco_answer_10</source>
 <target><![CDATA[The Keynesian unemployement is solved. Individual and collective empowerment are permitted.<br />A move from a pyramidal collective intelligence to global is allowed for a new sustainable wave of development.]]></target>
 </trans-unit>
-<trans-unit id="204">
+<trans-unit id="208">
 <source>faq_eco_token_question_1</source>
 <target>Is it a utility token?</target>
 </trans-unit>
-<trans-unit id="205">
+<trans-unit id="209">
 <source>faq_eco_token_question_2</source>
 <target>When will it be possible to use the token?</target>
 </trans-unit>
-<trans-unit id="206">
+<trans-unit id="210">
 <source>faq_eco_token_question_3</source>
 <target>Is there a « Total Cap »?</target>
 </trans-unit>
-<trans-unit id="207">
+<trans-unit id="211">
 <source>faq_eco_token_question_4</source>
 <target>What is token network effect?</target>
 </trans-unit>
-<trans-unit id="208">
+<trans-unit id="212">
 <source>faq_eco_token_question_5</source>
 <target>What is a Liquid Token?</target>
 </trans-unit>
-<trans-unit id="209">
+<trans-unit id="213">
 <source>faq_eco_token_question_6</source>
 <target>What is the liquidity depth?</target>
 </trans-unit>
-<trans-unit id="210">
+<trans-unit id="214">
 <source>faq_eco_token_question_7</source>
 <target>Is there a wide distribution?</target>
 </trans-unit>
-<trans-unit id="211">
+<trans-unit id="215">
 <source>faq_eco_token_question_8</source>
 <target>Is there a distributed allocation?</target>
 </trans-unit>
-<trans-unit id="212">
+<trans-unit id="216">
 <source>faq_eco_token_question_9</source>
 <target>Why the token has 18 decimals?</target>
 </trans-unit>
-<trans-unit id="213">
+<trans-unit id="217">
 <source>faq_eco_token_answer_1</source>
 <target><![CDATA[It is the object-link of the daily life of the organization (product-use tokens).<br />The project success is not based on the team efforts (proven community and existing product).<br />There is no expectation of profits.]]></target>
 </trans-unit>
-<trans-unit id="214">
+<trans-unit id="218">
 <source>faq_eco_token_answer_2</source>
 <target>It is currently possible to pay for business services within the ecosystem.</target>
 </trans-unit>
-<trans-unit id="215">
+<trans-unit id="219">
 <source>faq_eco_token_answer_3</source>
 <target><![CDATA[The Total Cap is 21,000,000.]]></target>
 </trans-unit>
-<trans-unit id="216">
+<trans-unit id="220">
 <source>faq_eco_token_answer_4</source>
 <target>It is a business model for a decentralized web. The network becomes more valuable as more people use it. Achieving critical mass creates a winner-take-all dynamic.</target>
 </trans-unit>
-<trans-unit id="217">
+<trans-unit id="221">
 <source>faq_eco_token_answer_5</source>
 <target><![CDATA[It is a type of cryptocurrency that can be converted without needing to match 2 parties, eliminatingcounterparty risk and decoupling liquidity from trade volume.<br />A formula enables automatic price determination without spread.]]></target>
 </trans-unit>
-<trans-unit id="218">
+<trans-unit id="222">
 <source>faq_eco_token_answer_6</source>
 <target><![CDATA[The initial reserve is 21,000 ETH.<br />1% of the « Total Cap » is allocated to the stability of the token.<br />It is in line with the MAR (596/2014/EU) regarding liquidity contracts for illiquid assets.]]></target>
 </trans-unit>
-<trans-unit id="219">
+<trans-unit id="223">
 <source>faq_eco_token_answer_7</source>
 <target><![CDATA[The token sale takes place over 219 days which is expected to provide ample time for thestakeholders to familiarize themselves with the ecosystem.<br />The price is set on-chain by the demand to ensure transparency and inclusivity.]]></target>
 </trans-unit>
-<trans-unit id="220">
+<trans-unit id="224">
 <source>faq_eco_token_answer_8</source>
 <target><![CDATA[A qualified majority is initally allocated to the ecosystem with at least a simple majority during thetoken sale. All tokens were created one and for all.]]></target>
 </trans-unit>
-<trans-unit id="221">
+<trans-unit id="225">
 <source>faq_eco_token_answer_9</source>
 <target><![CDATA[It is the most common number because 1 ETH is represented by 10e18 of wei.<br />It simplifies the programming, reduces the user experience complexity of adding ERC20 tokens, allows transactions to be easily detected and have the correct value shown on wallets.]]></target>
 </trans-unit>
-<trans-unit id="222">
+<trans-unit id="226">
 <source>faq_eco_tokensale_question_1</source>
 <target>How stakeholders are well protected?</target>
 </trans-unit>
-<trans-unit id="223">
+<trans-unit id="227">
 <source>faq_eco_tokensale_question_2</source>
 <target>Is there a geographical restriction?</target>
 </trans-unit>
-<trans-unit id="224">
+<trans-unit id="228">
 <source>faq_eco_tokensale_question_3</source>
 <target>Is there a KYC process?</target>
 </trans-unit>
-<trans-unit id="225">
+<trans-unit id="229">
 <source>faq_eco_tokensale_question_4</source>
 <target>Is there a minimum contribution?</target>
 </trans-unit>
-<trans-unit id="226">
+<trans-unit id="230">
 <source>faq_eco_tokensale_question_5</source>
 <target>Is there a bonus policy?</target>
 </trans-unit>
-<trans-unit id="227">
+<trans-unit id="231">
 <source>faq_eco_tokensale_question_6</source>
 <target>Is there a referral program?</target>
 </trans-unit>
-<trans-unit id="228">
+<trans-unit id="232">
 <source>faq_eco_tokensale_question_7</source>
 <target>What happens to undistributed tokens during the Presale?</target>
 </trans-unit>
-<trans-unit id="229">
+<trans-unit id="233">
 <source>faq_eco_tokensale_question_8</source>
 <target>What happens if there is no contributor during a Period?</target>
 </trans-unit>
-<trans-unit id="230">
+<trans-unit id="234">
 <source>faq_eco_tokensale_question_9</source>
 <target>Why 42,000 tokens per Period?</target>
 </trans-unit>
-<trans-unit id="231">
+<trans-unit id="235">
 <source>faq_eco_tokensale_question_10</source>
 <target>Why a Period of 21 hours?</target>
 </trans-unit>
-<trans-unit id="232">
+<trans-unit id="236">
 <source>faq_eco_tokensale_answer_1</source>
 <target>The only currency is ETH. This is essential for running a complete distributed solution on-chain where contributions are directly send to smart contracts.</target>
 </trans-unit>
-<trans-unit id="233">
+<trans-unit id="237">
 <source>faq_eco_tokensale_answer_2</source>
 <target>Everyone can contributed except citizens, residents and entities of the United States and the People’s Republic of China.</target>
 </trans-unit>
-<trans-unit id="234">
+<trans-unit id="238">
 <source>faq_eco_tokensale_answer_3</source>
 <target><![CDATA[Under the 5AML (2018/843/EU), AML/CTF legislation concerns exclusively « obliged entities » ascustodian wallet providers and virtual currency exchange platforms.<br />Under the GDPR (2016/679/EU), processing of personal information of EU natural persons forunregulated uses (non FIAT/non securities…) is forbidden.]]></target>
 </trans-unit>
-<trans-unit id="235">
+<trans-unit id="239">
 <source>faq_eco_tokensale_answer_4</source>
 <target><![CDATA[The minimum contribution is 0.01 ETH.<br />It ensures the smooth operation by avoiding infinite loops.]]></target>
 </trans-unit>
-<trans-unit id="236">
+<trans-unit id="240">
 <source>faq_eco_tokensale_answer_5</source>
 <target><![CDATA[No bonuses are available.<br />It is to avoid any harmful behavior in the short term detrimental to stakeholders.]]></target>
 </trans-unit>
-<trans-unit id="237">
+<trans-unit id="241">
 <source>faq_eco_tokensale_answer_6</source>
 <target><![CDATA[It is a world first with an on-chain program and automated rewards distribution.<br />It is available during the Presale. The listing is verifiable directly in the blockchain.<br />It is advisable to modify the addresses taken in case of problem.]]></target>
 </trans-unit>
-<trans-unit id="238">
+<trans-unit id="242">
 <source>faq_eco_tokensale_answer_7</source>
 <target><![CDATA[They are automatically assigned to the Reward Pool.]]></target>
 </trans-unit>
-<trans-unit id="239">
+<trans-unit id="243">
 <source>faq_eco_tokensale_answer_8</source>
 <target><![CDATA[They are automatically assigned to the Reward Pool.]]></target>
 </trans-unit>
-<trans-unit id="240">
+<trans-unit id="244">
 <source>faq_eco_tokensale_answer_9</source>
 <target><![CDATA[It represents 0.2% of the « Total Cap. ».<br />It is about the average daily liquidity of the financial market.]]></target>
 </trans-unit>
-<trans-unit id="241">
+<trans-unit id="245">
 <source>faq_eco_tokensale_answer_10</source>
 <target><![CDATA[It is to accommodate time zones and allow everyone to join the movement easily.]]></target>
 </trans-unit>
-<trans-unit id="242">
+<trans-unit id="246">
 <source>faq_eco_title</source>
 <target>ECOSYSTEM</target>
 </trans-unit>
-<trans-unit id="243">
+<trans-unit id="247">
 <source>faq_token_title</source>
 <target>TOKEN</target>
 </trans-unit>
-<trans-unit id="244">
+<trans-unit id="248">
 <source>faq_tokensale_title</source>
 <target>TOKEN SALE</target>
+</trans-unit>
+<trans-unit id="249">
+<source>referral_title</source>
+<target>Referral Program</target>
+</trans-unit>
+<trans-unit id="250">
+<source>referral_item_title_1</source>
+<target>Best Reward</target>
+</trans-unit>
+<trans-unit id="251">
+<source>referral_item_desc_1</source>
+<target><![CDATA[10% GCW bonus.<br />  5% each for the referrer<br /> and the referee.]]></target>
+</trans-unit>
+<trans-unit id="252">
+<source>referral_item_desc_2</source>
+<target><![CDATA[Up to 21,000 GCW.<br />Throughout the Presale.<br />3+ months.]]></target>
+</trans-unit>
+<trans-unit id="253">
+<source>referral_item_title_2</source>
+<target>Large Budget</target>
+</trans-unit>
+<trans-unit id="254">
+<source>referral_item_desc_3</source>
+<target><![CDATA[Registration of a referral<br />by smart contracts.<br />Distribution.]]></target>
+</trans-unit>
+<trans-unit id="255">
+<source>referral_item_title_3</source>
+<target>Direct Listing</target>
+</trans-unit>
+<trans-unit id="256">
+<source>referral_item_desc_4</source>
+<target><![CDATA[Automated reward.<br />On-chain process.<br />Transparency.]]></target>
+</trans-unit>
+<trans-unit id="257">
+<source>referral_item_title_4</source>
+<target>Instant Payment</target>
+</trans-unit>
+<trans-unit id="258">
+<source>popup_contribute_title</source>
+<target>GCW Token Sale</target>
+</trans-unit>
+<trans-unit id="259">
+<source>popup_contribute_read</source>
+<target><![CDATA[Please read the GCW Purchase Agreement, Terms of Use and White Paper of Gocoworker carefully.<br />Confirm the items using the checkboxes below in order to contribute.]]></target>
+</trans-unit>
+<trans-unit id="260">
+<source>popup_contribute_agreement_title</source>
+<target>GCW Purchase Agreement</target>
+</trans-unit>
+<trans-unit id="261">
+<source>popup_contribute_chkbx_1</source>
+<target>Check here to confirm that you have read and understand the Terms of Use and that you expressly accept all terms, conditions,  obligations, affirmations, representations and warranties described and agree to be bound by them.</target>
+</trans-unit>
+<trans-unit id="262">
+<source>popup_contribute_chkbx_2</source>
+<target>Check here to confirm that you have read, understand and agree to the terms of the Purchase Agreement of  Gocoworker.</target>
+</trans-unit>
+<trans-unit id="263">
+<source>popup_contribute_chkbx_3</source>
+<target>Check here to confirm that you have read and understand the White Paper of Gocoworker.</target>
+</trans-unit>
+<trans-unit id="264">
+<source>popup_contribute_chkbx_4</source>
+<target>Check here to confirm that you are acting in a professional capacity, purchasing GCW tokens with the intent to use them and not for investment speculation purposes.</target>
+</trans-unit>
+<trans-unit id="265">
+<source>popup_contribute_chkbx_5</source>
+<target>Check here to confirm that your are not a consumer within the meaning of the directive 2011/83/EU on consumer rights and equivalent texts in the juridiction you are in.</target>
+</trans-unit>
+<trans-unit id="266">
+<source>popup_contribute_chkbx_6</source>
+<target>Check here to confirm that each of your referee is NOT a U.S. citizen, resident or entity (each a « U.S. Person » within the meaning of regulation S of the U.S. Securities Act 1933) nor is he purchasing GCW tokens or signing on behalf of a « U.S. Person ».</target>
+</trans-unit>
+<trans-unit id="267">
+<source>popup_contribute_chkbx_7</source>
+<target>Check here to confirm each of your referee is NOT a citizen or resident of the People’s Republic of China or an entity formed under the laws of the People’s Republic of China (each a Chinese Person ») nor is he purchasing GCW tokens or signing on behalf of a « Chinese Person ».</target>
+</trans-unit>
+<trans-unit id="268">
+<source>popup_contribute_chkbx_8</source>
+<target>Check here to confirm that you have carried out the research or taking the relevant advice from specialized attorneys to ensure that no legislation or regulation applicable to your situation and your place of residence, or no position or recommandation from a competant national authority prohibits you or limits you in the purchase and the possession of GCW tokens, and more widely in the possession of cryptocurrencies.</target>
+</trans-unit>
+<trans-unit id="269">
+<source>popup_warning</source>
+<target>Please scroll down fully and check all the boxes to contribute</target>
+</trans-unit>
+<trans-unit id="270">
+<source>popup_btn_continue</source>
+<target>CONTINUE</target>
+</trans-unit>
+<trans-unit id="271">
+<source>popup_contribute_title_2</source>
+<target>Please send your contribution to the address below:</target>
+</trans-unit>
+<trans-unit id="272">
+<source>popup_contribute_desc_step2</source>
+<target><![CDATA[View Contract Address on Etherscan<br />Check the optimal gas price on Ethgasstation]]></target>
+</trans-unit>
+<trans-unit id="273">
+<source>popup_contribute_help_step2</source>
+<target><![CDATA[Need help? Read our step-by-step guide or contact us through Telegram.<br />GCW tokens are sent immediately after the successful processing of the transaction.<br />Please do not use an exchange address (Coinbase, Poloniex...)]]></target>
+</trans-unit>
+<trans-unit id="274">
+<source>popup_contribute_btn_copy</source>
+<target>COPY</target>
+</trans-unit>
+<trans-unit id="275">
+<source>popup_referral_chkbx_1</source>
+<target>Check here to confirm that you have read and understand the Terms of Use and that you expressly accept all terms, conditions,  obligations, affirmations, representations and warranties described and agree to be bound by them.</target>
+</trans-unit>
+<trans-unit id="276">
+<source>popup_referral_chkbx_2</source>
+<target>Check here to confirm that you have read, understand and agree to the terms of the Purchase Agreement of  Gocoworker.</target>
+</trans-unit>
+<trans-unit id="277">
+<source>popup_referral_chkbx_3</source>
+<target>Check here to confirm that you have read and understand the White Paper of Gocoworker.</target>
+</trans-unit>
+<trans-unit id="278">
+<source>popup_referral_chkbx_4</source>
+<target>Check here to confirm that you are acting in a professional capacity, referring GCW tokens ith the intent to be used by referees and not for Investment speculation purposes.</target>
+</trans-unit>
+<trans-unit id="279">
+<source>popup_referral_chkbx_5</source>
+<target>Check here to confirm that your are not a consumer within the meaning of the directive 2011/83/EU on consumer rights and equivalent texts in the juridiction you are in.</target>
+</trans-unit>
+<trans-unit id="280">
+<source>popup_referral_chkbx_6</source>
+<target>Check here to confirm that each of your referee is NOT a U.S. citizen, resident or entity (each a « U.S. Person » within the meaning of regulation S of the U.S. Securities Act 1933) nor is he purchasing GCW tokens or signing on behalf of a « U.S. Person ».</target>
+</trans-unit>
+<trans-unit id="281">
+<source>popup_referral_chkbx_7</source>
+<target>Check here to confirm each of your referee is NOT a citizen or resident of the People’s Republic of China or an entity formed under the laws of the People’s Republic of China (each a Chinese Person ») nor is he purchasing GCW tokens or signing on behalf of a « Chinese Person ».</target>
+</trans-unit>
+<trans-unit id="282">
+<source>popup_referral_chkbx_8</source>
+<target>Check here to confirm that they each of your referee have carried out the research or taking the relevant advice from specialized attorneys to ensure that no legislation or regulation applicable to their situation and their place of residence, or no position or recommandation from a competant national authority prohibits them or limits them in the purchase and the possession of GCW tokens, and more widely in the possession of cryptocurrencies.</target>
+</trans-unit>
+<trans-unit id="283">
+<source>popup_referral_fill_wallets</source>
+<target>Please enter the wallets to register:</target>
+</trans-unit>
+<trans-unit id="284">
+<source>popup_referral_referrer_addr</source>
+<target>Referrer Address</target>
+</trans-unit>
+<trans-unit id="285">
+<source>popup_referral_referee_addr</source>
+<target>Referee Address</target>
+</trans-unit>
+<trans-unit id="286">
+<source>popup_referral_info_step2</source>
+<target><![CDATA[Please only add Ethereum addresses for which each party controls the private key (Metamask, MyEtherWallet, Parity, Mist, Ledger...).<br />Please check that the registration is successful before sending contributions due to Ethereum processing. <br />Need help? Read our step-by-step guide or contact us through Telegram]]></target>
+</trans-unit>
+<trans-unit id="287">
+<source>popup_referral_registration</source>
+<target>Registration on going</target>
+</trans-unit>
+<trans-unit id="288">
+<source>popup_referral_follow</source>
+<target>Please follow it on Etherscan</target>
+</trans-unit>
+<trans-unit id="289">
+<source>popup_referral_info_step3</source>
+<target>Variable processing time depending on the activity of the Ethereum network</target>
 </trans-unit>
 </body>
 </file>
