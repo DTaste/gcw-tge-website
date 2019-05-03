@@ -236,7 +236,7 @@ h2{
     position: relative;
     width:252px;
     height: 252px;
-    //background:  url('/build/static/home/bg-dashed.svg') center center;
+    //background:  url('/build/static/layout/bg-violet.svg') center center;
     /*
     .mask{
       position:absolute;
@@ -260,14 +260,14 @@ h2{
     }
 
     &#sq-anim-1{
-      background:  url('/build/static/home/bg-dot-bar.svg') 55% 85%;
+      background:  url('/build/static/home/status/fond-picto-pyramide.svg') 5% 85%;
       .z-1{
         position: absolute;
         top:49px;
         left:50px;
         height: 134px;
         width: 155px;
-        background: linear-gradient(to bottom, #CA0049 0%,  #CA0049 25%,#D75082 26%, #D75082 50%, #D66994 51%, #D66994 75%, #E49CB9 76%, #E49CB9 100%);;
+        background: #00F;
         z-index: 1;
       }
 
@@ -275,7 +275,8 @@ h2{
         position: relative;
         width:252px;
         height: 252px;
-        background: url('/build/static/home/status/pyramide.svg') center center no-repeat;
+        background: url('/build/static/home/status/fond-picto-pyramide-4.svg') center center no-repeat;
+      /*  background-size:contain;*/
         z-index:2;
       }
       .freelance{
@@ -285,7 +286,7 @@ h2{
     }
 
     &#sq-anim-2{
-      /*background: url('/build/static/home/bg-dashed.svg') 60% 76% no-repeat ;*/
+      /*background: url('/build/static/layout/bg-violet.svg') 60% 76% no-repeat ;*/
       .z-1{
         position: relative;
         width:252px;
@@ -310,7 +311,7 @@ h2{
     }
 
     &#sq-anim-3{
-      /*background: url('/build/static/home/bg-dashed.svg') center 20% no-repeat ;*/
+      /*background: url('/build/static/layout/bg-violet.svg') center 20% no-repeat ;*/
       .z-1{
         position: relative;
         width:252px;
@@ -389,7 +390,7 @@ h2{
 
     width: 100%;
     height: 900px;
-    background:url('/build/static/home/ecosystem/ecosystem_old.svg') top center no-repeat;
+    background:url('/build/static/home/ecosystem/ecosystem3.svg') top center no-repeat;
     height: 900px;
     /*
     background:url('/build/static/home/ecosystem/ecosystem_new.svg') top center no-repeat;
@@ -501,25 +502,25 @@ h2{
       top:50%;
       left:50%;
 
-      &.gcw-ico-g1-0{ margin:-347px 0 0 -505px;}
-      &.gcw-ico-g1-1{ margin:220px 0 0 579px; }
-      &.gcw-ico-g1-2{ margin:-30px 0 0 -300px; }
-      &.gcw-ico-g1-3{ margin:31px 0 0 454px; }
+      &.gcw-ico-g1-0{ margin:-347px 0 0 -505px; }
+      &.gcw-ico-g1-1{margin:-194px 0 0 -657px; }
+      &.gcw-ico-g1-2{  margin:-395px 0 0 -621px; }
+      &.gcw-ico-g1-3{ margin:-427px 0 0 -242px; }
 
-      &.gcw-ico-g2-0{ margin:107px 0 0 -656px;}
-      &.gcw-ico-g2-1{ margin:114px 0 0 689px; }
-      &.gcw-ico-g2-2{ margin:-427px 0 0 -242px; }
-      &.gcw-ico-g2-3{ margin:-327px 0 0 446px;  }
+      &.gcw-ico-g2-0{ margin:107px 0 0 -656px; }
+      &.gcw-ico-g2-1{ margin:300px 0 0 -544px; }
+      &.gcw-ico-g2-2{  margin:-92px 0 0 -440px; }
+      &.gcw-ico-g2-3{  margin:-30px 0 0 -300px; }
 
       &.gcw-ico-g3-0{ margin:-50px 0 0 165px; }
-      &.gcw-ico-g3-1{ margin:-130px 0 0 379px;  }
-      &.gcw-ico-g3-2{ margin:300px 0 0 -544px;  }
-      &.gcw-ico-g3-3{ margin:-395px 0 0 -621px; }
+      &.gcw-ico-g3-1{ margin:-296px 0 0 -28px; }
+      &.gcw-ico-g3-2{ margin:-238px 0 0 91px; }
+      &.gcw-ico-g3-3{margin:-327px 0 0 446px; }
 
-      &.gcw-ico-g4-0{ margin:-296px 0 0 -28px; }
-      &.gcw-ico-g4-1{ margin:-238px 0 0 91px; }
-      &.gcw-ico-g4-2{ margin:-194px 0 0 -657px; }
-      &.gcw-ico-g4-3{ margin:-92px 0 0 -440px; }
+      &.gcw-ico-g4-0{ margin:-130px 0 0 379px; }
+      &.gcw-ico-g4-1{ margin:114px 0 0 689px; }
+      &.gcw-ico-g4-2{ margin:31px 0 0 454px; }
+      &.gcw-ico-g4-3{ margin:220px 0 0 579px; }
 
     }
 
@@ -538,7 +539,7 @@ h2{
     line-height: 1.93;
   }
   #eco-list{
-    background:url('/build/static/home/bg-dashed.svg') top center;
+    background:url('/build/static/layout/bg-violet.svg') top center;
     .eco-item{
       width: 456px;
       min-height: 185px;
@@ -572,7 +573,7 @@ h2{
   }
 
   #story-list{
-    background:url('/build/static/home/bg-dashed.svg') top center;
+    background:url('/build/static/layout/bg-violet.svg') top center;
     .story-item{
       max-width: 456px;
       min-height: 205px;
@@ -938,7 +939,7 @@ h2{
     }
     #road-helix-1{
       top:25%;
-      left:15%;
+      left:5%;
     }
     #road-helix-2{
       top:60%;
@@ -1037,7 +1038,7 @@ h2{
   position: relative;
   width:252px;
   height: 252px;
-  /*background:  url('/build/static/home/bg-dashed.svg') center center ;*/
+  /*background:  url('/build/static/layout/bg-violet.svg') center center ;*/
 
 
   .token{

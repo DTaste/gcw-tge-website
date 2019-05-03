@@ -1,6 +1,6 @@
 <div id="gcw" class="screen py-5">
   <div class="p-5">
-    <h1 class="text-center">{{'main_h1' | trans }}</h1>
+    <h1 class="text-center m-2">{{'main_h1' | trans }}</h1>
     <h3 class="text-center mt-4 mb-4">{{'main_h2' | trans}}</h3>
   </div>
 
@@ -8,7 +8,7 @@
     <div class=" text-center">
 
       {{ include ('frontend/default/partials/_go.html.twig', { 'htmlId' : 'gcw-video' }) }}
-      
+
       <div class="mx-5 d-none d-md-inline-block" id="gcw-empty-block"></div>
       <div class="d-inline-block align-top mb-5 my-md-3" id="gcw-periods-{{period}}">
       {% if period == "sale" %}

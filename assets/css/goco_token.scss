@@ -54,15 +54,11 @@ h1.shadow-right, h2.shadow-right{
   }
 }
 
-#timeline{
-  .col-md-4.order-1{
-    background: url('/build/static/goco/timeline-left.svg') bottom left no-repeat;
-    background-size: auto;
-  }
-  .col-md-4.order-4{
-    background: url('/build/static/goco/timeline-right.svg') bottom right no-repeat;
-    background-size: auto;
-  }
+body{
+  min-height: 640px;
+  background: url('/build/static/goco/timeline-left2.svg') bottom left no-repeat,
+  url('/build/static/goco/timeline-right2.svg') bottom right no-repeat;
+
 }
 
 #structure{
